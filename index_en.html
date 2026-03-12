@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>TOP｜Renaissance Girls</title>
+
+  <meta charset="UTF-8">
+
+
+<!-- デバッグcss -->
+<link rel="stylesheet" href="css/debug.css" type="text/css">
+
+<!-- 共通css -->
+<link rel="stylesheet" href="css/general.css" type="text/css">
+<link rel="stylesheet" href="css/color.css" type="text/css">
+<link rel="stylesheet" href="css/style_color.css" type="text/css">
+<link rel="stylesheet" href="css/footer.css" type="text/css">
+
+  <!-- 固有css -->
+<link rel="stylesheet" href="css/muse_button.css" type="text/css">
+<link rel="stylesheet" href="css/top.css" type="text/css">
+
+  <!-- フォント -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+<!-- ★★★日本語ページに飛ぶボタン★★★ -->
+<a href="index_jp.html" class="language-link">日本語</a>
+
+<!-- ★★★トップ画像★★★ -->
+<div class="top_image">
+
+<img class="top_key_img" src="image/key.png">
+
+</div><!-- top_image -->
+
+
+<!-- ★★★イントロ★★★ -->
+<div class="welcome">
+
+<h1>Welcome to the<br>
+Renaissance Girls world!</h1>
+
+<p>
+This is the official website for <br>“Renaissance Girls”,<br>
+a character-based content series featuring Art history.
+</p>
+
+
+</div><!-- welcome -->
+
+<div class="line_top"></div>
+
+<!-- ★★★ミューズとは★★★ -->
+<div class="about_muse">
+<h1>MUSE</h1>
+<p>
+The Muses are goddesses of the arts<br>
+who protect and guide artists.<br>
+Through the Muses' divine inspiration<br class="br-sp"> bestowed upon artists,<br>
+countless magnificent masterpieces were born.<br>
+</p>
+</div><!-- about_muse -->
+
+<!-- ★★★ミューズリスト★★★ -->
+
+<div class="sort">
+<select id="sortSelect">
+  <option value="default">DEFAULT</option>
+  <option value="name-asc">NAME：ASC</option>
+  <option value="name-desc">NAME：DESC</option>
+    <option value="born-asc">BIRTH YEAR：ASC</option>
+  <option value="born-desc">BIRTH YEAR：DESC</option>
+  <option value="style-asc">STYLE：ASC</option>
+  <option value="style-desc">STYLE：DESC　</option>
+</select>
+</div>
+
+<div class="muse_list" id="muse_list">
+
+
+<!-- rembrandt -->
+<a class="button hover rembrandt" href="muse/rembrandt_en.html" data-name="rembrandt" data-order="01" data-style="06" data-style_name="Baroque" data-born="1606" data-born_era="1600-1699">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/rembrandt.png" alt="rembrandt">
+<div class="button_name">Rembrandt</div>
+<!-- button_name --></a>
+<!-- michelangelo -->
+<a class="button hover michelangelo" href="muse/michelangelo_en.html" data-name="michelangelo" data-order="02" data-style="02" data-style_name="Renaissance" data-born="1475" data-born_era="1400-1499">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/michelangelo.png" alt="michelangelo">
+<div class="button_name">Michelangelo</div>
+<!-- button_name --></a>
+<!-- gogh -->
+<a class="button hover gogh" href="muse/gogh_en.html" data-name="gogh" data-order="03" data-style="19" data-style_name="Post-Impressionism" data-born="1853" data-born_era="1800-1899">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/gogh.png" alt="gogh">
+<div class="button_name">Gogh</div>
+<!-- button_name --></a>
+<!-- monet -->
+<a class="button hover monet" href="muse/monet_en.html" data-name="monet" data-order="04" data-style="13" data-style_name="Impressionism" data-born="1840" data-born_era="1800-1899">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/monet.png" alt="monet">
+<div class="button_name">Monet</div>
+<!-- button_name --></a>
+<!-- giotto -->
+<a class="button hover giotto" href="muse/giotto_en.html" data-name="giotto" data-order="05" data-style="01" data-style_name="Gothic" data-born="1267" data-born_era="1200-1299">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/giotto.png" alt="giotto">
+<div class="button_name">Giotto</div>
+<!-- button_name --></a>
+<!-- bruegel -->
+<a class="button hover bruegel" href="muse/bruegel_en.html" data-name="bruegel" data-order="06" data-style="03" data-style_name="Northern Renaissance" data-born="1530" data-born_era="1500-1599">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/bruegel.png" alt="bruegel">
+<div class="button_name">Bruegel</div>
+<!-- button_name --></a>
+<!-- caravaggio -->
+<a class="button hover caravaggio" href="muse/caravaggio_en.html" data-name="caravaggio" data-order="07" data-style="06" data-style_name="Baroque" data-born="1571" data-born_era="1500-1599">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/caravaggio.png" alt="caravaggio">
+<div class="button_name">Caravaggio</div>
+<!-- button_name --></a>
+<!-- fragonard -->
+<a class="button hover fragonard" href="muse/fragonard_en.html" data-name="fragonard" data-order="08" data-style="07" data-style_name="Rococo" data-born="1732" data-born_era="1700-1799">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/fragonard.png" alt="fragonard">
+<div class="button_name">Fragonard</div>
+<!-- button_name --></a>
+<!-- david -->
+<a class="button hover david" href="muse/david_en.html" data-name="david" data-order="09" data-style="08" data-style_name="Neoclassicism" data-born="1748" data-born_era="1700-1799">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/david.png" alt="david">
+<div class="button_name">David</div>
+<!-- button_name --></a>
+<!-- ingres -->
+<a class="button hover ingres" href="muse/ingres_en.html" data-name="ingres" data-order="10" data-style="08" data-style_name="Neoclassicism" data-born="1780" data-born_era="1700-1799">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/ingres.png" alt="ingres">
+<div class="button_name">Ingres</div>
+<!-- button_name --></a>
+<!-- goya -->
+<a class="button hover goya" href="muse/goya_en.html" data-name="goya" data-order="11" data-style="09" data-style_name="Romanticism" data-born="1746" data-born_era="1700-1799">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/goya.png" alt="goya">
+<div class="button_name">Goya</div>
+<!-- button_name --></a>
+<!-- delacroix -->
+<a class="button hover delacroix" href="muse/delacroix_en.html" data-name="delacroix" data-order="12" data-style="09" data-style_name="Romanticism" data-born="1798" data-born_era="1700-1799">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/delacroix.png" alt="delacroix">
+<div class="button_name">Delacroix</div>
+<!-- button_name --></a>
+<!-- becklin -->
+<a class="button hover becklin" href="muse/becklin_en.html" data-name="becklin" data-order="13" data-style="12" data-style_name="Symbolisme" data-born="1827" data-born_era="1800-1899">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/becklin.png" alt="becklin">
+<div class="button_name">Becklin</div>
+<!-- button_name --></a>
+<!-- millais -->
+<a class="button hover millais" href="muse/millais_en.html" data-name="millais" data-order="14" data-style="14" data-style_name="Pre-Raphaelite Brotherhood" data-born="1829" data-born_era="1800-1899">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/millais.png" alt="millais">
+<div class="button_name">Millais</div>
+<!-- button_name --></a>
+<!-- repin -->
+<a class="button hover repin" href="muse/repin_en.html" data-name="repin" data-order="15" data-style="15" data-style_name="Peredvizhniki" data-born="1844" data-born_era="1800-1899">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/repin.png" alt="repin">
+<div class="button_name">Repin</div>
+<!-- button_name --></a>
+<!-- beardsley -->
+<a class="button hover beardsley" href="muse/beardsley_en.html" data-name="beardsley" data-order="16" data-style="18" data-style_name="Art nouveau" data-born="1872" data-born_era="1800-1899">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/beardsley.png" alt="beardsley">
+<div class="button_name">Beardsley</div>
+<!-- button_name --></a>
+<!-- serusier -->
+<a class="button hover serusier" href="muse/serusier_en.html" data-name="serusier" data-order="17" data-style="21" data-style_name="Les Nabis" data-born="1864" data-born_era="1800-1899">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/serusier.png" alt="serusier">
+<div class="button_name">Serusier</div>
+<!-- button_name --></a>
+<!-- klimt -->
+<a class="button hover klimt" href="muse/klimt_en.html" data-name="klimt" data-order="18" data-style="22" data-style_name="Sezession" data-born="1862" data-born_era="1800-1899">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/klimt.png" alt="klimt">
+<div class="button_name">Klimt</div>
+<!-- button_name --></a>
+<!-- kandinsky -->
+<a class="button hover kandinsky" href="muse/kandinsky_en.html" data-name="kandinsky" data-order="19" data-style="25" data-style_name="Blaue Reiter" data-born="1866" data-born_era="1800-1899">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/kandinsky.png" alt="kandinsky">
+<div class="button_name">Kandinsky</div>
+<!-- button_name --></a>
+<!-- ernst -->
+<a class="button hover ernst" href="muse/ernst_en.html" data-name="ernst" data-order="20" data-style="31" data-style_name="Dadaisme" data-born="1891" data-born_era="1800-1899">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/ernst.png" alt="ernst">
+<div class="button_name">Ernst</div>
+<!-- button_name --></a>
+<!-- dali -->
+<a class="button hover dali" href="muse/dali_en.html" data-name="dali" data-order="21" data-style="32" data-style_name="Surrealism" data-born="1904" data-born_era="1900-1999">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/dali.png" alt="dali">
+<div class="button_name">Dali</div>
+<!-- button_name --></a>
+<!-- haring -->
+<a class="button hover haring" href="muse/haring_en.html" data-name="haring" data-order="22" data-style="33" data-style_name="Pop Art" data-born="1958" data-born_era="1900-1999">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/haring.png" alt="haring">
+<div class="button_name">Haring</div>
+<!-- button_name --></a>
+<!-- giacometti -->
+<a class="button hover giacometti" href="muse/giacometti_en.html" data-name="giacometti" data-order="23" data-style="34" data-style_name="Miscellaneous" data-born="1901" data-born_era="1900-1999">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/giacometti.png" alt="giacometti">
+<div class="button_name">Giacometti</div>
+<!-- button_name --></a>
+<!-- grimshaw -->
+<a class="button hover grimshaw" href="muse/grimshaw_en.html" data-name="grimshaw" data-order="24" data-style="34" data-style_name="Miscellaneous" data-born="1836" data-born_era="1800-1899">
+<div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
+<img src="muse_button_image/grimshaw.png" alt="grimshaw">
+<div class="button_name">Grimshaw</div>
+<!-- button_name --></a>
+
+
+</div><!-- muse_list -->
+
+</body>
+
+<!-- フッター -->
+ <?php include(dirname(__FILE__).'/include/footer.php'); ?>
+<!-- フッターここまで -->
+
+<!-- ソート用スクリプト -->
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  const container  = document.getElementById("muse_list");
+  const sortSelect = document.getElementById("sortSelect");
+
+  // ===============================
+  // ソート本体
+  // ===============================
+  function sortItems(type) {
+
+    const items = Array.from(container.querySelectorAll("a.button"));
+
+    // 既存見出し削除
+    container.querySelectorAll(".style-heading").forEach(h => h.remove());
+
+    // ===============================
+    // 並び替え
+    // ===============================
+    items.sort((a, b) => {
+
+      switch (type) {
+
+        case "name-asc":
+          return a.dataset.name.localeCompare(b.dataset.name);
+
+        case "name-desc":
+          return b.dataset.name.localeCompare(a.dataset.name);
+
+        case "born-asc":
+          return (
+            Number(a.dataset.born) - Number(b.dataset.born) ||
+            a.dataset.born.localeCompare(b.dataset.born)
+          );
+
+        case "born-desc":
+          return (
+            Number(b.dataset.born) - Number(a.dataset.born) ||
+            a.dataset.born.localeCompare(b.dataset.born)
+          );
+
+        case "style-asc":
+          return (
+            a.dataset.style.localeCompare(b.dataset.style) ||
+            a.dataset.name.localeCompare(b.dataset.name)
+          );
+
+        case "style-desc":
+          return (
+            b.dataset.style.localeCompare(a.dataset.style) ||
+            a.dataset.name.localeCompare(b.dataset.name)
+          );
+
+        case "default":
+        default:
+          return Number(a.dataset.order) - Number(b.dataset.order);
+      }
+    });
+
+    // ===============================
+    // 再描画準備
+    // ===============================
+    container.innerHTML = "";
+
+    // ===============================
+    // 様式ソート
+    // ===============================
+    if (type === "style-asc" || type === "style-desc") {
+
+      container.classList.add("style-mode");
+
+      let currentKey = null;
+      let gridDiv    = null;
+
+      items.forEach(item => {
+
+        const styleName = item.dataset.style_name;
+
+        if (styleName !== currentKey) {
+          currentKey = styleName;
+
+          // 見出し
+          const heading = document.createElement("div");
+          heading.className = "style-heading";
+          heading.textContent = styleName;
+          container.appendChild(heading);
+
+          // グリッド生成
+          gridDiv = document.createElement("div");
+          gridDiv.className = "style-grid";
+          container.appendChild(gridDiv);
+        }
+
+        gridDiv.appendChild(item);
+      });
+
+      return;
+    }
+
+    // ===============================
+    // 誕生年ソート
+    // ===============================
+    if (type === "born-asc" || type === "born-desc") {
+
+      container.classList.add("style-mode");
+
+      let currentKey = null;
+      let gridDiv    = null;
+
+      items.forEach(item => {
+
+        const era = item.dataset.born_era;
+
+        if (era !== currentKey) {
+          currentKey = era;
+
+          const heading = document.createElement("div");
+          heading.className = "style-heading";
+          heading.innerHTML =
+            "<span class='year-number'>" + era + "</span>";
+
+          container.appendChild(heading);
+
+          gridDiv = document.createElement("div");
+          gridDiv.className = "style-grid";
+          container.appendChild(gridDiv);
+        }
+
+        gridDiv.appendChild(item);
+      });
+
+      return;
+    }
+
+    // ===============================
+    // 通常ソート
+    // ===============================
+    container.classList.remove("style-mode");
+    items.forEach(item => container.appendChild(item));
+  }
+
+  // セレクト変更時
+  sortSelect.addEventListener("change", function () {
+    sortItems(this.value);
+  });
+
+  // 初期表示
+  sortItems("default");
+});
+
+
+// ==================================
+// ページ復帰時にデフォルトへ戻す
+// ==================================
+window.addEventListener("pageshow", () => {
+  const sortSelect = document.getElementById("sortSelect");
+  sortSelect.value = "default";
+
+  const event = new Event("change");
+  sortSelect.dispatchEvent(event);
+});
+</script>

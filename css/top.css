@@ -1,0 +1,467 @@
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*言語*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 日本語用 */
+html:lang(ja) {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+/* 英語用 */
+html:lang(en) {
+  font-family: "Poppins", sans-serif;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.rainbow {
+  height: auto;
+  width: 100%;
+}
+
+body {
+  color: white;
+  height: 100%;
+  margin: 0;
+  background-color: #222222;
+}
+
+/*横線*/
+.line_top{
+  margin: 3% 10%;
+  background-color: #FFCC00;
+  border-radius: 1.5px; /* 線幅の半分 */
+  display: block;
+  height: 3px; /* 線幅 */
+}
+
+
+@media screen and (min-width: 1280px) {
+  /*横線*/
+  .line_top{
+    margin: 3% 30%;
+  }
+}
+
+p{
+  width: 90%;
+  margin: auto;
+  color: white;
+  font-size: 1.8em;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/*サブディスプレイ*/
+@media screen and (min-width: 1280px) {
+  p{
+    width: 80%;
+    font-size: 1.3em;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  p{
+    font-size: 1.5em;
+  }
+}
+
+html:lang(en) p{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+html:lang(jp) p{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*スマホの時だけ改行*/
+.br-sp {
+    display: none;
+}
+
+@media (max-width: 1280px) {
+    .br-sp {
+        display: block;
+    }
+}
+
+
+h1{
+  width: 80%;
+  font-size: 3em;
+  margin: 3% auto;
+  text-align: center;
+  color: #FFCC00;
+}
+
+/*サブディスプレイ*/
+@media screen and (min-width: 1280px) {
+  h1{
+  font-size: 2em;
+  margin: 16px auto;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  h1{
+  font-size: 2.5em;
+  margin: 32px auto;
+  }
+}
+
+html:lang(en) h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+html:lang(jp) h1{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*トップ画像*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.top_image{
+  width: 100%;
+  height: auto;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+  .top_key_img{
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1280px) {
+    .top_key_img{
+      width: 60%;
+    }
+  }
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*Welcome to*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.welcome{
+  width: 100%;
+  height: auto;
+  padding: 32px 0;
+  display: flex;
+
+  align-items: center;
+  background-color: #222222;
+  justify-content: center;
+  flex-flow: column;
+}
+
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*MUSE*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.about_muse{
+  width: 100%;
+  padding: 32px 0;
+  display: flex;
+
+  align-items: center;
+  background-color: #222222;
+  flex-flow: column;
+  grid-template-columns: 100%;
+  grid-template-rows: auto 1fr auto;
+  justify-content: center;
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*ミューズリスト*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* muse_list */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.muse_list{
+  width: 100%;
+  margin: 3% auto 20%;
+  padding: 1% 4px 5%;
+
+  display: grid;
+
+  align-items: center;
+  background-color: #222222;
+  gap: 4px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  place-items: center;
+}
+
+/* レスポンシブ */
+
+@media screen and (min-width:1280px){
+  .muse_list{
+    width: 90%;
+    margin: 1% auto 10%;
+
+    gap: 20px;
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 様式ソート時はgrid解除 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.muse_list.style-mode{
+  display: block;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 様式ごとのボタン並び */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.style-grid{
+  display: grid;
+
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (min-width:1280px){
+  .style-grid{
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*言語切り替えボタン*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.language-link {
+  position: fixed;      /* 画面に追従 */
+  top: 20px;            /* 上からの位置 */
+  left: 20px;           /* 左からの位置 */
+  z-index: 9999;        /* 最前面に表示 */
+
+  width: 120px;
+  text-align: center;
+
+  background: #FFCC00;;
+  color: black;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 4px solid White;
+  text-decoration: none;
+  font-size: 2em;
+
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media screen and (min-width: 1280px) {
+  .language-link {
+    width: 100px;
+    font-size: 1.5em;
+      padding: 4px 20px;
+  }
+}
+
+/*ホバー*/
+.language-link:hover{
+  transform: scale(1.1);
+  background: orange;
+  transition:0.1s all;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* ソート関係 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* ソートボタンエリア */
+
+.sort{
+  width: 500px;
+  margin: 24px auto;
+
+  display: block;
+
+  justify-content: center;
+  position: relative;
+}
+
+/* ソートボタン共通 */
+
+#sortSelect{
+  appearance: none;
+}
+
+/* 日本語 */
+
+html:lang(jp) #sortSelect{
+  width: 500px;
+  margin: auto;
+  padding: 8px 16px;
+
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 700;
+
+  appearance: none;
+  background-color: #fff;
+  border: 8px solid #FFCC00;
+  border-radius: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* 英語 */
+
+html:lang(en) #sortSelect{
+  width: 500px;
+  margin: auto;
+  padding: 8px 16px;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 700;
+
+  appearance: none;
+  background-color: #fff;
+  border: 8px solid #FFCC00;
+  border-radius: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* 矢印 */
+
+.sort::before{
+  width: 32px;
+  height: 24px;
+
+  background-color: #ff8c00;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  right: 5%;
+  top: 40%;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* レスポンシブ */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+@media screen and (min-width:1280px){
+
+  .sort{
+margin: 24px auto;
+    width: 400px;
+  }
+
+  html:lang(jp) #sortSelect,
+  html:lang(en) #sortSelect{
+    width: 400px;
+    padding: 8px 16px;
+
+    font-size: 1.5em;
+
+    border: 4px solid #FFCC00;
+  }
+
+  .sort::before{
+    width: 24px;
+    height: 16px;
+    top: 38%;
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* プルダウン内 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+#sortSelect option{
+  font-family: "Poppins", sans-serif;
+  font-size: 0.5em;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media screen and (min-width:1280px){
+  #sortSelect option{
+    font-size: 0.8em;
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 様式の見出し */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* 日本語 */
+
+html:lang(jp) .style-heading{
+  width: 95%;
+  margin: 50px auto 16px;
+
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+
+  border-bottom: 4px solid #ffd700;
+  letter-spacing: 0.1em;
+}
+
+/* 英語 */
+
+html:lang(en) .style-heading{
+  width: 95%;
+  margin: 50px auto 16px;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+
+  border-bottom: 4px solid #ffd700;
+  letter-spacing: 0.1em;
+}
+
+/* レスポンシブ */
+
+@media screen and (min-width:1280px){
+
+  html:lang(jp) .style-heading,
+  html:lang(en) .style-heading{
+    width: 93%;
+    margin: 32px auto 16px;
+    font-size: 1.5rem;
+  }
+}
+
+.year-number {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media screen and (min-width:1280px){
+  .year-number {
+    font-size: 1.5rem;
+  }
+}

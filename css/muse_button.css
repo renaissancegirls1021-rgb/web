@@ -1,0 +1,170 @@
+/*★★★★★★ボタン★★★★★★*/
+a{
+  color: #222222;
+}
+
+/*ボタン全体*/
+.button{
+  width: 250px;
+  height: 416px;
+  margin: 16px;
+
+  display: block;
+
+  background-color: var(--main-color);
+  border: 8px solid var(--main-color);
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1280px){
+  .button{
+    width: 150px;
+    height: 250px;
+
+    border: 8px solid var(--main-color);
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 1921px){
+  .button{
+    width: 200px;
+    height: 333px;
+  }
+}
+
+/*ミューズ画像*/
+.button img{
+  width: 100%;
+  height: 100%;
+
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  filter:
+    drop-shadow(1px 1px 0px white)
+    drop-shadow(-1px -1px 0px white)
+    drop-shadow(-1px 2px 0px white)
+    drop-shadow(2px -1px 0px white);
+  position: absolute;
+}
+
+/*ななめせん*/
+.slash{
+  width: 100%;
+  height: 50%;
+  margin: 20% 0 0 0;
+
+  display: flex;
+
+  align-items: center;
+  background-color: var(--sub-color);
+  position: absolute;
+  transform: skewY(-7deg);
+}
+
+.slash_2{
+  width: 100%;
+  height: 90%;
+  margin: auto 0;
+
+  display: flex;
+
+  align-items: center;
+  background-color: var(--main-color);
+  position: absolute;
+}
+
+.slash_3{
+  width: 100%;
+  height: 80%;
+  margin: auto 0;
+
+  background-color: white;
+  position: absolute;
+}
+
+/*ミューズ名前*/
+.button_name{
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+
+  align-items: center;
+  background-color: white;
+  border: solid var(--main-color);
+  border-radius: 0 0 7px 7px;
+  border-width: 8px 0 0 0;
+  bottom: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+}
+
+/*言語別フォント*/
+html:lang(en) .button_name{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+html:lang(jp) .button_name{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+html:lang(jp) .button_name,
+html:lang(en) .button_name{
+  font-size: 1.8em;
+}
+
+@media screen and (min-width: 1280px){
+  html:lang(jp) .button_name{
+    font-size: 0.8em;
+  }
+  html:lang(en) .button_name{
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 1921px){
+  html:lang(jp) .button_name,
+  html:lang(en) .button_name{
+    font-size: 1.2em;
+  }
+}
+
+/*ホバー*/
+.hover:hover{
+  transform: scale(1.1);
+  transition: 0.1s all;
+}
+
+/*ダミーボタン色*/
+.dummy_pc{ --main-color: #222222; }
+.dummy_sp{ --main-color: #222222; }
+
+.dummy_pc{
+  display: none;
+}
+
+.dummy_sp{
+  display: block;
+}
+
+@media screen and (min-width: 1920px){
+  .dummy_pc{
+    display: block;
+  }
+  .dummy_sp{
+    display: none;
+  }
+}

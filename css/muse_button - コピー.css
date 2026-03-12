@@ -1,0 +1,204 @@
+/*★★★★★★ボタン★★★★★★*/
+a{
+  color: #222222;
+}
+
+/*ボタン全体*/
+.button{
+  width: 250px;
+  height: 416px;
+  position: relative;
+
+  margin: 16px;
+
+  background-color: var(--main-color);
+  border: 8px solid var(--main-color);
+  text-decoration:none;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 1280px) {
+  .button{
+    width: 150px;
+    height: 250px;
+    border: 8px solid var(--main-color);
+    border-radius: 8px;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  .button{
+    width: 200px;
+    height: 333px;
+  }
+}
+
+/*ミューズ画像*/
+.button img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 16px;
+border-bottom-left-radius: 16px;
+  filter:
+  drop-shadow(1px 1px 0px white)
+  drop-shadow(-1px -1px 0px white)
+  drop-shadow(-1px 2px 0px white)
+  drop-shadow(2px -1px 0px white);
+}
+
+/*ななめせん*/
+.slash{
+
+  width: 100%;
+  height: 50%;
+  margin: 20% 0 0 0;
+  display: flex;
+  position: absolute;
+
+  background-color: var(--sub-color);
+  transform: skewY(-7deg);
+
+  align-items: center;
+}
+
+.slash_2{;
+  width: 100%;
+  height: 90%;
+  margin: auto 0;
+  position: absolute;
+  display: flex;
+
+  background-color: var(--main-color);;
+  align-items: center;
+}
+
+.slash_3{;
+  width: 100%;
+  height: 80%;
+  margin: auto 0;
+  position: absolute;
+  background-color: white;
+}
+
+/*ミューズ名前*/
+.button_name{
+  width: 100%;
+  height: 20%;
+  display: flex;
+
+  align-items: center;
+  background-color: white;
+  border: solid var(--main-color);
+  border-radius: 0 0 7px 7px;
+  border-width: 8px 0px 0px 0px;
+  bottom: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+}
+
+html:lang(jp) .button_name{
+  font-size: 1.8em;
+}
+html:lang(en) .button_name{
+  font-size: 1.8em;
+}
+
+@media screen and (min-width: 1280px) {
+  .button_name{
+    border-width: 8px 0px 0px 0px;
+  }
+  html:lang(jp) .button_name{
+    font-size: 0.8em;
+  }
+  html:lang(en) .button_name{
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  .button_name{
+    border-width: 8px 0px 0px 0px;
+  }
+  html:lang(jp) .button_name{
+    font-size: 1.2em;
+  }
+  html:lang(en) .button_name{
+    font-size: 1.2em;
+  }
+}
+
+html:lang(en) .button_name{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+
+html:lang(jp) .button_name{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/*ホバー*/
+.hover:hover{
+  transform: scale(1.1);
+  transition:0.1s all;
+}
+
+
+/*ダミーボタン色*/
+.dummy_pc{--main-color: #222222;}
+.dummy_sp{--main-color: #222222;}
+
+
+.dummy_pc{
+  display: none;
+}
+.dummy_sp{
+  display: block;
+}
+
+
+@media screen and (min-width: 1920px) {
+  .dummy_pc{
+    display: block;
+  }
+  .dummy_sp{
+    display: none;
+  }
+}
+
+/*様式*/
+.style_midashi{
+  width: 200px;
+  height: 333px;
+  position: relative;
+
+  margin: 16px;
+
+  background-color: var(--style_main-color);
+  text-decoration:none;
+  overflow: hidden;
+  border-radius: 8px;
+    border: 8px solid var(--style_main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style_name{
+  color: var(--style_font-color);
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+font-size: 2em;
+}
