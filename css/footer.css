@@ -1,8 +1,9 @@
 /*フッター*/
 .footer{
   width: auto;
-  height: 200px;
+  height: 300px;
   margin: 0;
+  padding: 16px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,11 +14,9 @@
   text-align: center;
   color: white;
 
-
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-
 }
 
 
@@ -25,6 +24,18 @@
   .footer{
     padding: 20px;
     font-size: 0.8em;
-      height: 80px;
+    height: 240px;
   }
+}
+
+.footer img{
+  width: 64px;
+  height: auto;
+  margin: 16px auto;
+}
+
+.footer p{
+  width: 100%;
+  height: auto;
+  margin: 16px auto;
 }
