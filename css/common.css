@@ -1,15 +1,15 @@
 /* common.css */
 /*デバッグ*/
-@import url("debug.css");
+@import url("../css/debug.css");
 /*ミューズボタン*/
-@import url("muse_button.css");
+@import url("../css/muse_button.css");
 /*総合*/
-@import url("general.css");
+@import url("../css/general.css");
 /*ミューズ色*/
-@import url("color.css");
+@import url("../css/color.css");
 /*様式色*/
-@import url("style_color.css");
+@import url("../css/style_color.css");
 /*フッター*/
-@import url("footer.css");
+@import url("../css/footer.css");
 /*ミューズページ*/
-@import url("muse.css");
+@import url("../css/muse.css");
