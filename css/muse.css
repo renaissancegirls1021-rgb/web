@@ -122,7 +122,7 @@ h1{
 
 /* 言語別フォント */
 
-html:lang(jp) h1{
+html:lang(ja) h1{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -139,7 +139,7 @@ html:lang(en) h1{
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* 言語別フォント */
 
-html:lang(jp) h2{
+html:lang(ja) h2{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -157,7 +157,7 @@ html:lang(en) h2{
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
 /* 日本語 */
-html:lang(jp) h3{
+html:lang(ja) h3{
   margin: auto;
 
   font-family: "Zen Kaku Gothic New", sans-serif;
@@ -183,14 +183,14 @@ html:lang(en) h3{
 /* レスポンシブ */
 
 @media (min-width: 1280px){
-  html:lang(jp) h3,
+  html:lang(ja) h3,
   html:lang(en) h3{
     font-size: 1.2em;
   }
 }
 
 @media (min-width: 1921px){
-  html:lang(jp) h3,
+  html:lang(ja) h3,
   html:lang(en) h3{
     font-size: 1.5em;
   }
@@ -220,7 +220,7 @@ font-weight: 600;
 font-style: normal;
 }
 
-html:lang(jp) h4{
+html:lang(ja) h4{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -246,7 +246,7 @@ h4{
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
 /* 日本語 */
-html:lang(jp) p{
+html:lang(ja) p{
   width: 90%;
   margin: 16px auto;
 
@@ -271,25 +271,25 @@ html:lang(en) p{
 /* レスポンシブ */
 
 @media (min-width: 1280px){
-  html:lang(jp) p,
+  html:lang(ja) p,
   html:lang(en) p{
     width: 70%;
     font-size: 1.2em;
   }
 
-  html:lang(jp) p{
+  html:lang(ja) p{
     line-height: 2;
   }
 }
 
 @media (min-width: 1921px){
-  html:lang(jp) p,
+  html:lang(ja) p,
   html:lang(en) p{
     width: 70%;
     font-size: 1.5em;
   }
 
-  html:lang(jp) p{
+  html:lang(ja) p{
     line-height: 2;
   }
 }
@@ -332,7 +332,7 @@ font-weight: 600;
 font-style: normal;
 }
 
-html:lang(jp) .midashi{
+html:lang(ja) .midashi{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -437,7 +437,7 @@ align-items: center;
 }
 
 @media (min-width: 1280px) {
-html:lang(jp) .muse_serif_area{
+html:lang(ja) .muse_serif_area{
   width: auto;
   margin: 0 auto;
   height: 100%;
@@ -476,7 +476,7 @@ html:lang(en) .muse_serif_area{
 
 /* 日本語 */
 
-html:lang(jp) h5{
+html:lang(ja) h5{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-size: 2.5em;
   font-style: normal;
@@ -484,7 +484,7 @@ html:lang(jp) h5{
 }
 
 @media (min-width: 1280px){
-  html:lang(jp) h5{
+  html:lang(ja) h5{
     font-size: 1.5em;
 
     text-align: left;
@@ -493,7 +493,7 @@ html:lang(jp) h5{
 }
 
 @media (min-width: 1921px){
-  html:lang(jp) h5{
+  html:lang(ja) h5{
     font-size: 2.2em;
 
     writing-mode: vertical-rl;
@@ -584,7 +584,7 @@ justify-content: space-around;
 }
 
 
-html:lang(jp) .style{
+html:lang(ja) .style{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 900;
   font-style: normal;
@@ -762,7 +762,7 @@ line-break: strict; /* 禁則処理を厳格に適用 */
   text-decoration: none;
 }
 
-html:lang(jp) .return a{
+html:lang(ja) .return a{
 
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 900;
