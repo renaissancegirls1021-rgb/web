@@ -115,19 +115,19 @@ html:lang(en) .button_name{
   font-weight: 600;
 }
 
-html:lang(jp) .button_name{
+html:lang(ja) .button_name{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-style: normal;
   font-weight: 900;
 }
 
-html:lang(jp) .button_name,
+html:lang(ja) .button_name,
 html:lang(en) .button_name{
   font-size: 1.8em;
 }
 
 @media screen and (min-width: 1280px){
-  html:lang(jp) .button_name{
+  html:lang(ja) .button_name{
     font-size: 0.8em;
   }
   html:lang(en) .button_name{
@@ -136,7 +136,7 @@ html:lang(en) .button_name{
 }
 
 @media screen and (min-width: 1921px){
-  html:lang(jp) .button_name,
+  html:lang(ja) .button_name,
   html:lang(en) .button_name{
     font-size: 1.2em;
   }

@@ -71,7 +71,7 @@ html:lang(en) p{
   font-weight: 400;
 }
 
-html:lang(jp) p{
+html:lang(ja) p{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -118,7 +118,7 @@ html:lang(en) h1{
   font-style: normal;
 }
 
-html:lang(jp) h1{
+html:lang(ja) h1{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -309,7 +309,7 @@ html:lang(jp) h1{
 
 /* 日本語 */
 
-html:lang(jp) #sortSelect{
+html:lang(ja) #sortSelect{
   width: 500px;
   margin: auto;
   padding: 8px 16px;
@@ -373,7 +373,7 @@ margin: 24px auto;
     width: 400px;
   }
 
-  html:lang(jp) #sortSelect,
+  html:lang(ja) #sortSelect,
   html:lang(en) #sortSelect{
     width: 400px;
     padding: 8px 16px;
@@ -413,7 +413,7 @@ margin: 24px auto;
 
 /* 日本語 */
 
-html:lang(jp) .style-heading{
+html:lang(ja) .style-heading{
   width: 95%;
   margin: 50px auto 16px;
 
@@ -445,7 +445,7 @@ html:lang(en) .style-heading{
 
 @media screen and (min-width:1280px){
 
-  html:lang(jp) .style-heading,
+  html:lang(ja) .style-heading,
   html:lang(en) .style-heading{
     width: 93%;
     margin: 32px auto 16px;

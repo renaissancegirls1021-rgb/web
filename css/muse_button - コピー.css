@@ -103,7 +103,7 @@ border-bottom-left-radius: 16px;
   text-align: center;
 }
 
-html:lang(jp) .button_name{
+html:lang(ja) .button_name{
   font-size: 1.8em;
 }
 html:lang(en) .button_name{
@@ -114,7 +114,7 @@ html:lang(en) .button_name{
   .button_name{
     border-width: 8px 0px 0px 0px;
   }
-  html:lang(jp) .button_name{
+  html:lang(ja) .button_name{
     font-size: 0.8em;
   }
   html:lang(en) .button_name{
@@ -126,7 +126,7 @@ html:lang(en) .button_name{
   .button_name{
     border-width: 8px 0px 0px 0px;
   }
-  html:lang(jp) .button_name{
+  html:lang(ja) .button_name{
     font-size: 1.2em;
   }
   html:lang(en) .button_name{
@@ -141,7 +141,7 @@ html:lang(en) .button_name{
 }
 
 
-html:lang(jp) .button_name{
+html:lang(ja) .button_name{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 900;
   font-style: normal;
