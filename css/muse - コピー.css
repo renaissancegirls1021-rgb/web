@@ -90,31 +90,37 @@ border-radius: 1.5px; /* 線幅の半分 */
 }
 }
 
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-/*h1*/
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h1 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
 h1{
-margin: 3% auto;
-padding: 5px 64px;
-display: inline-block;
+  margin: 3% auto;
+  padding: 5px 64px;
 
-font-size: 3.5em;
-color: var(--font-color);
+  display: inline-block;
 
-background: var(--main-color);
-}
+  font-size: 3.5em;
 
-@media (min-width: 1280px) {
-h1{
-  font-size: 2em;
-}
+  background: var(--main-color);
+  color: var(--font-color);
 }
 
-@media (min-width: 1921px) {
-h1{
-  font-size: 3em;
+/* レスポンシブ */
+
+@media (min-width: 1280px){
+  h1{
+    font-size: 2em;
+  }
 }
+
+@media (min-width: 1921px){
+  h1{
+    font-size: 3em;
+  }
 }
+
+/* 言語別フォント */
 
 html:lang(jp) h1{
   font-family: "Zen Kaku Gothic New", sans-serif;
@@ -129,53 +135,49 @@ html:lang(en) h1{
 }
 
 
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-/*h2*/
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h2 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* 日本語 */
 html:lang(jp) h2{
-margin: auto;
-text-align: center;
-font-size: 2.5em;
-}
+  margin: auto;
 
-html:lang(en) h2{
-margin: auto;
-text-align: center;
-font-size: 2em;
-}
-
-@media (min-width: 1280px) {
-  html:lang(jp) h2{
-  font-size: 1.2em;
-  }
-
-  html:lang(en) h2{
-  font-size: 1.2em;
-  }
-}
-
-@media (min-width: 1921px) {
-  html:lang(jp) h2{
-  font-size: 1.5em;
-  }
-
-  html:lang(en) h2{
-  font-size: 1.5em;
-  }
-}
-
-html:lang(jp) h2{
   font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: 2.5em;
+  font-style: normal;
   font-weight: 700;
-  font-style: normal;
+
+  text-align: center;
 }
 
+/* 英語 */
 html:lang(en) h2{
+  margin: auto;
+
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-size: 2em;
   font-style: normal;
+  font-weight: 600;
+
+  text-align: center;
 }
 
+/* レスポンシブ */
+
+@media (min-width: 1280px){
+  html:lang(jp) h2,
+  html:lang(en) h2{
+    font-size: 1.2em;
+  }
+}
+
+@media (min-width: 1921px){
+  html:lang(jp) h2,
+  html:lang(en) h2{
+    font-size: 1.5em;
+  }
+}
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /*h3*/
@@ -221,57 +223,57 @@ h3{
   font-size: 1.5em;
 }
 }
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-/*p*/
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* p */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* 日本語 */
 html:lang(jp) p{
   width: 90%;
   margin: 16px auto;
-  font-size: 2.3em;
 
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 400;
+  font-size: 2.3em;
   font-style: normal;
+  font-weight: 400;
   line-height: 1.8;
 }
 
-@media (min-width: 1280px) {
-  html:lang(jp) p{
-    width: 70%;
-    font-size: 1.2em;
-    line-height: 2;
-  }
-}
-
-@media (min-width: 1921px) {
-  html:lang(jp) p{
-    width: 70%;
-    font-size: 1.5em;
-    line-height: 2;
-  }
-}
-
+/* 英語 */
 html:lang(en) p{
   width: 90%;
   margin: 16px auto;
-  font-size: 2em;
 
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-size: 2em;
   font-style: normal;
+  font-weight: 400;
 }
 
-@media (min-width: 1280px) {
+/* レスポンシブ */
+
+@media (min-width: 1280px){
+  html:lang(jp) p,
   html:lang(en) p{
     width: 70%;
     font-size: 1.2em;
   }
+
+  html:lang(jp) p{
+    line-height: 2;
+  }
 }
 
-@media (min-width: 1921px) {
+@media (min-width: 1921px){
+  html:lang(jp) p,
   html:lang(en) p{
     width: 70%;
     font-size: 1.5em;
+  }
+
+  html:lang(jp) p{
+    line-height: 2;
   }
 }
 
@@ -345,10 +347,7 @@ display: block;
 
 align-items:center;
 text-align: center;
-
 position:relative;
-
-
 }
 
 
@@ -437,77 +436,83 @@ html:lang(en) .muse_serif_area{
   margin: 0 auto;
   height: auto;
   position: absolute; /* 親要素を基準に浮く */
-  top: 10%;           /* 上から50%の位置 */
+  top: auto;           /* 上から50%の位置 */
   left: 72%;          /* 左から50%の位置 */
 }
 }
 
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-/*セリフ文字*/
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* セリフ文字 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* 余白 */
 
 .muse_area h4{
-  margin: 32px auto 16px auto;
+  margin: 32px auto 16px;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1280px){
   .muse_area h4{
     margin: 16px auto;
   }
 }
 
+/* 日本語 */
 
 html:lang(jp) h4{
-  font-size: 2.5em;
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 400;
+  font-size: 2.5em;
   font-style: normal;
+  font-weight: 400;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1280px){
   html:lang(jp) h4{
     font-size: 1.5em;
+
+    text-align: left;
     writing-mode: vertical-rl;
-    text-align:left;
-
-
   }
 }
 
-@media (min-width: 1921px) {
+@media (min-width: 1921px){
   html:lang(jp) h4{
     font-size: 2.2em;
+
     writing-mode: vertical-rl;
   }
 }
 
+/* 英語 */
 
 html:lang(en) h4{
-  font-size: 2.5em;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-size: 2.5em;
   font-style: italic;
+  font-weight: 400;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1280px){
   html:lang(en) h4{
     font-size: 2em;
   }
 }
 
-@media (min-width: 1921px) {
+@media (min-width: 1921px){
   html:lang(en) h4{
     font-size: 2.5em;
   }
 }
 
-.center {
-font-family: "MeiryoArial";
+/* その他 */
+
+.center{
+  font-family: "MeiryoArial";
 }
 
-em {
-  text-combine-upright: all;
+em{
   font-style: normal;
+  text-combine-upright: all;
 }
 
 /*--------------------------------------*/
@@ -659,14 +664,14 @@ line-break: strict; /* 禁則処理を厳格に適用 */
 /*--------------------------------------*/
 /*作家紹介エリア*/
 .artist_area{
-width: 100%;
-height: 100%;
-display: flex;
+  width: 100%;
+  height: 100%;
+  display: flex;
 
-text-align: center;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
 /*作家画像*/
@@ -682,13 +687,13 @@ justify-content: space-around;
 
 /*作家名前*/
 .artist_area h1{
-padding: 5px 3%;
-display: inline-block;
+  padding: 5px 3%;
+  display: inline-block;
 
-color: var(--font-color);
-font-size: 2.5em;
+  color: var(--font-color);
+  font-size: 2.5em;
 
-background: var(--main-color);
+  background: var(--main-color);
 }
 
 @media (min-width: 1280px) {
@@ -704,31 +709,34 @@ background: var(--main-color);
 }
 }
 
-/*--------------------------------------*/
-/*戻るボタン*/
-/*--------------------------------------*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* return */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
 .return{
   width: 90%;
   margin: 0 auto;
-    display: flex;
 
-  text-align: center;
-  overflow:hidden;
+  display: flex;
+
   align-items: center;
   justify-content: center;
+  overflow: hidden;
+  text-align: center;
 }
 
 .return a{
   width: auto;
   height: auto;
-  margin: 5% auto 10% auto;
+  margin: 5% auto 10%;
   padding: 20px 48px;
+
   display: inline-block;
 
   font-size: 2.5em;
 
   background: var(--sub-color);
-  border: 8px solid White;
+  border: 8px solid white;
   border-radius: 32px;
   color: var(--font-sub_color);
   text-decoration: none;
@@ -765,29 +773,30 @@ transform: scale(1.1);
 transition:0.1s all;
 }
 
-/*--------------------------------------*/
-/*トップに戻るボタン*/
-/*--------------------------------------*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* pagetop */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-.pagetop {
-  position: fixed;      /* 画面に追従 */
-  right: 20px;          /* 右からの位置 */
-  bottom: 20px;         /* 下からの位置 */
-  z-index: 9999;        /* 最前面 */
-
+.pagetop{
   width: 128px;
   height: 128px;
-  background: #222;
-  color: #fff;
-  border-radius: 50%;
-  border: 4px solid White;
-  text-align: center;
-  font-size: 64px;
-  text-decoration: none;
 
   display: flex;
-  align-items: center;      /* 縦中央 */
-  justify-content: center;  /* 横中央 */
+
+  align-items: center;
+  justify-content: center;
+
+  background: #222;
+  border: 4px solid white;
+  border-radius: 50%;
+  bottom: 20px;
+  color: #fff;
+  font-size: 64px;
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  text-decoration: none;
+  z-index: 9999;
 }
 
 .pagetop:hover{

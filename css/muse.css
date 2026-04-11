@@ -134,13 +134,30 @@ html:lang(en) h1{
   font-style: normal;
 }
 
-
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* h2 */
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 言語別フォント */
+
+html:lang(jp) h2{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+html:lang(en) h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h3 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
 /* 日本語 */
-html:lang(jp) h2{
+html:lang(jp) h3{
   margin: auto;
 
   font-family: "Zen Kaku Gothic New", sans-serif;
@@ -152,7 +169,7 @@ html:lang(jp) h2{
 }
 
 /* 英語 */
-html:lang(en) h2{
+html:lang(en) h3{
   margin: auto;
 
   font-family: "Poppins", sans-serif;
@@ -166,23 +183,23 @@ html:lang(en) h2{
 /* レスポンシブ */
 
 @media (min-width: 1280px){
-  html:lang(jp) h2,
-  html:lang(en) h2{
+  html:lang(jp) h3,
+  html:lang(en) h3{
     font-size: 1.2em;
   }
 }
 
 @media (min-width: 1921px){
-  html:lang(jp) h2,
-  html:lang(en) h2{
+  html:lang(jp) h3,
+  html:lang(en) h3{
     font-size: 1.5em;
   }
 }
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-/*h3*/
+/*h4*/
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-h3{
+h4{
 width: 30%;
 margin: 3% auto;
 padding: 8px 10%;
@@ -197,20 +214,20 @@ text-align: center;
 background: var(--main-color);
 }
 
-html:lang(en) h3{
+html:lang(en) h4{
 font-family: "Poppins", sans-serif;
 font-weight: 600;
 font-style: normal;
 }
 
-html:lang(jp) h3{
+html:lang(jp) h4{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
 @media (min-width: 1280px) {
-h3{
+h4{
   width: 20%;
   padding: 1% 0;
   margin: 1% auto;
@@ -219,7 +236,7 @@ h3{
 }
 
 @media (min-width: 1921px) {
-h3{
+h4{
   font-size: 1.5em;
 }
 }
@@ -447,19 +464,19 @@ html:lang(en) .muse_serif_area{
 
 /* 余白 */
 
-.muse_area h4{
+.muse_area h5{
   margin: 32px auto 16px;
 }
 
 @media (min-width: 1280px){
-  .muse_area h4{
+  .muse_area h5{
     margin: 16px auto;
   }
 }
 
 /* 日本語 */
 
-html:lang(jp) h4{
+html:lang(jp) h5{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-size: 2.5em;
   font-style: normal;
@@ -467,7 +484,7 @@ html:lang(jp) h4{
 }
 
 @media (min-width: 1280px){
-  html:lang(jp) h4{
+  html:lang(jp) h5{
     font-size: 1.5em;
 
     text-align: left;
@@ -476,7 +493,7 @@ html:lang(jp) h4{
 }
 
 @media (min-width: 1921px){
-  html:lang(jp) h4{
+  html:lang(jp) h5{
     font-size: 2.2em;
 
     writing-mode: vertical-rl;
@@ -485,7 +502,7 @@ html:lang(jp) h4{
 
 /* 英語 */
 
-html:lang(en) h4{
+html:lang(en) h5{
   font-family: "Poppins", sans-serif;
   font-size: 2.5em;
   font-style: italic;
@@ -493,13 +510,13 @@ html:lang(en) h4{
 }
 
 @media (min-width: 1280px){
-  html:lang(en) h4{
+  html:lang(en) h5{
     font-size: 2em;
   }
 }
 
 @media (min-width: 1921px){
-  html:lang(en) h4{
+  html:lang(en) h5{
     font-size: 2.5em;
   }
 }
@@ -612,19 +629,22 @@ height: auto;
 }
 
 /*作品名*/
-.works_area h1{
+.works_area h2{
 font-size: 3em;
 padding: 0 5%;
+
+background: var(--main-color);
+color: var(--font-color);
 }
 
 @media (min-width: 1280px) {
-.works_area h1{
+.works_area h2{
   font-size: 2em;
 }
 }
 
 @media (min-width: 1921px) {
-.works_area h1{
+.works_area h2{
   font-size: 3em;
 }
 }
@@ -686,25 +706,25 @@ line-break: strict; /* 禁則処理を厳格に適用 */
 }
 
 /*作家名前*/
-.artist_area h1{
+.artist_area h2{
   padding: 5px 3%;
   display: inline-block;
 
-  color: var(--font-color);
   font-size: 2.5em;
 
   background: var(--main-color);
+  color: var(--font-color);
 }
 
 @media (min-width: 1280px) {
-.artist_area h1{
+.artist_area h2{
   padding: auto;
   font-size: 2em;
 }
 }
 
 @media (min-width: 1921px) {
-.artist_area h1{
+.artist_area h2{
   font-size: 3em;
 }
 }
