@@ -1,0 +1,80 @@
+{
+  "rembrandt": {
+    "name": {
+      "jp": "レンブラント",
+      "en": "レンブラント"
+    },
+    "image": "../muse_button_image/rembrandt.png",
+    "groups": [
+      {
+        "characters": [
+          {
+            "id": "rembrandt",
+            "message": {
+              "jp": "バロック様式の仲間たち！　バロックって期間が長いから、ミューズは他にも、も～っとたくさんいるんだってさ。",
+              "en": "Baroque friends! Since the Baroque period was so long, I hear there are sooo many more muses besides these."
+            }
+          },
+          {
+            "id": "gogh",
+            "message": {
+              "jp": "バロック様式の仲間たち！　バロックって期間が長いから、ミューズは他にも、も～っとたくさんいるんだってさ。",
+              "en": "Baroque friends! Since the Baroque period was so long, I hear there are sooo many more muses besides these."
+            }
+          }
+        ]
+      },
+      {
+        "characters": [
+          {
+            "id": "gogh",
+            "message": {
+              "jp": "ゴッホもボクとおなじ地方の出身なんだ！　でもネーデルラントの空って、あんなにウネウネしてたかなぁ？",
+              "en": "Gogh is from the same region as me! But... was the sky in the Netherlands really that wavy?"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "monet": {
+    "name": {
+      "jp": "モネ",
+      "en": "Gogh"
+    },
+    "image": "../muse_button_image/monet.png",
+    "groups": [
+      {
+        "characters": [
+          {
+            "id": "rembrandt",
+            "message": {
+              "jp": "test",
+              "en": "test"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "gogh": {
+    "name": {
+      "jp": "ゴッホ",
+      "en": "Gogh"
+    },
+    "image": "../muse_button_image/gogh.png",
+    "groups": [
+      {
+        "characters": [
+          {
+            "id": "rembrandt",
+            "message": {
+              "jp": "test",
+              "en": "test"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
