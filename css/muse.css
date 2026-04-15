@@ -773,7 +773,7 @@ text-align: center; /* ←これで中央寄せ */
 .relate_group{
   display: flex;              /* ← 横並びにする */
   justify-content: center;    /* ← 全体を中央に */
-  gap: 8px;                  /* ← ボタン同士の間隔 */
+  gap: 10px;                  /* ← ボタン同士の間隔 */
   width: 100%;                 /* ← 左右余白を均等に */
   margin: 0 auto;             /* ← 中央配置 */
   flex-wrap: wrap;            /* ← はみ出たら折り返し（重要） */

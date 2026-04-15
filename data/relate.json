@@ -1,80 +1,714 @@
 {
-  "rembrandt": {
-    "name": {
-      "jp": "レンブラント",
-      "en": "レンブラント"
-    },
-    "image": "../muse_button_image/rembrandt.png",
-    "groups": [
-      {
-        "characters": [
-          {
-            "id": "rembrandt",
-            "message": {
-              "jp": "バロック様式の仲間たち！　バロックって期間が長いから、ミューズは他にも、も～っとたくさんいるんだってさ。",
-              "en": "Baroque friends! Since the Baroque period was so long, I hear there are sooo many more muses besides these."
-            }
-          },
-          {
-            "id": "gogh",
-            "message": {
-              "jp": "バロック様式の仲間たち！　バロックって期間が長いから、ミューズは他にも、も～っとたくさんいるんだってさ。",
-              "en": "Baroque friends! Since the Baroque period was so long, I hear there are sooo many more muses besides these."
-            }
-          }
-        ]
+  "characters": {
+    "arcimboldo": {
+      "name": {
+        "jp": "アルチンボルド",
+        "en": "Arcimboldo"
       },
-      {
-        "characters": [
-          {
-            "id": "gogh",
-            "message": {
-              "jp": "ゴッホもボクとおなじ地方の出身なんだ！　でもネーデルラントの空って、あんなにウネウネしてたかなぁ？",
-              "en": "Gogh is from the same region as me! But... was the sky in the Netherlands really that wavy?"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "monet": {
-    "name": {
-      "jp": "モネ",
-      "en": "Gogh"
+      "image": "../muse_button_image/arcimboldo.png"
     },
-    "image": "../muse_button_image/monet.png",
-    "groups": [
-      {
-        "characters": [
-          {
-            "id": "rembrandt",
-            "message": {
-              "jp": "test",
-              "en": "test"
-            }
-          }
-        ]
-      }
-    ]
-  },
-  "gogh": {
-    "name": {
-      "jp": "ゴッホ",
-      "en": "Gogh"
+    "ingres": {
+      "name": {
+        "jp": "アングル",
+        "en": "Ingres"
+      },
+      "image": "../muse_button_image/ingres.png"
     },
-    "image": "../muse_button_image/gogh.png",
-    "groups": [
-      {
-        "characters": [
-          {
-            "id": "rembrandt",
-            "message": {
-              "jp": "test",
-              "en": "test"
+    "ensor": {
+      "name": {
+        "jp": "アンソール",
+        "en": "Ensor"
+      },
+      "image": "../muse_button_image/ensor.png"
+    },
+    "warhol": {
+      "name": {
+        "jp": "ウォーホル",
+        "en": "Warhol"
+      },
+      "image": "../muse_button_image/warhol.png"
+    },
+    "vlaminck": {
+      "name": {
+        "jp": "ヴラマンク",
+        "en": "Vlaminck"
+      },
+      "image": "../muse_button_image/vlaminck.png"
+    },
+    "escher": {
+      "name": {
+        "jp": "エッシャー",
+        "en": "Escher"
+      },
+      "image": "../muse_button_image/escher.png"
+    },
+    "ernst": {
+      "name": {
+        "jp": "エルンスト",
+        "en": "Ernst"
+      },
+      "image": "../muse_button_image/ernst.png"
+    },
+    "cabanel": {
+      "name": {
+        "jp": "カバネル",
+        "en": "Cabanel"
+      },
+      "image": "../muse_button_image/cabanel.png"
+    },
+    "caravaggio": {
+      "name": {
+        "jp": "カラヴァッジョ",
+        "en": "Caravaggio"
+      },
+      "image": "../muse_button_image/caravaggio.png"
+    },
+    "kandinsky": {
+      "name": {
+        "jp": "カンディンスキー",
+        "en": "Kandinsky"
+      },
+      "image": "../muse_button_image/kandinsky.png"
+    },
+    "courbet": {
+      "name": {
+        "jp": "クールベ",
+        "en": "Courbet"
+      },
+      "image": "../muse_button_image/courbet.png"
+    },
+    "khnopff": {
+      "name": {
+        "jp": "クノップフ",
+        "en": "Khnopff"
+      },
+      "image": "../muse_button_image/khnopff.png"
+    },
+    "grimshaw": {
+      "name": {
+        "jp": "グリムショー",
+        "en": "Grimshaw"
+      },
+      "image": "../muse_button_image/grimshaw.png"
+    },
+    "klimt": {
+      "name": {
+        "jp": "クリムト",
+        "en": "Klimt"
+      },
+      "image": "../muse_button_image/klimt.png"
+    },
+    "gros": {
+      "name": {
+        "jp": "グロ",
+        "en": "Gros"
+      },
+      "image": "../muse_button_image/gros.png"
+    },
+    "gauguin": {
+      "name": {
+        "jp": "ゴーギャン",
+        "en": "Gauguin"
+      },
+      "image": "../muse_button_image/gauguin.png"
+    },
+    "gogh": {
+      "name": {
+        "jp": "ゴッホ",
+        "en": "Gogh"
+      },
+      "image": "../muse_button_image/gogh.png"
+    },
+    "goya": {
+      "name": {
+        "jp": "ゴヤ",
+        "en": "Goya"
+      },
+      "image": "../muse_button_image/goya.png"
+    },
+    "sargent": {
+      "name": {
+        "jp": "サージェント",
+        "en": "Sargent"
+      },
+      "image": "../muse_button_image/sargent.png"
+    },
+    "schiele": {
+      "name": {
+        "jp": "シーレ",
+        "en": "Schiele"
+      },
+      "image": "../muse_button_image/schiele.png"
+    },
+    "gerard": {
+      "name": {
+        "jp": "ジェラール",
+        "en": "Gerard"
+      },
+      "image": "../muse_button_image/gerard.png"
+    },
+    "giacometti": {
+      "name": {
+        "jp": "ジャコメッティ",
+        "en": "Giacometti"
+      },
+      "image": "../muse_button_image/giacometti.png"
+    },
+    "giotto": {
+      "name": {
+        "jp": "ジョット",
+        "en": "Giotto"
+      },
+      "image": "../muse_button_image/giotto.png"
+    },
+    "seurat": {
+      "name": {
+        "jp": "スーラ",
+        "en": "Seurat"
+      },
+      "image": "../muse_button_image/seurat.png"
+    },
+    "serusier": {
+      "name": {
+        "jp": "セリュジエ",
+        "en": "Serusier"
+      },
+      "image": "../muse_button_image/serusier.png"
+    },
+    "david": {
+      "name": {
+        "jp": "ダヴィッド",
+        "en": "David"
+      },
+      "image": "../muse_button_image/david.png"
+    },
+    "dali": {
+      "name": {
+        "jp": "ダリ",
+        "en": "Dali"
+      },
+      "image": "../muse_button_image/dali.png"
+    },
+    "durer": {
+      "name": {
+        "jp": "デューラー",
+        "en": "Durer"
+      },
+      "image": "../muse_button_image/durer.png"
+    },
+    "duchamp": {
+      "name": {
+        "jp": "デュシャン",
+        "en": "Duchamp"
+      },
+      "image": "../muse_button_image/duchamp.png"
+    },
+    "degas": {
+      "name": {
+        "jp": "ドガ",
+        "en": "Degas"
+      },
+      "image": "../muse_button_image/degas.png"
+    },
+    "delacroix": {
+      "name": {
+        "jp": "ドラクロワ",
+        "en": "Delacroix"
+      },
+      "image": "../muse_button_image/delacroix.png"
+    },
+    "delaroche": {
+      "name": {
+        "jp": "ドラローシュ",
+        "en": "Delaroche"
+      },
+      "image": "../muse_button_image/delaroche.png"
+    },
+    "hammershoi": {
+      "name": {
+        "jp": "ハマスホイ",
+        "en": "Hammershoi"
+      },
+      "image": "../muse_button_image/hammershoi.png"
+    },
+    "hamilton": {
+      "name": {
+        "jp": "ハミルトン",
+        "en": "Hamilton"
+      },
+      "image": "../muse_button_image/hamilton.png"
+    },
+    "varo": {
+      "name": {
+        "jp": "バロ",
+        "en": "Varo"
+      },
+      "image": "../muse_button_image/varo.png"
+    },
+    "banksy": {
+      "name": {
+        "jp": "バンクシー",
+        "en": "Banksy"
+      },
+      "image": "../muse_button_image/banksy.png"
+    },
+    "beardsley": {
+      "name": {
+        "jp": "ビアズリー",
+        "en": "Beardsley"
+      },
+      "image": "../muse_button_image/beardsley.png"
+    },
+    "picasso": {
+      "name": {
+        "jp": "ピカソ",
+        "en": "Picasso"
+      },
+      "image": "../muse_button_image/picasso.png"
+    },
+    "vaneyck": {
+      "name": {
+        "jp": "ファン・エイク",
+        "en": "Vaneyck"
+      },
+      "image": "../muse_button_image/vaneyck.png"
+    },
+    "vermeer": {
+      "name": {
+        "jp": "フェルメール",
+        "en": "Vermeer"
+      },
+      "image": "../muse_button_image/vermeer.png"
+    },
+    "fragonard": {
+      "name": {
+        "jp": "フラゴナール",
+        "en": "Fragonard"
+      },
+      "image": "../muse_button_image/fragonard.png"
+    },
+    "braque": {
+      "name": {
+        "jp": "ブラック",
+        "en": "Braque"
+      },
+      "image": "../muse_button_image/braque.png"
+    },
+    "brancusi": {
+      "name": {
+        "jp": "ブランクーシ",
+        "en": "Brancusi"
+      },
+      "image": "../muse_button_image/brancusi.png"
+    },
+    "friedrich": {
+      "name": {
+        "jp": "フリードリヒ",
+        "en": "Friedrich"
+      },
+      "image": "../muse_button_image/friedrich.png"
+    },
+    "bruegel": {
+      "name": {
+        "jp": "ブリューゲル",
+        "en": "Bruegel"
+      },
+      "image": "../muse_button_image/bruegel.png"
+    },
+    "blake": {
+      "name": {
+        "jp": "ブレイク",
+        "en": "Blake"
+      },
+      "image": "../muse_button_image/blake.png"
+    },
+    "bacon": {
+      "name": {
+        "jp": "ベーコン",
+        "en": "Bacon"
+      },
+      "image": "../muse_button_image/bacon.png"
+    },
+    "beksinski": {
+      "name": {
+        "jp": "ベクシンスキー",
+        "en": "Beksinski"
+      },
+      "image": "../muse_button_image/beksinski.png"
+    },
+    "becklin": {
+      "name": {
+        "jp": "ベックリン",
+        "en": "Becklin"
+      },
+      "image": "../muse_button_image/becklin.png"
+    },
+    "velezquez": {
+      "name": {
+        "jp": "ベラスケス",
+        "en": "Velezquez"
+      },
+      "image": "../muse_button_image/velezquez.png"
+    },
+    "haring": {
+      "name": {
+        "jp": "ヘリング",
+        "en": "Haring"
+      },
+      "image": "../muse_button_image/haring.png"
+    },
+    "hogarth": {
+      "name": {
+        "jp": "ホガース",
+        "en": "Hogarth"
+      },
+      "image": "../muse_button_image/hogarth.png"
+    },
+    "bosch": {
+      "name": {
+        "jp": "ボッス",
+        "en": "Bosch"
+      },
+      "image": "../muse_button_image/bosch.png"
+    },
+    "boccioni": {
+      "name": {
+        "jp": "ボッチョーニ",
+        "en": "Boccioni"
+      },
+      "image": "../muse_button_image/boccioni.png"
+    },
+    "botticelli": {
+      "name": {
+        "jp": "ボッティチェリ",
+        "en": "Botticelli"
+      },
+      "image": "../muse_button_image/botticelli.png"
+    },
+    "magritte": {
+      "name": {
+        "jp": "マグリット",
+        "en": "Magritte"
+      },
+      "image": "../muse_button_image/magritte.png"
+    },
+    "matisse": {
+      "name": {
+        "jp": "マティス",
+        "en": "Matisse"
+      },
+      "image": "../muse_button_image/matisse.png"
+    },
+    "manet": {
+      "name": {
+        "jp": "マネ",
+        "en": "Manet"
+      },
+      "image": "../muse_button_image/manet.png"
+    },
+    "malevich": {
+      "name": {
+        "jp": "マレーヴィチ",
+        "en": "Malevich"
+      },
+      "image": "../muse_button_image/malevich.png"
+    },
+    "michelangelo": {
+      "name": {
+        "jp": "ミケランジェロ",
+        "en": "Michelangelo"
+      },
+      "image": "../muse_button_image/michelangelo.png"
+    },
+    "mucha": {
+      "name": {
+        "jp": "ミュシャ",
+        "en": "Mucha"
+      },
+      "image": "../muse_button_image/mucha.png"
+    },
+    "millais": {
+      "name": {
+        "jp": "ミレイ",
+        "en": "Millais"
+      },
+      "image": "../muse_button_image/millais.png"
+    },
+    "millet": {
+      "name": {
+        "jp": "ミレー",
+        "en": "Millet"
+      },
+      "image": "../muse_button_image/millet.png"
+    },
+    "munch": {
+      "name": {
+        "jp": "ムンク",
+        "en": "Munch"
+      },
+      "image": "../muse_button_image/munch.png"
+    },
+    "monet": {
+      "name": {
+        "jp": "モネ",
+        "en": "Monet"
+      },
+      "image": "../muse_button_image/monet.png"
+    },
+    "moreau": {
+      "name": {
+        "jp": "モロー",
+        "en": "Moreau"
+      },
+      "image": "../muse_button_image/moreau.png"
+    },
+    "mondrian": {
+      "name": {
+        "jp": "モンドリアン",
+        "en": "Mondrian"
+      },
+      "image": "../muse_button_image/mondrian.png"
+    },
+    "latour": {
+      "name": {
+        "jp": "ラ・トゥール",
+        "en": "Latour"
+      },
+      "image": "../muse_button_image/latour.png"
+    },
+    "lichtenstein": {
+      "name": {
+        "jp": "リキテンスタイン",
+        "en": "Lichtenstein"
+      },
+      "image": "../muse_button_image/lichtenstein.png"
+    },
+    "rubens": {
+      "name": {
+        "jp": "ルーベンス",
+        "en": "Rubens"
+      },
+      "image": "../muse_button_image/rubens.png"
+    },
+    "rousseau": {
+      "name": {
+        "jp": "ルソー",
+        "en": "Rousseau"
+      },
+      "image": "../muse_button_image/rousseau.png"
+    },
+    "redon": {
+      "name": {
+        "jp": "ルドン",
+        "en": "Redon"
+      },
+      "image": "../muse_button_image/redon.png"
+    },
+    "renoir": {
+      "name": {
+        "jp": "ルノワール",
+        "en": "Renoir"
+      },
+      "image": "../muse_button_image/renoir.png"
+    },
+    "repin": {
+      "name": {
+        "jp": "レーピン",
+        "en": "Repin"
+      },
+      "image": "../muse_button_image/repin.png"
+    },
+    "leonardo": {
+      "name": {
+        "jp": "レオナルド",
+        "en": "Leonardo"
+      },
+      "image": "../muse_button_image/leonardo.png"
+    },
+    "rembrandt": {
+      "name": {
+        "jp": "レンブラント",
+        "en": "Rembrandt"
+      },
+      "image": "../muse_button_image/rembrandt.png"
+    },
+    "dechirico": {
+      "name": {
+        "jp": "デ・キリコ",
+        "en": "Dechirico"
+      },
+      "image": "../muse_button_image/dechirico.png"
+    },
+    "gericault": {
+      "name": {
+        "jp": "ジェリコー",
+        "en": "Gericault"
+      },
+      "image": "../muse_button_image/gericault.png"
+    },
+    "girodet": {
+      "name": {
+        "jp": "ジロデ",
+        "en": "Girodet"
+      },
+      "image": "../muse_button_image/girodet.png"
+    },
+    "turner": {
+      "name": {
+        "jp": "ターナー",
+        "en": "Turner"
+      },
+      "image": "../muse_button_image/turner.png"
+    },
+    "hunt": {
+      "name": {
+        "jp": "ハント",
+        "en": "Hunt"
+      },
+      "image": "../muse_button_image/hunt.png"
+    },
+    "boucher": {
+      "name": {
+        "jp": "ブーシェ",
+        "en": "Boucher"
+      },
+      "image": "../muse_button_image/boucher.png"
+    },
+    "bouguereau": {
+      "name": {
+        "jp": "ブグロー",
+        "en": "Bouguereau"
+      },
+      "image": "../muse_button_image/bouguereau.png"
+    },
+    "elgreco": {
+      "name": {
+        "jp": "エル・グレコ",
+        "en": "Elgreco"
+      },
+      "image": "../muse_button_image/elgreco.png"
+    },
+    "canaletto": {
+      "name": {
+        "jp": "カナレット",
+        "en": "Canaletto"
+      },
+      "image": "../muse_button_image/canaletto.png"
+    },
+    "corot": {
+      "name": {
+        "jp": "コロー",
+        "en": "Corot"
+      },
+      "image": "../muse_button_image/corot.png"
+    },
+    "miro": {
+      "name": {
+        "jp": "ミロ",
+        "en": "Miro"
+      },
+      "image": "../muse_button_image/miro.png"
+    }
+  },
+  "relations": {
+    "rembrandt": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "haring",
+              "message": {
+                "jp": "バロック様式の仲間たち！　バロックって期間が長いから、ミューズは他にも、も～っとたくさんいるんだってさ。",
+                "en": "Baroque friends! Since the Baroque period was so long, I hear there are sooo many more muses besides these."
+              }
+            },
+            {
+              "id": "gogh",
+              "message": {
+                "jp": "バロック様式の仲間たち！　バロックって期間が長いから、ミューズは他にも、も～っとたくさんいるんだってさ。",
+                "en": "Baroque friends! Since the Baroque period was so long, I hear there are sooo many more muses besides these."
+              }
             }
-          }
-        ]
-      }
-    ]
+          ]
+        },
+        {
+          "characters": [
+            {
+              "id": "gogh",
+              "message": {
+                "jp": "ゴッホもボクとおなじ地方の出身なんだ！　でもネーデルラントの空って、あんなにウネウネしてたかなぁ？",
+                "en": "Gogh is from the same region as me! But... was the sky in the Netherlands really that wavy?"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "monet": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "rembrandt",
+              "message": {
+                "jp": "test",
+                "en": "test"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gogh": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "rembrandt",
+              "message": {
+                "jp": "test",
+                "en": "test"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "david": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "ingres",
+              "message": {
+                "jp": "test2",
+                "en": "test2"
+              }
+            },
+            {
+              "id": "gerard",
+              "message": {
+                "jp": "test3",
+                "en": "test3"
+              }
+            },
+            {
+              "id": "gros",
+              "message": {
+                "jp": "test4",
+                "en": "test4"
+              }
+            },
+            {
+              "id": "girodet",
+              "message": {
+                "jp": "test5",
+                "en": "test5"
+              }
+            }
+          ]
+        }
+      ]
+    }
   }
 }

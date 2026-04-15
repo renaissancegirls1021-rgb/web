@@ -194,61 +194,16 @@ A Message from Rembrandt
 </div><!--relate_area-->
 </div><!--window-->
 
-</body>
+<script src="../js/relate.js"></script>
 
 <div class="return">
 <a href="../index_en.html#muse_list">Return to the Muse List</a>
 </div>
+
+</body>
 
 <!-- フッター -->
 <?php include($_SERVER['DOCUMENT_ROOT'] . '/rune/include/footer.php'); ?>
 <!-- フッターここまで -->
 
 
-
-<script>
-const current = "rembrandt";
-const lang = location.pathname.includes("_jp") ? "jp" : "en";
-
-fetch("../data/relate.json")
-  .then(res => res.json())
-  .then(data => {
-    const container = document.getElementById("relate");
-    const groups = data[current].groups;
-
-    groups.forEach(group => {
-
-      let buttonsHTML = "";
-
-      group.characters.forEach(ch => {
-        const c = data[ch.id];
-
-        buttonsHTML += `
-          <a class="button hover ${ch.id}" href="${ch.id}_${lang}.html">
-            <div class="slash"><div class="slash_2"><div class="slash_3"></div></div></div>
-            <img src="${c.image}" alt="${c.name}">
-            <div class="button_name">${c.name[lang]}</div>
-          </a>
-        `;
-      });
-
-      const message = group.characters[0].message[lang];
-
-      container.innerHTML += `
-        <div class="relate_block">
-
-          <div class="relate_group">
-            ${buttonsHTML}
-          </div>
-
-          <div class="relate_message">
-            <img src="../x_image/x_${current}.png" alt="${current}">
-            <p>${message}</p>
-          </div>
-
-        </div>
-      `;
-    });
-
-  });
-</script>
