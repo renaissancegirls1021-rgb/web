@@ -1,47 +1,45 @@
-window.addEventListener("DOMContentLoaded", () => {
+const current = document.body.classList[0];
+const lang = location.pathname.includes("_jp") ? "jp" : "en";
 
-  const lang = location.pathname.includes("_jp") ? "jp" : "en";
-  const current = document.body.classList[0];
+fetch("../data/relate.json")
+  .then(res => res.json())
+  .then(data => {
 
-  fetch("../data/relate.json")
-    .then(res => res.json())
-    .then(data => {
-      const container = document.getElementById("relate");
-      if (!container) return;
+    const container = document.getElementById("relate");
+    const characters = data.characters;
+    const groups = data.relations[current]?.groups;
 
-      const characters = data.characters;
-      const groups = data.relations[current]?.groups;
+    if (!groups || !container) return;
 
-      if (!groups) return;
+    groups.forEach(group => {
 
-      groups.forEach(group => {
-        let buttonsHTML = "";
+      let buttonsHTML = "";
 
-        group.characters.forEach(ch => {
-          const c = characters[ch.id];
-          if (!c) return;
+      group.characters.forEach(ch => {
+        const c = characters[ch.id];
+        if (!c) return;
 
-          buttonsHTML += `
-            <a class="button hover ${ch.id}" href="${ch.id}_${lang}.html">
-              <img src="${c.image}" alt="${c.name[lang]}">
-              <div class="button_name">${c.name[lang]}</div>
-            </a>
-          `;
-        });
-
-        const message = group.characters[0]?.message?.[lang] || "";
-
-        container.innerHTML += `
-          <div class="relate_block">
-            <div class="relate_group">${buttonsHTML}</div>
-            <div class="relate_message">
-              <img src="../x_image/x_${current}.png">
-              <p>${message}</p>
-            </div>
-          </div>
+        buttonsHTML += `
+          <a class="button ${ch.id}" href="${ch.id}_${lang}.html">
+            <img src="../muse_button_image/${ch.id}_b.png">
+            <div class="button_name">${c.name[lang]}</div>
+          </a>
         `;
       });
 
+      const message = group.characters[0]?.message?.[lang] || "";
+
+      container.innerHTML += `
+        <div class="relate_block">
+          <div class="relate_group">
+            ${buttonsHTML}
+          </div>
+          <div class="relate_message">
+            <img src="../face_image/${current}_f.png">
+            <p>${message}</p>
+          </div>
+        </div>
+      `;
     });
 
-});
+  });

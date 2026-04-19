@@ -16,7 +16,7 @@
 <meta name="twitter:domain" content="renaissancegirls1021-rgb.github.io" />
 <meta name="twitter:title" content="ベックリン｜ルネサンスガールズ" />
 <meta name="twitter:description" content="見るものを幻想へといざなう、死と生の水先案内人" />
-<meta name="twitter:image" content="https://renaissancegirls1021-rgb.github.io/web/x_image/becklin_x.png?v=2" />
+<meta name="twitter:image" content="https://renaissancegirls1021-rgb.github.io/web/x_image/becklin_x.png" />
 
 <!-- css -->
 <link rel="stylesheet" href="../css/common.css" type="text/css">
@@ -32,6 +32,8 @@
 
 </head>
 <body class="becklin">
+
+<main>
 
 <a href="#top" class="pagetop">▲</a>
 
@@ -116,8 +118,14 @@
 </p>
 </div><!-- left-->
 
+<div class="muse_message">
+<img class="img-face" src="" alt="ベックリンの顔アイコン">
+<p>
+『死の島』と対になるように、『生の島』という絵も描いてるんです。明るい絵も描けるってこと、見せていかなきゃ……！
+</p></div>
+
 <div class="credit">
-画像出典:https://commons.wikimedia.org/wiki/File:Arnold_B%C3%B6cklin_-_Die_Toteninsel_I_(Basel,_Kunstmuseum).jpg<br>
+作品画像出典: https://commons.wikimedia.org/wiki/File:Arnold_B%C3%B6cklin_-_Die_Toteninsel_I_(Basel,_Kunstmuseum).jpg<br>
 </div><!-- credit-->
 
 <div class="line"></div>
@@ -130,7 +138,7 @@
 <span class="midashi">寸法</span><br class="br-sp">
 110.9 cm x 156.4 cm<br>
 <span class="midashi">所蔵</span><br class="br-sp">
-バーゼル市立美術館（スイス）<br>
+バーゼル市立美術館<br class="br-sp">（スイス）
 </p>
 
 </div><!--works_area-->
@@ -181,8 +189,19 @@ Arnold Böcklin
 <!-- jsで画像パスを生成 -->
 <script src="../js/imageLoader.js"></script>
 
-</body>
+<!-- 関係ロード -->
 
-<!-- フッター -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/rune/include/footer.php'); ?>
-<!-- フッターここまで -->
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>

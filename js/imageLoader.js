@@ -5,13 +5,15 @@ const paths = {
   muse: `../muse_image/${name}.png`,
   work: `../works_image/${name}_w.png`,
   artist: `../artist_image/${name}_a.png`,
-  x: `../x_image/${name}_x.png`
+  x: `../x_image/${name}_x.png`,
+  face: `../face_image/${name}_f.png` // ←追加
 };
 
 // 画像に適用
 document.querySelector('.img-muse').src = paths.muse;
 document.querySelector('.img-work').src = paths.work;
 document.querySelector('.img-artist').src = paths.artist;
+document.querySelector('.img-face').src = paths.face; // ←追加
 
 // Twitterカードも変更（重要）
 const twitterImg = document.querySelector('meta[name="twitter:image"]');

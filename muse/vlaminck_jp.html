@@ -33,6 +33,8 @@
 </head>
 <body class="vlaminck">
 
+<main>
+
 <a href="#top" class="pagetop">▲</a>
 
 <!-- ★★★キャラ画像とセリフ★★★ -->
@@ -112,12 +114,18 @@
 
 <div class="left">
 <p>
-「フォービズム（野獣派）」の先駆けとなるヴラマンクの作品の一つ。フランス・セーヌ川に面する町、シャトーの景色を描いたもので、独学で絵を学んだヴラマンクが愛したファン・ゴッホの影響が感じられる。チューブから出した絵の具をそのまま擦り付けたとも言われる荒い筆致と色彩はまさしく「野獣」の名にふさわしい。<br>
+「フォービスム（野獣派）」の先駆けとなるヴラマンクの作品の一つ。フランス・セーヌ川に面する町、シャトーの景色を描いたもので、独学で絵を学んだヴラマンクが愛したファン・ゴッホの影響が感じられる。チューブから出した絵の具をそのまま擦り付けたとも言われる荒い筆致と色彩はまさしく「野獣」の名にふさわしい。<br>
 </p>
 </div><!-- left-->
 
+<div class="muse_message">
+<img class="img-face" src="" alt="ヴラマンクの顔アイコン">
+<p>
+シャトーには他の画家も集まってたんだ。絵に描かれてるみたいに、レンガとか瓦でできた赤っぽい家が多いんだゾ。
+</p></div>
+
 <div class="credit">
-画像出典:https://en.wikipedia.org/wiki/File:SeineChatou.JPG<br>
+作品画像出典: https://en.wikipedia.org/wiki/File:SeineChatou.JPG<br>
 </div><!-- credit-->
 
 <div class="line"></div>
@@ -130,7 +138,7 @@
 <span class="midashi">寸法</span><br class="br-sp">
 81.6 cm x 101 cm<br>
 <span class="midashi">所蔵</span><br class="br-sp">
-メトロポリタン美術館（アメリカ）<br>
+メトロポリタン美術館<br class="br-sp">（アメリカ）
 </p>
 
 </div><!--works_area-->
@@ -181,8 +189,19 @@ Maurice de Vlaminck
 <!-- jsで画像パスを生成 -->
 <script src="../js/imageLoader.js"></script>
 
-</body>
+<!-- 関係ロード -->
 
-<!-- フッター -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/rune/include/footer.php'); ?>
-<!-- フッターここまで -->
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>

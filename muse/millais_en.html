@@ -33,6 +33,8 @@ Millais | RenaissanceGirls
 </head>
 <body class="millais">
 
+<main>
+
 <a href="#top" class="pagetop">▲</a>
 
 <!-- ★★★キャラ画像とセリフ★★★ -->
@@ -46,8 +48,7 @@ Millais | RenaissanceGirls
 
 <div class="muse_serif_area">
 <h5>
-Even if I get soaked, it's no big deal~♫
-<br>Isn't that what beauty is all about?
+Even if I get soaked, it's no big deal~♫<br>Isn't that what beauty is all about?
 </h5>
 </div><!--muse_serif_area-->
 
@@ -117,8 +118,14 @@ This painting depicts a woman who appears in Shakespeare's play "Hamlet." When O
 </p>
 </div><!-- left-->
 
+<div class="muse_message">
+<img class="img-face" src="" alt="millais face image">
+<p>
+I painted the plants near the River Hogsmill close to London, and the local pastor actually recorded exactly where I was painting. So diligent—it’s kind of hilarious!
+</p></div>
+
 <div class="credit">
-Image credit:https://publicdomainq.net/john-everett-millais-0015065/<br>
+Works image credit: https://publicdomainq.net/john-everett-millais-0015065/<br>
 </div><!-- credit-->
 
 <div class="line"></div>
@@ -131,7 +138,7 @@ Oil on canvas<br>
 <span class="midashi">Dimension</span><br class="br-sp">
 76.2 cm x 111.8 cm<br>
 <span class="midashi">Collection</span><br class="br-sp">
-Tate Britain (United Kingdom)<br>
+Tate Britain <br class="br-sp">（United Kingdom)
 </p>
 
 </div><!--works_area-->
@@ -182,8 +189,19 @@ August 13, 1896(aged 67)
 <!-- jsで画像パスを生成 -->
 <script src="../js/imageLoader.js"></script>
 
-</body>
+<!-- 関係ロード -->
 
-<!-- フッター -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/rune/include/footer.php'); ?>
-<!-- フッターここまで -->
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>

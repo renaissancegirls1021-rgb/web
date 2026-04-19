@@ -33,6 +33,8 @@
 </head>
 <body class="caravaggio">
 
+<main>
+
 <a href="#top" class="pagetop">▲</a>
 
 <!-- ★★★キャラ画像とセリフ★★★ -->
@@ -116,8 +118,14 @@
 </p>
 </div><!-- left-->
 
+<div class="muse_message">
+<img class="img-face" src="" alt="カラヴァッジョの顔アイコン">
+<p>
+俺様の初めてのデカい仕事、いわばデビュー作だな。世の中にブチかましてやるのは気持ちがいいぜぇ！
+</p></div>
+
 <div class="credit">
-画像出典:https://commons.wikimedia.org/wiki/File:Caravaggio_%E2%80%94_The_Calling_of_Saint_Matthew.jpg<br>
+作品画像出典: https://commons.wikimedia.org/wiki/File:Caravaggio_%E2%80%94_The_Calling_of_Saint_Matthew.jpg<br>
 </div><!-- credit-->
 
 <div class="line"></div>
@@ -130,7 +138,7 @@
 <span class="midashi">寸法</span><br class="br-sp">
 322 cm x 340 cm<br>
 <span class="midashi">所蔵</span><br class="br-sp">
-サン・ルイジ・デイ・フランチェージ教会（イタリア）<br>
+サン・ルイジ・デイ・フランチェージ教会<br class="br-sp">（イタリア）
 </p>
 
 </div><!--works_area-->
@@ -181,8 +189,19 @@ Michelangelo Merisi da Caravaggio
 <!-- jsで画像パスを生成 -->
 <script src="../js/imageLoader.js"></script>
 
-</body>
+<!-- 関係ロード -->
 
-<!-- フッター -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/rune/include/footer.php'); ?>
-<!-- フッターここまで -->
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>

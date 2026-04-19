@@ -33,6 +33,8 @@ Kandinsky | RenaissanceGirls
 </head>
 <body class="kandinsky">
 
+<main>
+
 <a href="#top" class="pagetop">▲</a>
 
 <!-- ★★★キャラ画像とセリフ★★★ -->
@@ -46,9 +48,7 @@ Kandinsky | RenaissanceGirls
 
 <div class="muse_serif_area">
 <h5>
-Art should be!
-<br>Float, swirl,
-<br>and boom!
+Art should be!<br>Float, swirl,<br>and boom!
 </h5>
 </div><!--muse_serif_area-->
 
@@ -73,8 +73,8 @@ A passionate explorer of abstract painting,<br>pushing forward with a passionate
 
 <div class="left">
 <p>
-"A member of the Blue Rider group, this Russian muse laid the foundations for abstract painting. Despite her soft, musical rhythmic style, she is as strict as a spear. She is actually an elite graduate of the Faculty of Law at Moscow University.
-"
+A member of the Blue Rider group, this Russian muse laid the foundations for abstract painting. Despite her soft, musical rhythmic style, she is as strict as a spear. She is actually an elite graduate of the Faculty of Law at Moscow University.
+
 </p>
 </div>
 
@@ -119,8 +119,14 @@ This work is considered a masterpiece among the ten "Composition" series, which 
 </p>
 </div><!-- left-->
 
+<div class="muse_message">
+<img class="img-face" src="" alt="kandinsky face image">
+<p>
+Circles and straight lines! When opposing elements blend together—juuuwah~!—this is the kind of experimental painting you get!
+</p></div>
+
 <div class="credit">
-Image credit:https://publicdomainq.net/wassily-kandinsky-0007823/<br>
+Works image credit: https://publicdomainq.net/wassily-kandinsky-0007823/<br>
 </div><!-- credit-->
 
 <div class="line"></div>
@@ -133,7 +139,7 @@ Oil on canvas<br>
 <span class="midashi">Dimension</span><br class="br-sp">
 140 cm x 201 cm<br>
 <span class="midashi">Collection</span><br class="br-sp">
-Guggenheim Museum (USA)<br>
+Guggenheim Museum <br class="br-sp">（USA)
 </p>
 
 </div><!--works_area-->
@@ -184,8 +190,19 @@ December 13, 1944(aged 78)
 <!-- jsで画像パスを生成 -->
 <script src="../js/imageLoader.js"></script>
 
-</body>
+<!-- 関係ロード -->
 
-<!-- フッター -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/rune/include/footer.php'); ?>
-<!-- フッターここまで -->
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>

@@ -16,7 +16,7 @@ Seurat | RenaissanceGirls
 <meta name="twitter:domain" content="renaissancegirls1021-rgb.github.io" />
 <meta name="twitter:title" content="Seurat｜RenaissanceGirls" />
 <meta name="twitter:description" content="The dazzling brilliance of the colors is the result of meticulous technique and calculation." />
-<meta name="twitter:image" content="https://renaissancegirls1021-rgb.github.io/web/x_image/seurat_x.png?v=2" />
+<meta name="twitter:image" content="https://renaissancegirls1021-rgb.github.io/web/x_image/seurat_x.png" />
 
 <!-- css -->
 <link rel="stylesheet" href="../css/common.css" type="text/css">
@@ -32,6 +32,8 @@ Seurat | RenaissanceGirls
 
 </head>
 <body class="seurat">
+
+<main>
 
 <a href="#top" class="pagetop">▲</a>
 
@@ -116,8 +118,14 @@ This is Georges Seurat’s masterpiece, depicting people relaxing on an island i
 </p>
 </div><!-- left-->
 
+<div class="muse_message">
+<img class="img-face" src="" alt="seurat face image">
+<p>
+It was painted around the same time as Bathers at Asnières, and the location, composition, and size are similar. So some people consider them a pair.
+</p></div>
+
 <div class="credit">
-Image credit:https://publicdomainq.net/georges-seurat-0014560/<br>
+Works image credit: https://publicdomainq.net/georges-seurat-0014560/<br>
 </div><!-- credit-->
 
 <div class="line"></div>
@@ -130,7 +138,7 @@ Oil on canvas<br>
 <span class="midashi">Dimension</span><br class="br-sp">
 207.6 cm x 308 cm<br>
 <span class="midashi">Collection</span><br class="br-sp">
-Art Institute of Chicago (USA)<br>
+Art Institute of Chicago <br class="br-sp">（USA)
 </p>
 
 </div><!--works_area-->
@@ -181,8 +189,19 @@ March 29, 1891(aged 31)
 <!-- jsで画像パスを生成 -->
 <script src="../js/imageLoader.js"></script>
 
-</body>
+<!-- 関係ロード -->
 
-<!-- フッター -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/rune/include/footer.php'); ?>
-<!-- フッターここまで -->
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>

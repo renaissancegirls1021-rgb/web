@@ -33,6 +33,8 @@ Monet | RenaissanceGirls
 </head>
 <body class="monet">
 
+<main>
+
 <a href="#top" class="pagetop">▲</a>
 
 <!-- ★★★キャラ画像とセリフ★★★ -->
@@ -46,9 +48,7 @@ Monet | RenaissanceGirls
 
 <div class="muse_serif_area">
 <h5>
-Hehe.
-<br>On a nice day like this,
-<br>how about having tea outside?
+Hehe.<br>On a nice day like this,<br>how about having tea outside?
 </h5>
 </div><!--muse_serif_area-->
 
@@ -118,8 +118,14 @@ This masterpiece by Monet is said to be the origin of the name "Impressionism." 
 </p>
 </div><!-- left-->
 
+<div class="muse_message">
+<img class="img-face" src="" alt="monet face image">
+<p>
+Back when I painted this, landscapes weren’t popular at all. If you didn’t include people, they’d just call you a bad painter.
+</p></div>
+
 <div class="credit">
-Image credit:https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg<br>
+Works image credit: https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg<br>
 </div><!-- credit-->
 
 <div class="line"></div>
@@ -132,7 +138,7 @@ Oil on canvas<br>
 <span class="midashi">Dimension</span><br class="br-sp">
 48 cm x 63 cm<br>
 <span class="midashi">Collection</span><br class="br-sp">
-Marmottan Monet Museum (France)<br>
+Marmottan Monet Museum <br class="br-sp">（France)
 </p>
 
 </div><!--works_area-->
@@ -154,7 +160,7 @@ Claude Monet
 
 <div class="left">
 <p>
-A representative painter of Impressionism and, by extension, of modern French art, Monet focused on capturing the changing light and atmosphere, and the shimmering of the water's surface, creating beautiful works such as "Impression, Sunrise" and "Water Lilies." His style, which seems to be enveloped in gentle light, is widely loved, but his life was far from smooth sailing. He was a painter who persevered through hardship, continuing to explore modern art. In Giverny, France, Monet's final home and gardens remain, and visitors can see the water lilies that he loved.
+A painter who represents Impressionism and, by extension, modern French art. He focused on capturing the changing light and atmosphere, and the shimmering of the water's surface, creating beautiful works such as "Impression, Sunrise" and "Water Lilies." His style, which seems to be enveloped in gentle light, is widely loved, but his life was by no means smooth sailing. He was a painter who continued to explore modern art amidst hardship. In Giverny, France, Monet's final home and gardens remain, and you can see the water lilies that Monet loved.
 </p>
 </div>
 
@@ -183,8 +189,19 @@ December 5, 1926(aged 86)
 <!-- jsで画像パスを生成 -->
 <script src="../js/imageLoader.js"></script>
 
-</body>
+<!-- 関係ロード -->
 
-<!-- フッター -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/rune/include/footer.php'); ?>
-<!-- フッターここまで -->
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>

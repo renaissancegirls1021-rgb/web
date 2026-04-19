@@ -1,9 +1,8 @@
 /*フッター*/
 .footer{
   width: auto;
-  height: 300px;
   margin: 0;
-  padding: 16px auto;
+padding: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,10 +31,18 @@
   width: 64px;
   height: auto;
   margin: 16px auto;
+  display: block; /* ←これ追加すると安定する */
 }
 
 .footer p{
-  width: 100%;
-  height: auto;
+  width: auto;
   margin: 16px auto;
+  font-size: 1.8em;
+  line-height: 1.5;
+}
+
+@media (min-width: 1280px){
+  .footer p{
+    font-size: 1em;
+  }
 }

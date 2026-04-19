@@ -33,6 +33,8 @@
 </head>
 <body class="millais">
 
+<main>
+
 <a href="#top" class="pagetop">▲</a>
 
 <!-- ★★★キャラ画像とセリフ★★★ -->
@@ -116,8 +118,14 @@
 </p>
 </div><!-- left-->
 
+<div class="muse_message">
+<img class="img-face" src="" alt="ミレイの顔アイコン">
+<p>
+植物の部分はロンドンのはずれのホグズミル川ってとこで描いたんだけど、教会の牧師さんが、私がどのへんで描いたか記録に残してたんだよ。ほんっと、マメでウケる～！
+</p></div>
+
 <div class="credit">
-画像出典:https://publicdomainq.net/john-everett-millais-0015065/<br>
+作品画像出典: https://publicdomainq.net/john-everett-millais-0015065/<br>
 </div><!-- credit-->
 
 <div class="line"></div>
@@ -130,7 +138,7 @@
 <span class="midashi">寸法</span><br class="br-sp">
 76.2 cm x 111.8 cm<br>
 <span class="midashi">所蔵</span><br class="br-sp">
-テート・ブリテン（イギリス）<br>
+テート・ブリテン<br class="br-sp">（イギリス）
 </p>
 
 </div><!--works_area-->
@@ -181,8 +189,19 @@ Sir John Everett Millais, 1st Baronet
 <!-- jsで画像パスを生成 -->
 <script src="../js/imageLoader.js"></script>
 
-</body>
+<!-- 関係ロード -->
 
-<!-- フッター -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/rune/include/footer.php'); ?>
-<!-- フッターここまで -->
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>

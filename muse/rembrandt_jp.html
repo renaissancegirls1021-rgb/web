@@ -33,6 +33,8 @@
 </head>
 <body class="rembrandt">
 
+<main>
+
 <a href="#top" class="pagetop">▲</a>
 
 <!-- ★★★キャラ画像とセリフ★★★ -->
@@ -116,8 +118,14 @@
 </p>
 </div><!-- left-->
 
+<div class="muse_message">
+<img class="img-face" src="" alt="レンブラントの顔アイコン">
+<p>
+もともとのサイズはもうちょっと大きかったんだけど、飾る場所を変えた時に、ハミ出た部分を切り取っちゃったんだってさ。
+</p></div>
+
 <div class="credit">
-画像出典:https://publicdomainq.net/rembrandt-0014045/<br>
+作品画像出典: https://publicdomainq.net/rembrandt-0014045/<br>
 </div><!-- credit-->
 
 <div class="line"></div>
@@ -130,7 +138,7 @@
 <span class="midashi">寸法</span><br class="br-sp">
 363 cm x 437 cm<br>
 <span class="midashi">所蔵</span><br class="br-sp">
-アムステルダム国立美術館（オランダ）<br>
+アムステルダム国立美術館<br class="br-sp">（オランダ）
 </p>
 
 </div><!--works_area-->
@@ -181,8 +189,19 @@ Rembrandt Harmenszoon van Rijn
 <!-- jsで画像パスを生成 -->
 <script src="../js/imageLoader.js"></script>
 
-</body>
+<!-- 関係ロード -->
 
-<!-- フッター -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/rune/include/footer.php'); ?>
-<!-- フッターここまで -->
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>

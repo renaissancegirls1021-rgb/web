@@ -33,6 +33,8 @@ Fragonard | RenaissanceGirls
 </head>
 <body class="fragonard">
 
+<main>
+
 <a href="#top" class="pagetop">▲</a>
 
 <!-- ★★★キャラ画像とセリフ★★★ -->
@@ -46,8 +48,7 @@ Fragonard | RenaissanceGirls
 
 <div class="muse_serif_area">
 <h5>
-Kyahaha!
-<br>I'd love to have a love story like that too.
+Kyahaha!<br>I'd love to have a love story like that too.
 </h5>
 </div><!--muse_serif_area-->
 
@@ -117,8 +118,14 @@ A woman swings lightly on a swing. The man pushing the swing on the right is the
 </p>
 </div><!-- left-->
 
+<div class="muse_message">
+<img class="img-face" src="" alt="fragonard face image">
+<p>
+It seems people really loved it—so much that it was parodied twice in that Disney movie! Ufufu~!
+</p></div>
+
 <div class="credit">
-Image credit:https://publicdomainq.net/jean-honore-fragonard-0006929/#google_vignette<br>
+Works image credit: https://publicdomainq.net/jean-honore-fragonard-0006929/#google_vignette<br>
 </div><!-- credit-->
 
 <div class="line"></div>
@@ -131,7 +138,7 @@ Oil on canvas<br>
 <span class="midashi">Dimension</span><br class="br-sp">
 81 cm x 64.2 cm<br>
 <span class="midashi">Collection</span><br class="br-sp">
-Wallace Collection (United Kingdom)<br>
+Wallace Collection <br class="br-sp">（United Kingdom)
 </p>
 
 </div><!--works_area-->
@@ -182,8 +189,19 @@ August 22, 1806(aged 74)
 <!-- jsで画像パスを生成 -->
 <script src="../js/imageLoader.js"></script>
 
-</body>
+<!-- 関係ロード -->
 
-<!-- フッター -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/rune/include/footer.php'); ?>
-<!-- フッターここまで -->
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>

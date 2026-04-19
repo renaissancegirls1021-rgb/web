@@ -33,6 +33,8 @@ Courbet | RenaissanceGirls
 </head>
 <body class="courbet">
 
+<main>
+
 <a href="#top" class="pagetop">▲</a>
 
 <!-- ★★★キャラ画像とセリフ★★★ -->
@@ -46,9 +48,7 @@ Courbet | RenaissanceGirls
 
 <div class="muse_serif_area">
 <h5>
-You bastard!
-<br>Are you even an artist!?
-<br>What can you create without anger!?
+You bastard!<br>Are you even an artist!?<br>What can you create without anger!?
 </h5>
 </div><!--muse_serif_area-->
 
@@ -73,8 +73,8 @@ Cut down anything that gets in your way!<br>Traditions, bad habits, and stone pi
 
 <div class="left">
 <p>
-"She was a problem child in Western art, bursting into the art world with realism at a time when exaggerated depictions of imaginary subjects were the norm. She had a very aggressive and arrogant personality, and she created and destroyed countless things.
-"
+She was a problem child in Western art, bursting into the art world with realism at a time when exaggerated depictions of imaginary subjects were the norm. She had a very aggressive and arrogant personality, and she created and destroyed countless things.
+
 </p>
 </div>
 
@@ -119,8 +119,14 @@ This painting depicts the funeral of a relative held in Ornans, a small town in 
 </p>
 </div><!-- left-->
 
+<div class="muse_message">
+<img class="img-face" src="" alt="courbet face image">
+<p>
+They criticized it for being too huge, so seven years later I painted another massive piece called The Painter’s Studio! Hahaha!
+</p></div>
+
 <div class="credit">
-Image credit:https://publicdomainq.net/gustave-courbet-0014392/<br>
+Works image credit: https://publicdomainq.net/gustave-courbet-0014392/<br>
 </div><!-- credit-->
 
 <div class="line"></div>
@@ -133,7 +139,7 @@ Oil on canvas<br>
 <span class="midashi">Dimension</span><br class="br-sp">
 315 cm x 668 cm<br>
 <span class="midashi">Collection</span><br class="br-sp">
-Musée d'Orsay (France)<br>
+Musée d'Orsay <br class="br-sp">（France)
 </p>
 
 </div><!--works_area-->
@@ -184,8 +190,19 @@ December 31, 1877(aged 58)
 <!-- jsで画像パスを生成 -->
 <script src="../js/imageLoader.js"></script>
 
-</body>
+<!-- 関係ロード -->
 
-<!-- フッター -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/rune/include/footer.php'); ?>
-<!-- フッターここまで -->
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>

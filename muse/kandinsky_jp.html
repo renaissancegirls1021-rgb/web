@@ -33,6 +33,8 @@
 </head>
 <body class="kandinsky">
 
+<main>
+
 <a href="#top" class="pagetop">▲</a>
 
 <!-- ★★★キャラ画像とセリフ★★★ -->
@@ -116,8 +118,14 @@
 </p>
 </div><!-- left-->
 
+<div class="muse_message">
+<img class="img-face" src="" alt="カンディンスキーの顔アイコン">
+<p>
+円と直線！　反対の要素が、じゅわわ～っ！　と交わるとどうなるか、という実験的な絵なのです！
+</p></div>
+
 <div class="credit">
-画像出典:https://publicdomainq.net/wassily-kandinsky-0007823/<br>
+作品画像出典: https://publicdomainq.net/wassily-kandinsky-0007823/<br>
 </div><!-- credit-->
 
 <div class="line"></div>
@@ -130,7 +138,7 @@
 <span class="midashi">寸法</span><br class="br-sp">
 140 cm x 201 cm<br>
 <span class="midashi">所蔵</span><br class="br-sp">
-グッゲンハイム美術館（アメリカ）<br>
+グッゲンハイム美術館<br class="br-sp">（アメリカ）
 </p>
 
 </div><!--works_area-->
@@ -181,8 +189,19 @@ Wassily Wassilyevich Kandinsky
 <!-- jsで画像パスを生成 -->
 <script src="../js/imageLoader.js"></script>
 
-</body>
+<!-- 関係ロード -->
 
-<!-- フッター -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/rune/include/footer.php'); ?>
-<!-- フッターここまで -->
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>

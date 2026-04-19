@@ -33,6 +33,8 @@ Repin | RenaissanceGirls
 </head>
 <body class="repin">
 
+<main>
+
 <a href="#top" class="pagetop">▲</a>
 
 <!-- ★★★キャラ画像とセリフ★★★ -->
@@ -46,9 +48,7 @@ Repin | RenaissanceGirls
 
 <div class="muse_serif_area">
 <h5>
-Aren't you guys
-<br>being too arrogant
-<br>in front of Repin?
+Aren't you guys<br>being too arrogant<br>in front of Repin?
 </h5>
 </div><!--muse_serif_area-->
 
@@ -118,8 +118,14 @@ Sophia was the daughter of the head of the Romanov dynasty, the last dynasty of 
 </p>
 </div><!-- left-->
 
+<div class="muse_message">
+<img class="img-face" src="" alt="repin face image">
+<p>
+You see that black shape outside the window? That’s the corpse of the captain who sided with Sophia! Well? Surprised?
+</p></div>
+
 <div class="credit">
-Image credit:https://commons.wikimedia.org/wiki/File:Sophia_Alekseyevna,_by_Ilya_Repin.jpg<br>
+Works image credit: https://commons.wikimedia.org/wiki/File:Sophia_Alekseyevna,_by_Ilya_Repin.jpg<br>
 </div><!-- credit-->
 
 <div class="line"></div>
@@ -132,7 +138,7 @@ Oil on canvas<br>
 <span class="midashi">Dimension</span><br class="br-sp">
 204.5 cm x 147.7 cm<br>
 <span class="midashi">Collection</span><br class="br-sp">
-Tretyakov Gallery (Russia)<br>
+Tretyakov Gallery <br class="br-sp">（Russia)
 </p>
 
 </div><!--works_area-->
@@ -183,8 +189,19 @@ September 29, 1930(aged 86)
 <!-- jsで画像パスを生成 -->
 <script src="../js/imageLoader.js"></script>
 
-</body>
+<!-- 関係ロード -->
 
-<!-- フッター -->
-<?php include($_SERVER['DOCUMENT_ROOT'] . '/rune/include/footer.php'); ?>
-<!-- フッターここまで -->
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>
