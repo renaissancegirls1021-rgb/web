@@ -730,7 +730,7 @@ line-break: strict; /* 禁則処理を厳格に適用 */
   background: #eeeeee;
   border-radius: 12px;
   flex: 1;
-  font-size: 2em !important;
+  font-size: 2.3em !important;
 }
 
 @media (min-width: 1280px) {
