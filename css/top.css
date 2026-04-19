@@ -11,83 +11,73 @@ html[lang="en"] main {
   font-family: "Poppins", sans-serif;
 }
 
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-
-.rainbow {
-  height: auto;
-  width: 100%;
-}
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* ベース */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
 body {
   color: white;
-  height: 100%;
   margin: 0;
   background-color: #222222;
 }
 
-/*横線*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 言語フォント（超重要） */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+html[lang="ja"]{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+html[lang="en"]{
+  font-family: "Poppins", sans-serif;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 横線 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
 .line_top{
   margin: 3% 10%;
   background-color: #FFCC00;
-  border-radius: 1.5px; /* 線幅の半分 */
-  display: block;
-  height: 3px; /* 線幅 */
+  border-radius: 1.5px;
+  height: 3px;
 }
 
-
-@media screen and (min-width: 1280px) {
-  /*横線*/
+@media (min-width: 1280px) {
   .line_top{
     margin: 3% 30%;
   }
 }
 
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 本文 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
 main p{
   width: 90%;
   margin: auto;
-  color: white;
   font-size: 1.8em;
   text-align: center;
   line-height: 1.6;
 }
 
-/*サブディスプレイ*/
-@media screen and (min-width: 1280px) {
-  p{
+@media (min-width: 1280px) {
+  main p{
     width: 80%;
     font-size: 1.3em;
   }
 }
 
-@media screen and (min-width: 1921px) {
-  p{
+@media (min-width: 1921px) {
+  main p{
     font-size: 1.5em;
   }
 }
 
-html[lang="en"] main p{
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-html[lang="ja"] main p{
-  font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/*スマホの時だけ改行*/
-.br-sp {
-    display: none;
-}
-
-@media (max-width: 1280px) {
-    .br-sp {
-        display: block;
-    }
-}
-
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h1 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
 h1{
   width: 80%;
@@ -97,34 +87,33 @@ h1{
   color: #FFCC00;
 }
 
-/*サブディスプレイ*/
-@media screen and (min-width: 1280px) {
+@media (min-width: 1280px) {
   h1{
-  font-size: 2em;
-  margin: 16px auto;
+    font-size: 2em;
+    margin: 16px auto;
   }
 }
 
-@media screen and (min-width: 1921px) {
+@media (min-width: 1921px) {
   h1{
-  font-size: 2.5em;
-  margin: 32px auto;
+    font-size: 2.5em;
+    margin: 32px auto;
   }
 }
 
-html[lang="en"] h1{
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* スマホ改行 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.br-sp {
+  display: none;
 }
 
-html[lang="ja"] h1{
-  font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+@media (max-width: 1280px) {
+  .br-sp {
+    display: inline;
+  }
 }
-
-
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /*トップ画像*/
@@ -411,56 +400,44 @@ margin: 24px auto;
 /* 様式の見出し */
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-/* 日本語 */
-
-html[lang="ja"] .style-heading{
+/* 共通 */
+.style-heading{
   width: 95%;
   margin: 50px auto 16px;
 
-  font-family: "Zen Kaku Gothic New", sans-serif;
   font-size: 2rem;
-  font-style: normal;
   font-weight: 700;
+  letter-spacing: 0.1em;
 
   border-bottom: 4px solid #ffd700;
-  letter-spacing: 0.1em;
 }
 
-/* 英語 */
+/* 言語別フォント */
+html[lang="ja"] .style-heading{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
 
 html[lang="en"] .style-heading{
-  width: 95%;
-  margin: 50px auto 16px;
-
   font-family: "Poppins", sans-serif;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 700;
-
-  border-bottom: 4px solid #ffd700;
-  letter-spacing: 0.1em;
 }
 
 /* レスポンシブ */
-
-@media screen and (min-width:1280px){
-
-  html[lang="ja"] .style-heading,
-  html[lang="en"] .style-heading{
+@media (min-width:1280px){
+  .style-heading{
     width: 93%;
     margin: 32px auto 16px;
     font-size: 1.5rem;
   }
 }
 
+/* 年号 */
 .year-number {
   font-family: "Poppins", sans-serif;
   font-size: 2rem;
-  font-style: normal;
   font-weight: 700;
 }
 
-@media screen and (min-width:1280px){
+@media (min-width:1280px){
   .year-number {
     font-size: 1.5rem;
   }
