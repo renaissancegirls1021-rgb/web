@@ -46,3 +46,8 @@ padding: 16px;
     font-size: 1em;
   }
 }
+
+/*スマホの時だけ改行*/
+.br-sp {
+    display: none;
+}

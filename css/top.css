@@ -2,12 +2,12 @@
 /*言語*/
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* 日本語用 */
-html[lang="ja"] {
+html[lang="ja"] main {
   font-family: "Zen Kaku Gothic New", sans-serif;
 }
 
 /* 英語用 */
-html[lang="en"] {
+html[lang="en"] main {
   font-family: "Poppins", sans-serif;
 }
 
