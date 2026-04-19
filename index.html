@@ -44,8 +44,6 @@
 
 <body>
 
-<main>
-
 <!-- ★★★英語ページに飛ぶボタン★★★ -->
 <a href="index_en.html" class="language-link">EN</a>
 
@@ -137,20 +135,22 @@
 
 </div><!-- muse_list -->
 
-<!-- フッター　読み込み -->
-<div id="footer"></div>
-
-<script>
-fetch("../include/footer.html")
-.then(response => response.text())
-.then(data => {
-document.getElementById("footer").innerHTML = data;
-});
-</script>
-
-</main>
-
 </body>
+
+<!-- フッター -->
+<div class="footer">
+<a class="twitter" href="https://x.com/LoeilTrompe">
+<img src="image/twitter_icon.png" alt="grimshaw">
+</a>
+<p>
+since 2026.3.12<br>
+Unauthorized copying and replication of the contents of this site,<br>
+text and images are strictly prohibited.
+</p>
+</div>
+
+<!-- <?php include(dirname(__FILE__).'/include/footer.php'); ?>-->
+<!-- フッターここまで -->
 
 <!-- ソート用スクリプト -->
 
