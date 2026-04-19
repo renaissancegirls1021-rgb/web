@@ -364,7 +364,7 @@ hyphens: auto;
 .midashi{
   width: 40%;
   padding: 0% 5%;
-  margin: 10px auto;
+  margin: 20px auto;
   color: var(--font-color);
   background: var(--main-color);
   display: inline-block;
