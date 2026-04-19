@@ -28,11 +28,18 @@ padding: 16px;
 }
 
 .footer img{
-  width: 64px;
+  width: 120px;
   height: auto;
   margin: 16px auto;
-  display: block; /* ←これ追加すると安定する */
+  display: block;
 }
+
+@media (min-width: 1280px){
+  .footer img{
+    width: 200px;
+  }
+}
+
 
 .footer p{
   width: auto;
