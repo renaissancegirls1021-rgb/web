@@ -735,7 +735,7 @@ line-break: strict; /* 禁則処理を厳格に適用 */
   flex-direction: column;
   align-items: center;
 
-  padding: 4px 32px;
+  padding: 16px 32px;
   background: white;
   border-radius: 16px;
   border: 8px solid var(--sub-color);
@@ -749,7 +749,7 @@ line-break: strict; /* 禁則処理を厳格に適用 */
     flex-direction: row;
     align-items: center;
 
-    padding: 4px 32px;
+    padding: 16px 32px;
     background: white;
     border-radius: 16px;
     border: 8px solid var(--sub-color);
