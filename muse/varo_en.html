@@ -11,6 +11,9 @@ Varo | RenaissanceGirls
 <meta name="format-detection" content="telephone=no">
 <meta name="description" content="【The mysteriously shining moonlight is a guide to a mysterious world】An Original Character inspired by the artist Varo.">
 
+<meta property="og:site_name" content="RenaissanceGirls">
+<meta name="application-name" content="RenaissanceGirls">
+
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@LoeilTrompe" />
 <meta name="twitter:domain" content="renaissancegirls1021-rgb.github.io" />
@@ -30,6 +33,9 @@ Varo | RenaissanceGirls
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap" rel="stylesheet">
 
+<!-- 立ち絵preload -->
+<link rel="preload" as="image" href="../muse_image/varo.png">
+
 </head>
 <body class="varo">
 
@@ -43,7 +49,7 @@ Varo | RenaissanceGirls
 <div class="muse_area">
 
 <div class="muse_image_area">
-<img class="img-muse" src="" alt="varo character art">
+<img class="img-muse" src="../muse_image/varo.png" alt="varo character art">
 </div><!--muse_image_area-->
 
 <div class="muse_serif_area">
@@ -114,7 +120,7 @@ Creation of the Birds
 
 <div class="left">
 <p>
-A woman (presumably) clad in feathers is painting. A bird, painted with starlight pigments, escapes the paper and flies off into the starry sky again. Varo studied the occult with his close friend, the painter Leonora Carrington, and the work is peppered with motifs alluding to alchemy and magic, creating an unparalleled sense of mystery.<br>
+A woman （presumably） clad in feathers is painting. A bird, painted with starlight pigments, escapes the paper and flies off into the starry sky again. Varo studied the occult with his close friend, the painter Leonora Carrington, and the work is peppered with motifs alluding to alchemy and magic, creating an unparalleled sense of mystery.<br>
 </p>
 </div><!-- left-->
 
@@ -201,5 +207,8 @@ fetch("../include/footer.html")
 document.getElementById("footer").innerHTML = data;
 });
 </script>
+
+<!-- フェードイン -->
+<script src="../js/fadein.js"></script>
 
 </body>
