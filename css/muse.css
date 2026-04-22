@@ -497,6 +497,15 @@ object-fit: contain;
   }
 }
 
+/*フェードイン*/
+.img-muse {
+  opacity: 0;
+  transition: opacity 0.1s ease;
+}
+
+.img-muse.loaded {
+  opacity: 1;
+}
 
 /*セリフエリア*/
 .muse_serif_area{
