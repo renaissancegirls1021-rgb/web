@@ -17,7 +17,8 @@ fetch("../data/relate.json")
 
       group.characters.forEach(ch => {
         const c = characters[ch.id];
-        if (!c) return;
+
+        if (!c || !c.published) return; // ←これ追加
 
         buttonsHTML += `
           <a class="button ${ch.id}" href="${ch.id}_${lang}.html">
