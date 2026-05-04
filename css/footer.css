@@ -27,15 +27,15 @@ padding: 16px;
   }
 }
 
-.footer img{
+.footer .twitter{
   width: 120px;
   height: auto;
-  margin: 16px auto;
+  margin: 0;
   display: block;
 }
 
 @media (min-width: 1280px){
-  .footer img{
+  .footer .twitter{
     width: 80px;
   }
 }
@@ -52,4 +52,12 @@ padding: 16px;
   .footer p{
     font-size: 1em;
   }
+}
+
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
 }
