@@ -128,7 +128,7 @@ html:lang(en) .button_name{
 
 @media screen and (min-width: 1280px){
   html:lang(ja) .button_name{
-    font-size: 0.7em;
+    font-size: 1em;
   }
   html:lang(en) .button_name{
     font-size: 1em;
@@ -138,7 +138,7 @@ html:lang(en) .button_name{
 @media screen and (min-width: 1921px){
   html:lang(ja) .button_name,
   html:lang(en) .button_name{
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 

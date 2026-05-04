@@ -5,628 +5,1126 @@
         "jp": "アルチンボルド",
         "en": "Arcimboldo"
       },
-      "image": "../muse_button_image/arcimboldo_b.png"
+      "image": "../muse_button_image/arcimboldo_b.png",
+      "published": false
     },
     "ingres": {
       "name": {
         "jp": "アングル",
         "en": "Ingres"
       },
-      "image": "../muse_button_image/ingres_b.png"
+      "image": "../muse_button_image/ingres_b.png",
+      "published": true
     },
     "ensor": {
       "name": {
         "jp": "アンソール",
         "en": "Ensor"
       },
-      "image": "../muse_button_image/ensor_b.png"
+      "image": "../muse_button_image/ensor_b.png",
+      "published": false
     },
     "warhol": {
       "name": {
         "jp": "ウォーホル",
         "en": "Warhol"
       },
-      "image": "../muse_button_image/warhol_b.png"
+      "image": "../muse_button_image/warhol_b.png",
+      "published": false
     },
     "vlaminck": {
       "name": {
         "jp": "ヴラマンク",
         "en": "Vlaminck"
       },
-      "image": "../muse_button_image/vlaminck_b.png"
+      "image": "../muse_button_image/vlaminck_b.png",
+      "published": true
     },
     "escher": {
       "name": {
         "jp": "エッシャー",
         "en": "Escher"
       },
-      "image": "../muse_button_image/escher_b.png"
+      "image": "../muse_button_image/escher_b.png",
+      "published": false
     },
     "ernst": {
       "name": {
         "jp": "エルンスト",
         "en": "Ernst"
       },
-      "image": "../muse_button_image/ernst_b.png"
+      "image": "../muse_button_image/ernst_b.png",
+      "published": true
     },
     "cabanel": {
       "name": {
         "jp": "カバネル",
         "en": "Cabanel"
       },
-      "image": "../muse_button_image/cabanel_b.png"
+      "image": "../muse_button_image/cabanel_b.png",
+      "published": false
     },
     "caravaggio": {
       "name": {
         "jp": "カラヴァッジョ",
         "en": "Caravaggio"
       },
-      "image": "../muse_button_image/caravaggio_b.png"
+      "image": "../muse_button_image/caravaggio_b.png",
+      "published": true
     },
     "kandinsky": {
       "name": {
         "jp": "カンディンスキー",
         "en": "Kandinsky"
       },
-      "image": "../muse_button_image/kandinsky_b.png"
+      "image": "../muse_button_image/kandinsky_b.png",
+      "published": true
     },
     "courbet": {
       "name": {
         "jp": "クールベ",
         "en": "Courbet"
       },
-      "image": "../muse_button_image/courbet_b.png"
+      "image": "../muse_button_image/courbet_b.png",
+      "published": true
     },
     "khnopff": {
       "name": {
         "jp": "クノップフ",
         "en": "Khnopff"
       },
-      "image": "../muse_button_image/khnopff_b.png"
+      "image": "../muse_button_image/khnopff_b.png",
+      "published": false
     },
     "grimshaw": {
       "name": {
         "jp": "グリムショー",
         "en": "Grimshaw"
       },
-      "image": "../muse_button_image/grimshaw_b.png"
+      "image": "../muse_button_image/grimshaw_b.png",
+      "published": true
     },
     "klimt": {
       "name": {
         "jp": "クリムト",
         "en": "Klimt"
       },
-      "image": "../muse_button_image/klimt_b.png"
+      "image": "../muse_button_image/klimt_b.png",
+      "published": true
     },
     "gros": {
       "name": {
         "jp": "グロ",
         "en": "Gros"
       },
-      "image": "../muse_button_image/gros_b.png"
+      "image": "../muse_button_image/gros_b.png",
+      "published": false
     },
     "gauguin": {
       "name": {
         "jp": "ゴーギャン",
         "en": "Gauguin"
       },
-      "image": "../muse_button_image/gauguin_b.png"
+      "image": "../muse_button_image/gauguin_b.png",
+      "published": false
     },
     "gogh": {
       "name": {
         "jp": "ゴッホ",
         "en": "Gogh"
       },
-      "image": "../muse_button_image/gogh_b.png"
+      "image": "../muse_button_image/gogh_b.png",
+      "published": true
     },
     "goya": {
       "name": {
         "jp": "ゴヤ",
         "en": "Goya"
       },
-      "image": "../muse_button_image/goya_b.png"
+      "image": "../muse_button_image/goya_b.png",
+      "published": true
     },
     "sargent": {
       "name": {
         "jp": "サージェント",
         "en": "Sargent"
       },
-      "image": "../muse_button_image/sargent_b.png"
+      "image": "../muse_button_image/sargent_b.png",
+      "published": false
     },
     "schiele": {
       "name": {
         "jp": "シーレ",
         "en": "Schiele"
       },
-      "image": "../muse_button_image/schiele_b.png"
+      "image": "../muse_button_image/schiele_b.png",
+      "published": false
     },
     "gerard": {
       "name": {
         "jp": "ジェラール",
         "en": "Gerard"
       },
-      "image": "../muse_button_image/gerard_b.png"
+      "image": "../muse_button_image/gerard_b.png",
+      "published": true
     },
     "giacometti": {
       "name": {
         "jp": "ジャコメッティ",
         "en": "Giacometti"
       },
-      "image": "../muse_button_image/giacometti_b.png"
+      "image": "../muse_button_image/giacometti_b.png",
+      "published": true
     },
     "giotto": {
       "name": {
         "jp": "ジョット",
         "en": "Giotto"
       },
-      "image": "../muse_button_image/giotto_b.png"
+      "image": "../muse_button_image/giotto_b.png",
+      "published": true
     },
     "seurat": {
       "name": {
         "jp": "スーラ",
         "en": "Seurat"
       },
-      "image": "../muse_button_image/seurat_b.png"
+      "image": "../muse_button_image/seurat_b.png",
+      "published": true
     },
     "serusier": {
       "name": {
         "jp": "セリュジエ",
         "en": "Serusier"
       },
-      "image": "../muse_button_image/serusier_b.png"
+      "image": "../muse_button_image/serusier_b.png",
+      "published": true
     },
     "david": {
       "name": {
         "jp": "ダヴィッド",
         "en": "David"
       },
-      "image": "../muse_button_image/david_b.png"
+      "image": "../muse_button_image/david_b.png",
+      "published": true
     },
     "dali": {
       "name": {
         "jp": "ダリ",
         "en": "Dali"
       },
-      "image": "../muse_button_image/dali_b.png"
+      "image": "../muse_button_image/dali_b.png",
+      "published": true
     },
     "durer": {
       "name": {
         "jp": "デューラー",
         "en": "Durer"
       },
-      "image": "../muse_button_image/durer_b.png"
+      "image": "../muse_button_image/durer_b.png",
+      "published": false
     },
     "duchamp": {
       "name": {
         "jp": "デュシャン",
         "en": "Duchamp"
       },
-      "image": "../muse_button_image/duchamp_b.png"
+      "image": "../muse_button_image/duchamp_b.png",
+      "published": false
     },
     "degas": {
       "name": {
         "jp": "ドガ",
         "en": "Degas"
       },
-      "image": "../muse_button_image/degas_b.png"
+      "image": "../muse_button_image/degas_b.png",
+      "published": false
     },
     "delacroix": {
       "name": {
         "jp": "ドラクロワ",
         "en": "Delacroix"
       },
-      "image": "../muse_button_image/delacroix_b.png"
+      "image": "../muse_button_image/delacroix_b.png",
+      "published": true
     },
     "delaroche": {
       "name": {
         "jp": "ドラローシュ",
         "en": "Delaroche"
       },
-      "image": "../muse_button_image/delaroche_b.png"
+      "image": "../muse_button_image/delaroche_b.png",
+      "published": false
     },
     "hammershoi": {
       "name": {
         "jp": "ハマスホイ",
         "en": "Hammershoi"
       },
-      "image": "../muse_button_image/hammershoi_b.png"
+      "image": "../muse_button_image/hammershoi_b.png",
+      "published": false
     },
     "hamilton": {
       "name": {
         "jp": "ハミルトン",
         "en": "Hamilton"
       },
-      "image": "../muse_button_image/hamilton_b.png"
+      "image": "../muse_button_image/hamilton_b.png",
+      "published": false
     },
     "varo": {
       "name": {
         "jp": "バロ",
         "en": "Varo"
       },
-      "image": "../muse_button_image/varo_b.png"
+      "image": "../muse_button_image/varo_b.png",
+      "published": true
     },
     "banksy": {
       "name": {
         "jp": "バンクシー",
         "en": "Banksy"
       },
-      "image": "../muse_button_image/banksy_b.png"
+      "image": "../muse_button_image/banksy_b.png",
+      "published": false
     },
     "beardsley": {
       "name": {
         "jp": "ビアズリー",
         "en": "Beardsley"
       },
-      "image": "../muse_button_image/beardsley_b.png"
+      "image": "../muse_button_image/beardsley_b.png",
+      "published": true
     },
     "picasso": {
       "name": {
         "jp": "ピカソ",
         "en": "Picasso"
       },
-      "image": "../muse_button_image/picasso_b.png"
+      "image": "../muse_button_image/picasso_b.png",
+      "published": false
     },
     "vaneyck": {
       "name": {
         "jp": "ファン・エイク",
         "en": "Vaneyck"
       },
-      "image": "../muse_button_image/vaneyck_b.png"
+      "image": "../muse_button_image/vaneyck_b.png",
+      "published": false
     },
     "vermeer": {
       "name": {
         "jp": "フェルメール",
         "en": "Vermeer"
       },
-      "image": "../muse_button_image/vermeer_b.png"
+      "image": "../muse_button_image/vermeer_b.png",
+      "published": false
     },
     "fragonard": {
       "name": {
         "jp": "フラゴナール",
         "en": "Fragonard"
       },
-      "image": "../muse_button_image/fragonard_b.png"
+      "image": "../muse_button_image/fragonard_b.png",
+      "published": true
     },
     "braque": {
       "name": {
         "jp": "ブラック",
         "en": "Braque"
       },
-      "image": "../muse_button_image/braque_b.png"
+      "image": "../muse_button_image/braque_b.png",
+      "published": false
     },
     "brancusi": {
       "name": {
         "jp": "ブランクーシ",
         "en": "Brancusi"
       },
-      "image": "../muse_button_image/brancusi_b.png"
+      "image": "../muse_button_image/brancusi_b.png",
+      "published": false
     },
     "friedrich": {
       "name": {
         "jp": "フリードリヒ",
         "en": "Friedrich"
       },
-      "image": "../muse_button_image/friedrich_b.png"
+      "image": "../muse_button_image/friedrich_b.png",
+      "published": false
     },
     "bruegel": {
       "name": {
         "jp": "ブリューゲル",
         "en": "Bruegel"
       },
-      "image": "../muse_button_image/bruegel_b.png"
+      "image": "../muse_button_image/bruegel_b.png",
+      "published": true
     },
     "blake": {
       "name": {
         "jp": "ブレイク",
         "en": "Blake"
       },
-      "image": "../muse_button_image/blake_b.png"
+      "image": "../muse_button_image/blake_b.png",
+      "published": false
     },
     "bacon": {
       "name": {
         "jp": "ベーコン",
         "en": "Bacon"
       },
-      "image": "../muse_button_image/bacon_b.png"
+      "image": "../muse_button_image/bacon_b.png",
+      "published": false
     },
     "beksinski": {
       "name": {
         "jp": "ベクシンスキー",
         "en": "Beksinski"
       },
-      "image": "../muse_button_image/beksinski_b.png"
+      "image": "../muse_button_image/beksinski_b.png",
+      "published": false
     },
     "becklin": {
       "name": {
         "jp": "ベックリン",
         "en": "Becklin"
       },
-      "image": "../muse_button_image/becklin_b.png"
+      "image": "../muse_button_image/becklin_b.png",
+      "published": true
     },
     "velezquez": {
       "name": {
         "jp": "ベラスケス",
         "en": "Velezquez"
       },
-      "image": "../muse_button_image/velezquez_b.png"
+      "image": "../muse_button_image/velezquez_b.png",
+      "published": false
     },
     "haring": {
       "name": {
         "jp": "ヘリング",
         "en": "Haring"
       },
-      "image": "../muse_button_image/haring_b.png"
+      "image": "../muse_button_image/haring_b.png",
+      "published": true
     },
     "hogarth": {
       "name": {
         "jp": "ホガース",
         "en": "Hogarth"
       },
-      "image": "../muse_button_image/hogarth_b.png"
+      "image": "../muse_button_image/hogarth_b.png",
+      "published": false
     },
     "bosch": {
       "name": {
         "jp": "ボッス",
         "en": "Bosch"
       },
-      "image": "../muse_button_image/bosch_b.png"
+      "image": "../muse_button_image/bosch_b.png",
+      "published": false
     },
     "boccioni": {
       "name": {
         "jp": "ボッチョーニ",
         "en": "Boccioni"
       },
-      "image": "../muse_button_image/boccioni_b.png"
+      "image": "../muse_button_image/boccioni_b.png",
+      "published": false
     },
     "botticelli": {
       "name": {
         "jp": "ボッティチェリ",
         "en": "Botticelli"
       },
-      "image": "../muse_button_image/botticelli_b.png"
+      "image": "../muse_button_image/botticelli_b.png",
+      "published": false
     },
     "magritte": {
       "name": {
         "jp": "マグリット",
         "en": "Magritte"
       },
-      "image": "../muse_button_image/magritte_b.png"
+      "image": "../muse_button_image/magritte_b.png",
+      "published": true
     },
     "matisse": {
       "name": {
         "jp": "マティス",
         "en": "Matisse"
       },
-      "image": "../muse_button_image/matisse_b.png"
+      "image": "../muse_button_image/matisse_b.png",
+      "published": false
     },
     "manet": {
       "name": {
         "jp": "マネ",
         "en": "Manet"
       },
-      "image": "../muse_button_image/manet_b.png"
+      "image": "../muse_button_image/manet_b.png",
+      "published": false
     },
     "malevich": {
       "name": {
         "jp": "マレーヴィチ",
         "en": "Malevich"
       },
-      "image": "../muse_button_image/malevich_b.png"
+      "image": "../muse_button_image/malevich_b.png",
+      "published": false
     },
     "michelangelo": {
       "name": {
         "jp": "ミケランジェロ",
         "en": "Michelangelo"
       },
-      "image": "../muse_button_image/michelangelo_b.png"
+      "image": "../muse_button_image/michelangelo_b.png",
+      "published": true
     },
     "mucha": {
       "name": {
         "jp": "ミュシャ",
         "en": "Mucha"
       },
-      "image": "../muse_button_image/mucha_b.png"
+      "image": "../muse_button_image/mucha_b.png",
+      "published": false
     },
     "millais": {
       "name": {
         "jp": "ミレイ",
         "en": "Millais"
       },
-      "image": "../muse_button_image/millais_b.png"
+      "image": "../muse_button_image/millais_b.png",
+      "published": true
     },
     "millet": {
       "name": {
         "jp": "ミレー",
         "en": "Millet"
       },
-      "image": "../muse_button_image/millet_b.png"
+      "image": "../muse_button_image/millet_b.png",
+      "published": false
     },
     "munch": {
       "name": {
         "jp": "ムンク",
         "en": "Munch"
       },
-      "image": "../muse_button_image/munch_b.png"
+      "image": "../muse_button_image/munch_b.png",
+      "published": false
     },
     "monet": {
       "name": {
         "jp": "モネ",
         "en": "Monet"
       },
-      "image": "../muse_button_image/monet_b.png"
+      "image": "../muse_button_image/monet_b.png",
+      "published": true
     },
     "moreau": {
       "name": {
         "jp": "モロー",
         "en": "Moreau"
       },
-      "image": "../muse_button_image/moreau_b.png"
+      "image": "../muse_button_image/moreau_b.png",
+      "published": false
     },
     "mondrian": {
       "name": {
         "jp": "モンドリアン",
         "en": "Mondrian"
       },
-      "image": "../muse_button_image/mondrian_b.png"
+      "image": "../muse_button_image/mondrian_b.png",
+      "published": false
     },
     "latour": {
       "name": {
         "jp": "ラ・トゥール",
         "en": "Latour"
       },
-      "image": "../muse_button_image/latour_b.png"
+      "image": "../muse_button_image/latour_b.png",
+      "published": false
     },
     "lichtenstein": {
       "name": {
         "jp": "リキテンスタイン",
         "en": "Lichtenstein"
       },
-      "image": "../muse_button_image/lichtenstein_b.png"
+      "image": "../muse_button_image/lichtenstein_b.png",
+      "published": false
     },
     "rubens": {
       "name": {
         "jp": "ルーベンス",
         "en": "Rubens"
       },
-      "image": "../muse_button_image/rubens_b.png"
+      "image": "../muse_button_image/rubens_b.png",
+      "published": false
     },
     "rousseau": {
       "name": {
         "jp": "ルソー",
         "en": "Rousseau"
       },
-      "image": "../muse_button_image/rousseau_b.png"
+      "image": "../muse_button_image/rousseau_b.png",
+      "published": false
     },
     "redon": {
       "name": {
         "jp": "ルドン",
         "en": "Redon"
       },
-      "image": "../muse_button_image/redon_b.png"
+      "image": "../muse_button_image/redon_b.png",
+      "published": true
     },
     "renoir": {
       "name": {
         "jp": "ルノワール",
         "en": "Renoir"
       },
-      "image": "../muse_button_image/renoir_b.png"
+      "image": "../muse_button_image/renoir_b.png",
+      "published": false
     },
     "repin": {
       "name": {
         "jp": "レーピン",
         "en": "Repin"
       },
-      "image": "../muse_button_image/repin_b.png"
+      "image": "../muse_button_image/repin_b.png",
+      "published": true
     },
     "leonardo": {
       "name": {
         "jp": "レオナルド",
         "en": "Leonardo"
       },
-      "image": "../muse_button_image/leonardo_b.png"
+      "image": "../muse_button_image/leonardo_b.png",
+      "published": false
     },
     "rembrandt": {
       "name": {
         "jp": "レンブラント",
         "en": "Rembrandt"
       },
-      "image": "../muse_button_image/rembrandt_b.png"
+      "image": "../muse_button_image/rembrandt_b.png",
+      "published": true
     },
     "dechirico": {
       "name": {
         "jp": "デ・キリコ",
         "en": "Dechirico"
       },
-      "image": "../muse_button_image/dechirico_b.png"
+      "image": "../muse_button_image/dechirico_b.png",
+      "published": false
     },
     "gericault": {
       "name": {
         "jp": "ジェリコー",
         "en": "Gericault"
       },
-      "image": "../muse_button_image/gericault_b.png"
+      "image": "../muse_button_image/gericault_b.png",
+      "published": false
     },
     "girodet": {
       "name": {
         "jp": "ジロデ",
         "en": "Girodet"
       },
-      "image": "../muse_button_image/girodet_b.png"
+      "image": "../muse_button_image/girodet_b.png",
+      "published": false
     },
     "turner": {
       "name": {
         "jp": "ターナー",
         "en": "Turner"
       },
-      "image": "../muse_button_image/turner_b.png"
+      "image": "../muse_button_image/turner_b.png",
+      "published": false
     },
     "hunt": {
       "name": {
         "jp": "ハント",
         "en": "Hunt"
       },
-      "image": "../muse_button_image/hunt_b.png"
+      "image": "../muse_button_image/hunt_b.png",
+      "published": false
     },
     "boucher": {
       "name": {
         "jp": "ブーシェ",
         "en": "Boucher"
       },
-      "image": "../muse_button_image/boucher_b.png"
+      "image": "../muse_button_image/boucher_b.png",
+      "published": false
     },
     "bouguereau": {
       "name": {
         "jp": "ブグロー",
         "en": "Bouguereau"
       },
-      "image": "../muse_button_image/bouguereau_b.png"
+      "image": "../muse_button_image/bouguereau_b.png",
+      "published": false
     },
     "elgreco": {
       "name": {
         "jp": "エル・グレコ",
         "en": "Elgreco"
       },
-      "image": "../muse_button_image/elgreco_b.png"
+      "image": "../muse_button_image/elgreco_b.png",
+      "published": false
     },
     "canaletto": {
       "name": {
         "jp": "カナレット",
         "en": "Canaletto"
       },
-      "image": "../muse_button_image/canaletto_b.png"
+      "image": "../muse_button_image/canaletto_b.png",
+      "published": false
     },
     "corot": {
       "name": {
         "jp": "コロー",
         "en": "Corot"
       },
-      "image": "../muse_button_image/corot_b.png"
+      "image": "../muse_button_image/corot_b.png",
+      "published": false
     },
     "miro": {
       "name": {
         "jp": "ミロ",
         "en": "Miro"
       },
-      "image": "../muse_button_image/miro_b.png"
+      "image": "../muse_button_image/miro_b.png",
+      "published": false
+    },
+    "carracci": {
+      "name": {
+        "jp": "カラッチ",
+        "en": "Carracci"
+      },
+      "image": "../muse_button_image/carracci_b.png",
+      "published": false
+    },
+    "hopper": {
+      "name": {
+        "jp": "ホッパー",
+        "en": "Hopper"
+      },
+      "image": "../muse_button_image/hopper_b.png",
+      "published": false
     }
   },
   "relations": {
+    "becklin": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "giacometti",
+              "message": {
+                "jp": "私とおなじ、スイス出身のミューズの子です。ふらふらしてるけど、ひとりで大丈夫でしょうか…？",
+                "en": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "boucher": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "fragonard",
+              "message": {
+                "jp": "華々しきロココのミューズたちじゃ。ヴァトーは大先輩じゃし、フラゴナールはわらわの弟子なんじゃぞ。",
+                "en": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "bruegel": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "bosch",
+              "message": {
+                "jp": "私とおなじ時期のミューズって、変わった子が多いよね。……私が言うなって？　それはそう！　あはは！",
+                "en": ""
+              }
+            },
+            {
+              "id": "vaneyck",
+              "message": {
+                "jp": "",
+                "en": ""
+              }
+            },
+            {
+              "id": "durer",
+              "message": {
+                "jp": "",
+                "en": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "caravaggio": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "velezquez",
+              "message": {
+                "jp": "バロックだとぉ！？　俺様の真似じゃねーか！　「カラヴァッジョさまさま様式」に変えろよ！",
+                "en": ""
+              }
+            },
+            {
+              "id": "rubens",
+              "message": {
+                "jp": "",
+                "en": ""
+              }
+            },
+            {
+              "id": "latour",
+              "message": {
+                "jp": "",
+                "en": ""
+              }
+            },
+            {
+              "id": "rembrandt",
+              "message": {
+                "jp": "",
+                "en": ""
+              }
+            }
+          ]
+        },
+        {
+          "characters": [
+            {
+              "id": "michelangelo",
+              "message": {
+                "jp": "ハッ！　俺様と名前が同じとはよぉ。こいつぁラッキーだ。　もちろん、あっちの方がな。",
+                "en": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "dali": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "magritte",
+              "message": {
+                "jp": "どいつもこいつも、うわっつらばっかり。ダリちゃんこそが真のシュルレアリストよ！",
+                "en": ""
+              }
+            }
+          ]
+        },
+        {
+          "characters": [
+            {
+              "id": "vermeer",
+              "message": {
+                "jp": "フェルメールが絵を描くところを見られるなら、腕を切り落としたっていいわ！",
+                "en": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "david": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "ingres",
+              "message": {
+                "jp": "新古典主義のミューズであり、わが優秀な弟子たちでもある。フランス美術の未来も明るかろう。",
+                "en": "test"
+              }
+            },
+            {
+              "id": "gerard",
+              "message": {
+                "jp": "",
+                "en": "test"
+              }
+            },
+            {
+              "id": "gros",
+              "message": {
+                "jp": "",
+                "en": "test"
+              }
+            },
+            {
+              "id": "girodet",
+              "message": {
+                "jp": "",
+                "en": "test"
+              }
+            }
+          ]
+        },
+        {
+          "characters": [
+            {
+              "id": "boucher",
+              "message": {
+                "jp": "ブーシェには、弟子となることを断られた。ひとつ違えば私も違った道を歩んでいただろうな。",
+                "en": "test"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "delacroix": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "gericault",
+              "message": {
+                "jp": "ロマン主義の同志たちだよ！　パッションがみなぎってて、エモエモ～！　って感じだよね！",
+                "en": ""
+              }
+            },
+            {
+              "id": "goya",
+              "message": {
+                "jp": "",
+                "en": ""
+              }
+            },
+            {
+              "id": "friedrich",
+              "message": {
+                "jp": "",
+                "en": ""
+              }
+            }
+          ]
+        },
+        {
+          "characters": [
+            {
+              "id": "ingres",
+              "message": {
+                "jp": "頭の固い、とってもイジワルなヤツ！　ほんっっと～に、アンポンタンなんだから！",
+                "en": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "ernst": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "duchamp",
+              "message": {
+                "jp": "ダダイスムのミューズのみなさんです。面白い人達ですが、たまに、何を言ってるかわからないことも……。",
+                "en": ""
+              }
+            },
+            {
+              "id": "dechirico",
+              "message": {
+                "jp": "",
+                "en": ""
+              }
+            }
+          ]
+        },
+        {
+          "characters": [
+            {
+              "id": "varo",
+              "message": {
+                "jp": "彼女も鳥が好きなんですね！　今度、猛禽カフェに誘ってみようかな。",
+                "en": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gerard": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "david",
+              "message": {
+                "jp": "ダヴィッド様……私の師匠ね。本当にすごい方。でもいつか、越えてみせるんだから！",
+                "en": ""
+              }
+            }
+          ]
+        },
+        {
+          "characters": [
+            {
+              "id": "girodet",
+              "message": {
+                "jp": "ダヴィッド様のアトリエで学ぶミューズたちね。三人の頭文字をあわせて「3つのG」なんて呼ばれることもあるわ。",
+                "en": ""
+              }
+            },
+            {
+              "id": "gros",
+              "message": {
+                "jp": "",
+                "en": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "gogh": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "gauguin",
+              "message": {
+                "jp": "ポスト印象派の仲間で、ゴッホちゃんの大事なトモダチっす！　いつもクールで、カッコイイっすよ～！",
+                "en": "test"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "haring": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "warhol",
+              "message": {
+                "jp": "ポップって、いいコトバだよね。じゃんじゃか世界に飛び出していこう！",
+                "en": ""
+              }
+            },
+            {
+              "id": "hamilton",
+              "message": {
+                "jp": "",
+                "en": ""
+              }
+            }
+          ]
+        },
+        {
+          "characters": [
+            {
+              "id": "banksy",
+              "message": {
+                "jp": "いぇいいぇい。彼女も、壁に描くのが好きなんだ。あっちはイギリスがホームだけどね！",
+                "en": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "ingres": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "david",
+              "message": {
+                "jp": "わが偉大なる我が師匠。でも、私には私の美術があるのです。",
+                "en": ""
+              }
+            }
+          ]
+        },
+        {
+          "characters": [
+            {
+              "id": "delacroix",
+              "message": {
+                "jp": "キーッ！見るだけで腹が立つ！　誰かあいつを美術界から追い出してよっ！",
+                "en": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "monet": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "renoir",
+              "message": {
+                "jp": "印象派の仲間たちね。みんな少し変わり者だけど、芸術に対する情熱は、本物なんだから。",
+                "en": "test"
+              }
+            },
+            {
+              "id": "degas",
+              "message": {
+                "jp": "",
+                "en": "test"
+              }
+            }
+          ]
+        }
+      ]
+    },
     "rembrandt": {
       "groups": [
         {
           "characters": [
             {
-              "id": "haring",
+              "id": "caravaggio",
               "message": {
-                "jp": "バロック様式の仲間たち！　バロックって期間が長いから、ミューズは他にも、も～っとたくさんいるんだってさ。",
+                "jp": "バロック様式の仲間だよ！　バロックって期間が長いから、ミューズは他にも、も～っとたくさんいるんだってさ。",
                 "en": "Baroque friends! Since the Baroque period was so long, I hear there are sooo many more muses besides these."
               }
             },
             {
-              "id": "gogh",
+              "id": "velezquez",
               "message": {
-                "jp": "バロック様式の仲間たち！　バロックって期間が長いから、ミューズは他にも、も～っとたくさんいるんだってさ。",
-                "en": "Baroque friends! Since the Baroque period was so long, I hear there are sooo many more muses besides these."
+                "jp": "",
+                "en": ""
+              }
+            },
+            {
+              "id": "rubens",
+              "message": {
+                "jp": "",
+                "en": ""
+              }
+            },
+            {
+              "id": "latour",
+              "message": {
+                "jp": "",
+                "en": ""
               }
             }
           ]
@@ -644,66 +1142,89 @@
         }
       ]
     },
-    "monet": {
+    "repin": {
       "groups": [
         {
           "characters": [
             {
-              "id": "rembrandt",
+              "id": "monet",
               "message": {
-                "jp": "test",
-                "en": "test"
+                "jp": "印象派ってのは、マシな方ね。参考にしてあげなくもないわ！",
+                "en": ""
               }
             }
           ]
         }
       ]
     },
-    "gogh": {
+    "serusier": {
       "groups": [
         {
           "characters": [
             {
-              "id": "rembrandt",
+              "id": "gauguin",
               "message": {
-                "jp": "test",
-                "en": "test"
+                "jp": "ああ、最愛の我が伝道師！　偉大なる導きの光ですぞ～っ！",
+                "en": ""
+              }
+            }
+          ]
+        },
+        {
+          "characters": [
+            {
+              "id": "redon",
+              "message": {
+                "jp": "内に秘めた神秘性、素晴らしや素晴らしや！　その目は、未来までも見渡しているでしょう。",
+                "en": ""
               }
             }
           ]
         }
       ]
     },
-    "david": {
+    "vlaminck": {
       "groups": [
         {
           "characters": [
             {
-              "id": "ingres",
+              "id": "matisse",
               "message": {
-                "jp": "test2",
-                "en": "test2"
+                "jp": "グーッ。アイツもケモノか？似てるニオイがするッ！",
+                "en": ""
+              }
+            }
+          ]
+        },
+        {
+          "characters": [
+            {
+              "id": "gogh",
+              "message": {
+                "jp": "ガルルルルルッ！　オマエくらいのウデなら、参考にしてやってもいいゾッ！",
+                "en": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "varo": {
+      "groups": [
+        {
+          "characters": [
+            {
+              "id": "dali",
+              "message": {
+                "jp": "複雑怪奇にして捉え難き夢幻領域――すなわち、無意識を逍遥するシュルレアリスムの同胞たちです。",
+                "en": ""
               }
             },
             {
-              "id": "gerard",
+              "id": "magritte",
               "message": {
-                "jp": "test3",
-                "en": "test3"
-              }
-            },
-            {
-              "id": "gros",
-              "message": {
-                "jp": "test4",
-                "en": "test4"
-              }
-            },
-            {
-              "id": "girodet",
-              "message": {
-                "jp": "test5",
-                "en": "test5"
+                "jp": "",
+                "en": ""
               }
             }
           ]
