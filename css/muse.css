@@ -788,76 +788,84 @@ line-break: strict; /* 禁則処理を厳格に適用 */
     font-size: 0.8em;
   }
 }
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* メッセージ表示エリア */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-/*メッセージ表示エリア*/
 .muse_message{
   width: 90%;
   margin: 16px auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
   padding: 16px 32px;
+
+  display: flex;
+
+  align-items: center;
   background: white;
   border-radius: 16px;
-  border: 8px solid var(--sub-color);
+  flex-direction: column;
 }
 
-@media (min-width: 1280px) {
+/* レスポンシブ */
+
+@media (min-width:1280px){
   .muse_message{
     width: 80%;
-    margin: 16px auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 
-    padding: 16px 32px;
-    background: white;
-    border-radius: 16px;
-    border: 8px solid var(--sub-color);
+    flex-direction: row;
   }
 }
 
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* キャラ画像 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
 .muse_message img{
   width: 250px;
-  flex-shrink: 0;
   margin: 0 16px 0 0;
-  border-radius: 16px;
+
   border: 8px solid var(--sub-color);
+  border-radius: 16px;
+  flex-shrink: 0;
 }
 
-@media (min-width: 1280px) {
+@media (min-width:1280px){
   .muse_message img{
     width: 150px;
   }
 }
 
-
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* テキスト */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
 .muse_message p{
-  margin: 0;
   width: 90%;
+  margin: 0;
   padding: 12px 16px;
-  text-align: left;
+
+  font-size: 2em;
+
   background: #eeeeee;
   border-radius: 16px;
   flex: 1;
-  font-size: 2em;
+  text-align: left;
 }
 
-@media (min-width: 1280px) {
+/* レスポンシブ */
+
+@media (min-width:1280px){
   .muse_message p{
-   font-size: 1.2em;
+    font-size: 1.2em;
   }
 }
 
-@media (min-width: 1921px) {
+@media (min-width:1921px){
   .muse_message p{
-   font-size: 1.5em;
+    font-size: 1.5em;
   }
 }
 
+/* 言語別フォント */
 
 html[lang="ja"] .muse_message p{
   font-family: "Zen Kaku Gothic New", sans-serif;
@@ -871,7 +879,6 @@ html[lang="en"] .muse_message p{
   font-style: normal;
   font-weight: 400;
 }
-
 
 /*--------------------------------------*/
 /*画家紹介*/
