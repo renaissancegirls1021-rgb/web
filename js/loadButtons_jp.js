@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const container = document.getElementById("muse_list");
       container.innerHTML = data;
 
-      // ★ここが超重要
+      // デフォルトに戻す
       sortItems("default");
     })
     .catch(err => console.error(err));
