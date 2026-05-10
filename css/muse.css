@@ -14,7 +14,7 @@ html[lang="en"] {
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-body{
+body.muse_page{
   margin: 0;
   padding: 0;
   min-height: 100%;
@@ -37,7 +37,7 @@ body{
 
 
 @media (min-width: 1280px) {
-body{
+body.muse_page{
 background:
 linear-gradient(
   -10deg,
@@ -69,7 +69,7 @@ border-radius: 16px;
 }
 
 /*横線*/
-.line{
+body.muse_page .line{
 width: 90%;
 height: 4px; /* 線幅 */
 margin: 3% 10%;
@@ -80,7 +80,7 @@ border-radius: 1.5px; /* 線幅の半分 */
 }
 
 @media (min-width: 1280px) {
-.line{
+body.muse_page .line{
   width: 70%;
   height: 6px; /* 線幅 */
   border-radius: 8px; /* 線幅の半分 */
@@ -90,94 +90,43 @@ border-radius: 1.5px; /* 線幅の半分 */
 
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-/* パーティクル */
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-.bg-particles {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  overflow: hidden;
-  z-index: 0;
-}
-
-main {
-  position: relative;
-  z-index: 1;
-}
-
-/* ===== 粒 ===== */
-.particle {
-  position: absolute;
-  bottom: -120px;
-
-  opacity: 0.1;
-  mix-blend-mode: multiply;
-
-  animation: rise linear infinite;
-}
-
-/* 中のimgだけ回転 */
-.particle img {
-  width: 100%;
-  height: 100%;
-  animation: spin linear infinite;
-}
-
-/* 上昇 */
-@keyframes rise {
-  0%   { transform: translate(0, 0); }
-  50%  { transform: translate(30px, -60vh); }
-  100% { transform: translate(-20px, -120vh); }
-}
-
-/* 回転 */
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to   { transform: rotate(360deg); }
-}
-
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* h1 */
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-h1{
+body.muse_page h1{
   margin: 3% auto;
   padding: 5px 64px;
 
   display: inline-block;
 
-  font-size: 3.5em;
+  font-size: var(--font-hero);
 
   background: var(--main-color);
   color: var(--font-color);
 }
 
 /* レスポンシブ */
-
 @media (min-width: 1280px){
-  h1{
-    font-size: 2em;
+  body.muse_page h1{
+    font-size: var(--font-hero);
   }
 }
 
 @media (min-width: 1921px){
-  h1{
-    font-size: 3em;
+body.muse_page h1{
+    font-size: var(--font-hero);
   }
 }
 
 /* 言語別フォント */
 
-html[lang="ja"] h1{
+html[lang="ja"] body.muse_page h1{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 900;
   font-style: normal;
 }
 
-html[lang="en"] h1{
+html[lang="en"] body.muse_page h1{
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -187,13 +136,13 @@ html[lang="en"] h1{
 /* h2 共通 */
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-h2{
+body.muse_page h2{
   color: var(--font-color);
   background: var(--main-color);
 }
 
 /* 言語別フォント */
-html[lang="ja"] h2{
+html[lang="ja"] body.muse_page h2{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 900;
 }
@@ -207,18 +156,18 @@ html[lang="en"] h2{
 .works_area h2{
   display: inline-block;
   padding: 0 5%;
-  font-size: 2.5em;
+  font-size: var(--font-title);
 }
 
 @media (min-width: 1280px) {
   .works_area h2{
-    font-size: 2em;
+    font-size: var(--font-title);
   }
 }
 
 @media (min-width: 1921px) {
   .works_area h2{
-    font-size: 3em;
+    font-size: var(--font-title);
   }
 }
 
@@ -227,18 +176,18 @@ html[lang="en"] h2{
 .artist_area h2{
   display: inline-block;
   padding: 0 5%;
-  font-size: 2.5em;
+  font-size: var(--font-title);
 }
 
 @media (min-width: 1280px) {
   .artist_area h2{
-    font-size: 2em;
+    font-size: var(--font-title);
   }
 }
 
 @media (min-width: 1921px) {
   .artist_area h2{
-    font-size: 3em;
+    font-size: var(--font-title);
   }
 }
 
@@ -253,13 +202,13 @@ html[lang="en"] h2{
 
 @media (min-width: 1280px) {
   .relate_area h2{
-    font-size: 2em;
+    font-size: var(--font-title);
   }
 }
 
 @media (min-width: 1921px) {
   .relate_area h2{
-    font-size: 3em;
+    font-size: var(--font-title);
   }
 }
 
@@ -267,18 +216,18 @@ html[lang="en"] h2{
 .references_area h2{
   display: inline-block;
   padding: 0 5%;
-  font-size: 2.5em;
+  font-size: var(--font-title);
 }
 
 @media (min-width: 1280px) {
 .references_area h2{
-    font-size: 2em;
+    font-size: var(--font-title);
   }
 }
 
 @media (min-width: 1921px) {
 .references_area h2{
-    font-size: 3em;
+    font-size: var(--font-title);
   }
 }
 
@@ -287,11 +236,11 @@ html[lang="en"] h2{
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
 /* 日本語 */
-html[lang="ja"] h3{
+html[lang="ja"] body.muse_page h3{
   margin: auto;
 
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-size: 2em;
+  font-size: var(--font-sub-title);
   font-style: normal;
   font-weight: 700;
 
@@ -299,11 +248,11 @@ html[lang="ja"] h3{
 }
 
 /* 英語 */
-html[lang="en"] h3{
+html[lang="en"] body.muse_page h3{
   margin: auto;
 
   font-family: "Poppins", sans-serif;
-  font-size: 2em;
+  font-size: var(--font-sub-title);
   font-style: normal;
   font-weight: 600;
 
@@ -313,16 +262,16 @@ html[lang="en"] h3{
 /* レスポンシブ */
 
 @media (min-width: 1280px){
-  html[lang="ja"] h3,
-  html[lang="en"] h3{
-    font-size: 1.2em;
+  html[lang="ja"] body.muse_page h3,
+  html[lang="en"] body.muse_page h3{
+    font-size: var(--font-sub-title);
   }
 }
 
 @media (min-width: 1921px){
-  html[lang="ja"] h3,
-  html[lang="en"] h3{
-    font-size: 1.5em;
+  html[lang="ja"] body.muse_page h3,
+  html[lang="en"] body.muse_page h3{
+    font-size: var(--font-sub-title);
   }
 }
 
@@ -330,14 +279,14 @@ html[lang="en"] h3{
 /* h4 */
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-h4{
+body.muse_page h4{
   width: 30%;
   display: inline-block;
   margin: 3% auto;
   padding: 8px 24px;
 
   color: var(--font-color);
-  font-size: 2em;
+  font-size: var(--font-section);
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   text-align: center;
@@ -346,23 +295,23 @@ h4{
 }
 
 /* 日本語だけ上書き */
-html[lang="ja"] h4{
+html[lang="ja"] body.muse_page h4{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 700;
 }
 
 @media (min-width: 1280px) {
-  h4{
+body.muse_page h4{
 width: 20%;
     margin: 1% auto;
     padding: 6px 20px;
-    font-size: 1em;
+    font-size: var(--font-section);
   }
 }
 
 @media (min-width: 1921px) {
-  h4{
-    font-size: 1.5em;
+  body.muse_page h4{
+    font-size: var(--font-section);
   }
 }
 
@@ -371,24 +320,24 @@ width: 20%;
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
 /* 日本語 */
-html[lang="ja"] main p{
+html[lang="ja"] body.muse_page main p{
   width: 90%;
   margin: 16px auto;
 
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-size: 2.3em;
+  font-size: var(--font-body);
   font-style: normal;
   font-weight: 400;
   line-height: 1.8;
 }
 
 /* 英語 */
-html[lang="en"] main p{
+html[lang="en"] body.muse_page main p{
   width: 90%;
   margin: 16px auto;
 
   font-family: "Poppins", sans-serif;
-  font-size: 2em;
+  font-size: var(--font-body);
   font-style: normal;
   font-weight: 400;
 }
@@ -396,25 +345,25 @@ html[lang="en"] main p{
 /* レスポンシブ */
 
 @media (min-width: 1280px){
-  html[lang="ja"] main p,
-  html[lang="en"] main p{
+  html[lang="ja"] body.muse_page main p,
+  html[lang="en"] body.muse_page main p{
     width: 70%;
-    font-size: 1.2em;
+    font-size: var(--font-body);
   }
 
-  html[lang="ja"] main p{
+  html[lang="ja"] body.muse_page main p{
     line-height: 2;
   }
 }
 
 @media (min-width: 1921px){
-  html[lang="ja"] main p,
-  html[lang="en"] main p{
+  html[lang="ja"] body.muse_page main p,
+  html[lang="en"] body.muse_page main p{
     width: 70%;
-    font-size: 1.5em;
+    font-size: var(--font-body);
   }
 
-  html[lang="ja"] main p{
+  html[lang="ja"] body.muse_page main p{
     line-height: 2;
   }
 }
@@ -433,7 +382,7 @@ hyphens: auto;
 }
 
 /*作品データ見だし*/
-.midashi{
+body.muse_page .midashi{
   width: 40%;
   padding: 0% 5%;
   margin: 20px auto;
@@ -443,7 +392,7 @@ hyphens: auto;
 }
 
 @media (min-width: 1280px) {
-  .midashi{
+  body.muse_page .midashi{
     width: auto;
     padding: 0% 3%;
     margin: 10px 8px 10px 0;
@@ -451,19 +400,19 @@ hyphens: auto;
 }
 
 
-html[lang="en"] .midashi{
+html[lang="en"] body.muse_page .midashi{
 font-family: "Poppins", sans-serif;
 font-weight: 600;
 font-style: normal;
 }
 
-html[lang="ja"] .midashi{
+html[lang="ja"] body.muse_page .midashi{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
-.works_exp{
+body.muse_page .works_exp{
 line-height: 2em;
 }
 
@@ -617,12 +566,12 @@ h5{
 /* 日本語 */
 html[lang="ja"] h5{
   font-family: "Zen Kaku Gothic New", sans-serif;
-  font-size: 2.5em;
+  font-size: var(--font-serif);
 }
 
 @media (min-width: 1280px){
   html[lang="ja"] h5{
-    font-size: 1.5em;
+    font-size: var(--font-serif);
     writing-mode: vertical-rl;
     text-orientation: upright;
     text-align: left;
@@ -631,26 +580,26 @@ html[lang="ja"] h5{
 
 @media (min-width: 1921px){
   html[lang="ja"] h5{
-    font-size: 2.2em;
+    font-size: var(--font-serif);
   }
 }
 
 /* 英語 */
 html[lang="en"] h5{
   font-family: "Poppins", sans-serif;
-  font-size: 2.5em;
+font-size: var(--font-serif);
   font-style: italic;
 }
 
 @media (min-width: 1280px){
   html[lang="en"] h5{
-    font-size: 2em;
+  font-size: var(--font-serif);
   }
 }
 
 @media (min-width: 1921px){
   html[lang="en"] h5{
-    font-size: 2.5em;
+    font-size: var(--font-serif);
   }
 }
 
@@ -687,11 +636,11 @@ justify-content: space-around;
   padding: 1% 10px;
   margin: 16px auto;
 
-  color: var(--style_font-color);
+  color: var(--style-font-color);
   text-align: center;
-  font-size: 2em;
+  font-size: var(--font-style);
 
-  background: var(--style_main-color);
+  background: var(--style-main-color);
   border-radius: 64px;
   border: 8px solid black;
 }
@@ -703,7 +652,7 @@ justify-content: space-around;
   max-width: 40%;
   margin: 24px auto;
   padding: 1% 20px;
-  font-size: 1.5em;
+  font-size: var(--font-style);
   border-radius: 48px;
 }
 }
@@ -727,8 +676,6 @@ html[lang="en"] .style{
   font-weight: 700;
   font-style: normal;
 }
-
-
 
 /*--------------------------------------*/
 /*作品紹介*/
@@ -762,7 +709,7 @@ height: auto;
 
 /*画像クレジット*/
 .credit{
-  font-size: 1em;
+  font-size: var(--font-small);
   margin: 16px auto;
   width: auto;
   font-family: "Zen Kaku Gothic New", sans-serif;
@@ -777,7 +724,7 @@ line-break: strict; /* 禁則処理を厳格に適用 */
   .credit{
     margin: auto;
     margin-top: 16px;
-    font-size: 0.8em;
+    font-size: var(--font-small);
   }
 }
 
@@ -785,7 +732,7 @@ line-break: strict; /* 禁則処理を厳格に適用 */
   .credit{
     margin: auto;
     margin-top: 16px;
-    font-size: 0.8em;
+    font-size: var(--font-small);
   }
 }
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
@@ -843,7 +790,7 @@ line-break: strict; /* 禁則処理を厳格に適用 */
   margin: 0;
   padding: 12px 16px;
 
-  font-size: 2em;
+  font-size: var(--font-body);
 
   background: #eeeeee;
   border-radius: 16px;
@@ -855,13 +802,13 @@ line-break: strict; /* 禁則処理を厳格に適用 */
 
 @media (min-width:1280px){
   .muse_message p{
-    font-size: 1.2em;
+    font-size: var(--font-body);
   }
 }
 
 @media (min-width:1921px){
   .muse_message p{
-    font-size: 1.5em;
+    font-size: var(--font-body);
   }
 }
 
@@ -915,7 +862,7 @@ html[lang="en"] .muse_message p{
 .relate_area{
   width: 100%;
   height: 100%;
-display: block;
+  display: flex;
 text-align: center; /* ←これで中央寄せ */
   flex-direction: column;
   align-items: center;
@@ -1019,7 +966,7 @@ html[lang="en"] .relate_message p{
 /* return */
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-.return{
+body.muse_page .return{
   width: 90%;
   margin: 0 auto;
 
@@ -1031,7 +978,7 @@ html[lang="en"] .relate_message p{
   text-align: center;
 }
 
-.return a{
+body.muse_page .return a{
   width: auto;
   height: auto;
   margin: 5% auto 10%;
@@ -1039,42 +986,42 @@ html[lang="en"] .relate_message p{
 
   display: inline-block;
 
-  font-size: 2.5em;
+  font-size: var(--font-return);
 
   background: var(--sub-color);
   border: 8px solid white;
   border-radius: 32px;
-  color: var(--font-sub_color);
+  color: var(--font-sub-color);
   text-decoration: none;
 }
 
-html[lang="ja"] .return a{
+html[lang="ja"] body.muse_page .return a{
 
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-weight: 900;
   font-style: normal;
 }
 
-html[lang="en"] .return a{
+html[lang="en"] body.muse_page .return a{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
 }
 
 @media (min-width: 1280px) {
-.return a{
-  font-size: 2em;
+body.muse_page .return a{
+  font-size: var(--font-return);
 }
 }
 
 @media (min-width: 1921px) {
-.return a{
-  font-size: 2.5em;
+body.muse_page .return a{
+font-size: var(--font-return);
 }
 }
 
 
-.return a:hover{
+body.muse_page .return a:hover{
 transform: scale(1.1);
 transition:0.1s all;
 }
@@ -1116,7 +1063,7 @@ transition:0.1s all;
   border-right: 32px solid transparent;
   border-bottom: 48px solid white;
 
-  transform: translateY(-2px);
+  transform: translate(8px, -2px);
 }
 
 .pagetop:hover{
@@ -1134,6 +1081,8 @@ transition:0.1s all;
     border-left: 16px solid transparent;
     border-right: 16px solid transparent;
     border-bottom: 24px solid white;
+
+    transform: translate(8px, -2px);
   }
 
   .pagetop:hover{
@@ -1164,7 +1113,7 @@ justify-content: space-around;
 .references {
   width: 90%;
   margin: 5% auto;
-  font-size: 0.9em;
+  font-size: var(--font-body);
   line-height: 1.6;
 }
 

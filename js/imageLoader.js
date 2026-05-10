@@ -1,4 +1,4 @@
-const name = document.body.className; // "rembrandt"
+const name = document.body.classList[0];
 
 // 画像パス生成
 const paths = {
@@ -6,17 +6,19 @@ const paths = {
   work: `../works_image/${name}_w.png`,
   artist: `../artist_image/${name}_a.png`,
   x: `../x_image/${name}_x.png`,
-  face: `../face_image/${name}_f.png` // ←追加
+  face: `../face_image/${name}_f.png`
 };
 
 // 画像に適用
 document.querySelector('.img-muse').src = paths.muse;
 document.querySelector('.img-work').src = paths.work;
 document.querySelector('.img-artist').src = paths.artist;
-document.querySelector('.img-face').src = paths.face; // ←追加
+document.querySelector('.img-face').src = paths.face;
 
-// Twitterカードも変更（重要）
+// Twitterカードも変更
 const twitterImg = document.querySelector('meta[name="twitter:image"]');
+
 if (twitterImg) {
-  twitterImg.content = `https://renaissancegirls1021-rgb.github.io/web/x_image/${name}_x.png`;
+  twitterImg.content =
+    `https://renaissancegirls1021-rgb.github.io/web/x_image/${name}_x.png`;
 }

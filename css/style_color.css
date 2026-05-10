@@ -1,33 +1,37 @@
-.msc{--style_main-color: #ffffff;--style_font-color: #000000;}
-.app{--style_main-color: #AA6666;--style_font-color: #ffffff;}
-.anv{--style_main-color: #FFFF57;--style_font-color: #000000;}
-.edp{--style_main-color: #FF9A22;--style_font-color: #000000;}
-.cbs{--style_main-color: #787878;--style_font-color: #ffffff;}
-.gth{--style_main-color: #FF662B;--style_font-color: #ffffff;}
-.srl{--style_main-color: #F00088;--style_font-color: #ffffff;}
-.ddi{--style_main-color: #2F2F2F;--style_font-color: #ffffff;}
-.dst{--style_main-color: #A7A7FC;--style_font-color: #000000;}
-.nbs{--style_main-color: #6666FF;--style_font-color: #ffffff;}
-.brz{--style_main-color: #8A6122;--style_font-color: #ffffff;}
-.brq{--style_main-color: #742F00;--style_font-color: #ffffff;}
-.fvs{--style_main-color: #B40031;--style_font-color: #ffffff;}
-.pim{--style_main-color: #00BFD3;--style_font-color: #ffffff;}
-.ppa{--style_main-color: #FFCD00;--style_font-color: #000000;}
-.mnr{--style_main-color: #B400FF;--style_font-color: #ffffff;}
-.prb{--style_main-color: #004500;--style_font-color: #ffffff;}
-.rls{--style_main-color: #00DE4C;--style_font-color: #000000;}
-.rns{--style_main-color: #EE0000;--style_font-color: #ffffff;}
-.rcc{--style_main-color: #FFAFAF;--style_font-color: #000000;}
-.rmt{--style_main-color: #FF66D0;--style_font-color: #000000;}
-.pvn{--style_main-color: #7FCDFF;--style_font-color: #000000;}
-.imp{--style_main-color: #00FFD9;--style_font-color: #000000;}
-.sym{--style_main-color: #A27399;--style_font-color: #ffffff;}
-.nim{--style_main-color: #008357;--style_font-color: #ffffff;}
-.ncl{--style_main-color: #0066FF;--style_font-color: #ffffff;}
-.blr{--style_main-color: #0000B2;--style_font-color: #ffffff;}
-.spr{--style_main-color: #000000;--style_font-color: #ffffff;}
-.nva{--style_main-color: #CDCDCD;--style_font-color: #000000;}
-.exp{--style_main-color: #2E1743;--style_font-color: #ffffff;}
-.szs{--style_main-color: #5E0083;--style_font-color: #ffffff;}
-.nrn{--style_main-color: #FC6464;--style_font-color: #ffffff;}
-.fut{--style_main-color: #8B8851;--style_font-color: #ffffff;}
+.aac{--style-main-color: #8DA0B6;--style-sub-color:  #c0c5c2;--style-font-color: white;}
+.anv{--style-main-color: #FFFF57;--style-sub-color:  #f2f2b0;--style-font-color: black;}
+.app{--style-main-color: #AA6666;--style-sub-color:  #594e52;--style-font-color: white;}
+.are{--style-main-color: #336699;--style-sub-color:  #003f8e;--style-font-color: white;}
+.blr{--style-main-color: #0000B2;--style-sub-color:  #1e90ff;--style-font-color: white;}
+.brq{--style-main-color: #742F00;--style-sub-color:  #c49a6a;--style-font-color: white;}
+.brz{--style-main-color: #8A6122;--style-sub-color:  #fbd8b5;--style-font-color: white;}
+.cbs{--style-main-color: #787878;--style-sub-color:  #d4d9dc;--style-font-color: white;}
+.ddi{--style-main-color: #2F2F2F;--style-sub-color:  #b0b0b0;--style-font-color: white;}
+.dga{--style-main-color: #D7C447;--style-sub-color:  #c5c56a;--style-font-color: black;}
+.dst{--style-main-color: #ffdc00;--style-sub-color:  #e4d2d8;--style-font-color: black;}
+.edp{--style-main-color: #FF9A22;--style-sub-color:  #ffdb4f;--style-font-color: black;}
+.exp{--style-main-color: #2E1743;--style-sub-color:  #9b72b0;--style-font-color: white;}
+.fon{--style-main-color: #FFC1FF;--style-sub-color:  #e95388;--style-font-color: black;}
+.fut{--style-main-color: #8B8851;--style-sub-color:  #808000;--style-font-color: white;}
+.fvs{--style-main-color: #B40031;--style-sub-color:  #e29399;--style-font-color: white;}
+.gth{--style-main-color: #FF662B;--style-sub-color:  #f7b977;--style-font-color: white;}
+.imp{--style-main-color: #00FFD9;--style-sub-color:  #66cdaa;--style-font-color: black;}
+.mnr{--style-main-color: #B400FF;--style-sub-color:  #d1bada;--style-font-color: white;}
+.msc{--style-main-color: #FFFFFF;--style-sub-color:  #c9caca;--style-font-color: black;}
+.nbs{--style-main-color: #6666FF;--style-sub-color:  #bcbace;--style-font-color: white;}
+.ncl{--style-main-color: #0066FF;--style-sub-color:  #a0d8ef;--style-font-color: white;}
+.nim{--style-main-color: #008357;--style-sub-color:  #2f4f4f;--style-font-color: white;}
+.nrn{--style-main-color: #FC6464;--style-sub-color:  #cd5c5c;--style-font-color: white;}
+.nva{--style-main-color: #CDCDCD;--style-sub-color:  #4e4e4e;--style-font-color: black;}
+.pim{--style-main-color: #00BFD3;--style-sub-color:  #88bfbf;--style-font-color: black;}
+.ppa{--style-main-color: #FFCD00;--style-sub-color:  #ece093;--style-font-color: black;}
+.prb{--style-main-color: #004500;--style-sub-color:  #288c66;--style-font-color: white;}
+.pvn{--style-main-color: #7FCDFF;--style-sub-color:  #008db7;--style-font-color: black;}
+.rcc{--style-main-color: #FFAFAF;--style-sub-color:  #ea618e;--style-font-color: black;}
+.rls{--style-main-color: #00DE4C;--style-sub-color:  #005c42;--style-font-color: black;}
+.rmt{--style-main-color: #FF66D0;--style-sub-color:  #f19ca7;--style-font-color: black;}
+.rns{--style-main-color: #EE0000;--style-sub-color:  #6c272d;--style-font-color: white;}
+.spr{--style-main-color: #000000;--style-sub-color:  #6f6f6f;--style-font-color: white;}
+.srl{--style-main-color: #F00088;--style-sub-color:  #941f57;--style-font-color: white;}
+.sym{--style-main-color: #A27399;--style-sub-color:  #9b72b0;--style-font-color: white;}
+.szs{--style-main-color: #5E0083;--style-sub-color:  #915da3;--style-font-color: white;}

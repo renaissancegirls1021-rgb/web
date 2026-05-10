@@ -1,0 +1,110 @@
+/*
+●本文
+--font-body:
+pタグ
+
+●補足
+--font-small
+画像クレジット
+
+●作品情報見出し
+--font-section
+h4タグ　出身国、代表作など
+
+●タイトル
+--font-title
+h2（紹介作品タイトル、画家の名前）
+
+●サブタイトル
+--font-sub-title
+h3タグ(と言えばこの一枚！)
+
+●キャラ名
+--font-hero
+h1(キャラ名)
+
+●様式
+--font-style: 1.3rem;
+style見出し
+
+●セリフ
+--font-serif
+h5(トップのキャラのセリフ)
+
+●戻るボタン
+--font-return
+returnボタン
+*/
+
+:root{
+  /* 本文 */
+  --font-body: 2rem;
+  /* 補足 */
+  --font-small: 1.2rem;
+  /* 作品情報見出し */
+  --font-section: 2rem;
+  /* タイトル */
+  --font-title: 3rem;
+/*サブタイトル*/
+--font-sub-title: 2rem;
+  /* キャラ名 */
+  --font-hero: 3.2rem;
+  /* 様式 */
+  --font-style: 2.3rem;
+  /* セリフ */
+  --font-serif: 2.8rem;
+  /* 戻るボタン */
+  --font-return: 2.8rem;
+}
+
+/*レスポンシブ*/
+@media (min-width:1280px){
+
+  :root{
+    /* 本文 */
+    --font-body: 1.3rem;
+    /* 補足*/
+    --font-small: 0.95rem;
+    /* 作品情報見出し */
+    --font-section: 1.3rem;
+    /* タイトル */
+    --font-title: 2.3rem;
+    /*サブタイトル*/
+    --font-sub-title: 1.3rem;
+    /* キャラ名 */
+    --font-hero: 2.3rem;
+    /* 様式 */
+    --font-style: 1.5rem;
+    /* セリフ */
+    --font-serif: 2rem;
+    /* 戻るボタン */
+    --font-return: 2.5rem;
+  }
+
+}
+
+/*レスポンシブ*/
+@media (min-width: 1921px) {
+
+  :root{
+    /* 本文 */
+    --font-body: 1.5rem;
+    /* 補足*/
+    --font-small: 0.95rem;
+    /* 作品情報見出し */
+    --font-section: 1.5rem;
+    /* タイトル */
+    --font-title: 2.8rem;
+    /*サブタイトル*/
+    --font-sub-title: 1.5rem;
+    /* キャラ名 */
+    --font-hero: 2.8rem;
+    /* 様式 */
+    --font-style: 1.8rem;
+    /* セリフ */
+    --font-serif: 2.3rem;
+    /* 戻るボタン */
+    --font-return: 2.5rem;
+  }
+
+}
