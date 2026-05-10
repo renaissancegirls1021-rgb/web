@@ -34,11 +34,16 @@ h5(トップのキャラのセリフ)
 ●戻るボタン
 --font-return
 returnボタン
+
+●年表できごとボタン
+--font-event
+様式説明ページ、年表
+
 */
 
 :root{
   /* 本文 */
-  --font-body: 2rem;
+  --font-body: 2.2rem;
   /* 補足 */
   --font-small: 1.2rem;
   /* 作品情報見出し */
@@ -55,6 +60,8 @@ returnボタン
   --font-serif: 2.8rem;
   /* 戻るボタン */
   --font-return: 2.8rem;
+  /* 年表できごとボタン */
+  --font-event: 1.5rem;
 }
 
 /*レスポンシブ*/
@@ -79,6 +86,8 @@ returnボタン
     --font-serif: 2rem;
     /* 戻るボタン */
     --font-return: 2.5rem;
+    /* 年表できごとボタン */
+    --font-event: 1.3rem;
   }
 
 }
@@ -105,6 +114,8 @@ returnボタン
     --font-serif: 2.3rem;
     /* 戻るボタン */
     --font-return: 2.5rem;
+    /* 年表できごとボタン */
+    --font-event: 1.3rem;
   }
 
 }

@@ -52,25 +52,78 @@
 
 <div class="style_name_area">
 
+<img class="img-style_top" src="" alt="imp">
+
 <h1>
 印象派
 </h1>
 
-<h3>
-野望を宿すまなざしは、光と大気でキャンバスを満たす
+<h3 class="catchphrase">
+野望を宿すまなざしは<br>光と大気でキャンバスを満たす
 </h3>
 
-<img class="img-style_top" src="" alt="imp">
+<div class="line"></div>
 
-<h4>時代</h4>
-<p>19世紀後半</p>
+<h4>いつの時代の様式？</h4>
+<p>19世紀後半ごろ</p>
+
+<!-- 年表 -->
+<div class="timeline"
+data-start="1700"
+data-end="1900">
+
+<div class="timeline_inner">
+
+<!-- 横線 -->
+<div class="line_nenpyo"></div>
+
+<!-- 世紀 -->
+<div class="century_labels"></div>
+
+<!-- 様式 -->
+<div class="pin style_pin" data-year="1874">
+<div class="label">印象派</div>
+</div>
+
+<!-- 出来事 -->
+
+<div class="pin event_pin" data-year="1789">
+<div class="label">
+<span class="year">
+1789
+</span>
+<span class="event_name">
+フランス革命
+</span>
+</div>
+</div>
+
+<div class="pin event_pin" data-year="1839">
+<div class="label">
+<span class="year">
+1839
+</span>
+<span class="event_name">
+世界初の実用的な<br>写真技術が登場
+</span>
+</div>
+</div>
+</div><!-- timeline_inner -->
+</div><!-- timeline -->
+
+
+<!-- 年表生成js -->
+<script src="../js/timeline.js"></script>
+
+
+
 <h4>ここがポイント！</h4>
-<p>
 
-・光、空気、色の変化を描こうとした<br>
-・アトリエを出て、屋外での制作を積極的に行っていた<br>
-・おだやかに見えて、実はバリバリの前衛芸術集団
-</p>
+<ul class="style_points">
+  <li>光、空気、色の変化を描こうとした</li>
+  <li>アトリエを出て、屋外での制作を<br class="br-sp">積極的に行っていた</li>
+  <li>作品は穏やかだけど、実はバリバリの<br class="br-sp">前衛芸術集団</li>
+</ul>
 
 </div><!--style_name_area-->
 </div><!--window-->
@@ -80,7 +133,7 @@
 <div class="window">
 <div class="style_muse_exp_area">
 <h3>
-印象派ってどんな美術？
+印象派ってどんな様式？
 </h3>
 
 <h1>
@@ -94,7 +147,12 @@
 </h3>
 
 <div class="style_muse_message">
+
+<div class="muse_profile">
 <img class="monet" src="../face_image/monet_f.png" alt="redon face image">
+<span class="muse_name">モネ</span>
+</div>
+
 <p>
 陽の光って、一日の中でいろんな色、強さになるでしょう？　そういった、時間とともに移り変わるものを面白い！　って思った画家たちの集まりなの。同じ場所を時間帯を変えて描いて、色の変化を楽しんだりもしたのよ。
 </p>
@@ -107,10 +165,14 @@
 </h3>
 
 <div class="style_muse_message">
+
+<div class="muse_profile">
 <img class="monet" src="../face_image/monet_f.png" alt="redon face image">
+<span class="muse_name">モネ</span>
+</div>
+
 <p>
 それまでにも外で絵を描く画家はいたんだけど、19世紀後半には新しい便利な画材もたくさん生まれて、外で油絵を完成させることもできるようになったの。そうやって外で絵を描く画家を、特に「外光派（がいこうは）」って呼ぶのよ。もちろん、アトリエで描くのが好きな子もいたけどね。
-
 </p>
 </div><!--muse_message-->
 
@@ -121,7 +183,12 @@
 </h3>
 
 <div class="style_muse_message">
+
+<div class="muse_profile">
 <img class="monet" src="../face_image/monet_f.png" alt="redon face image">
+<span class="muse_name">モネ</span>
+
+</div>
 <p>
 当時は、国がやっている公式の展示で評価されないと、ダメな画家とみなされてしまったの。だけどそれって、いい絵とわるい絵を審査員が決めてるってことでしょう？　それをおかしいと思った画家たちが、自分のやりたい美術ができるように作ったグループが、印象派なの。うふふ、こうやって説明すると私たちって結構、ケンカ好きね。
 </p>
@@ -135,7 +202,7 @@
 <div class="style_works_area">
 
 <h3>
-印象派を代表する一枚
+印象派を代表する作品
 </h3>
 <h2>
 印象・日の出
@@ -145,9 +212,11 @@
 
 <div class="left">
 <p>
-「印象派」というグループ名の由来になったともいわれるモネの代表作。フランス北西部、ル・アーヴルの港の景色を荒い筆さばきで描いたもので「作りかけの壁紙のほうがまだマシ」という批評はあまりにも有名。発表後しばらくの評判も芳しくなく、傑作とみなされたのは印象派が世間に認められてしばらくたってから。
+モネやルノワールら数人の画家たちが出資して開いた展示会に出品された作品のひとつ。会場には、当時流行していた古典主義とは大きく異なる作風の作品が多く並び、特に批評家のルイ・ルロワから「印象というバカげた主題」などと厳しい批判を受けた。しかしモネたちはそれを逆手に取り、自らを「印象派」と名乗るようになる。以後、彼らが開催する展示会も「印象派展」と呼ばれるようになった。
 </p>
 </div><!-- left-->
+
+<div class="line"></div>
 
 <p class="works_exp">
 <span class="midashi">作者</span><br class="br-sp">
@@ -193,7 +262,7 @@
 </div><!--window-->
 
 <div class="return">
-<a href="../index_en.html#muse_list">Return to the Muse List</a>
+<a href="../index.html">トップページにもどる</a>
 </div>
 
 <!-- jsで画像パスを生成 -->
