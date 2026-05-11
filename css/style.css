@@ -212,6 +212,22 @@ body.style_page h4{
   text-align: center;
 }
 
+/*様式の特徴*/
+body.style_page .style_muse_exp_area h4{
+  width: 80%;
+  margin: 3% auto;
+  padding: 8px 24px;
+}
+
+@media (min-width: 1280px){
+  body.style_page .style_muse_exp_area h4{
+    width: auto;
+    margin: 1% auto;
+  }
+}
+
+
+
 /* 日本語 */
 
 html[lang="ja"] body.style_page h4{
@@ -399,7 +415,7 @@ line-height: 2em;
 
 
 .timeline{
-  width:90%;
+  width:100%;
   margin:32px auto;
 }
 
@@ -446,7 +462,7 @@ height:var(--timeline-height);
   display: flex;
 
   font-family: "Poppins", sans-serif;
-  font-size: var(--font-body);
+  font-size: var(--font-century);
   font-style: normal;
   font-weight: 700;
   line-height: 1;
@@ -563,6 +579,7 @@ height:var(--timeline-height);
   height: 14px;
 
   top:var(--event-pin-top);
+
 }
 
 /* 灰色の点 */
@@ -589,6 +606,7 @@ height:var(--timeline-height);
   line-height: 1.4;
   text-align: center;
   white-space: nowrap;
+
 }
 
 /* 年号 */
@@ -599,8 +617,6 @@ height:var(--timeline-height);
   font-size: var(--font-event);
   font-weight: bold;
 
-  color: #444;
-
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -610,68 +626,9 @@ height:var(--timeline-height);
 
 .event_pin .event_name{
   display: block;
-  margin-top: 2px;
 
   font-size: var(--font-event);
-
-  color: #555;
-}
-
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-/* ul li */
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-
-/* 共通 */
-
-body.style_page main .style_points{
-  width: 90%;
-  margin: 16px auto;
-  padding: 0;
-
-  font-size: var(--font-body);
-
-  list-style: none;
-}
-
-body.style_page main .style_points li{
-  margin-bottom: 12px;
-}
-
-/* 日本語 */
-
-html[lang="ja"] body.style_page main .style_points{
-  font-family: "Zen Kaku Gothic New", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.8;
-}
-
-/* 英語 */
-
-html[lang="en"] body.style_page main .style_points{
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-}
-
-/* ・を表示 */
-
-body.style_page main .style_points li::before{
-  content: "・";
-}
-
-/* レスポンシブ */
-
-@media (min-width: 1280px){
-
-  body.style_page main .style_points{
-    width: 70%;
-  }
-
-  html[lang="ja"] body.style_page main .style_points{
-    line-height: 2;
-  }
-
+  padding: 2px 8px;
 }
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
@@ -908,7 +865,7 @@ line-break: strict; /* 禁則処理を厳格に適用 */
 /*この様式のミューズエリア*/
 .style_relate_area{
   width: 100%;
-  height: 100%;
+  height: auto;
 
   display: flex;
   flex-direction: column;
@@ -918,53 +875,31 @@ line-break: strict; /* 禁則処理を厳格に適用 */
   text-align: center;
 }
 
-/*表示エリア*/
-.style_relate_group{
-  display: flex;              /* ← 横並びにする */
-  justify-content: center;    /* ← 全体を中央に */
-  gap: 10px;                  /* ← ボタン同士の間隔 */
-  width: 100%;                 /* ← 左右余白を均等に */
-  margin: 0 auto;             /* ← 中央配置 */
-  flex-wrap: wrap;            /* ← はみ出たら折り返し（重要） */
-}
-
-.style_relate_group .button{
-  width: 200px;
-  height: 332px;
-  margin: 0; /* ←これ重要 */
-}
-
-/*フォントサイズ*/
-html[lang="ja"] .style_relate_group .button_name,
-html[lang="en"] .style_relate_group .button_name{
-  font-size: 1.3em;
-}
-
-html[lang="ja"] .style_relate_group .button_name{
-  font-family: "Zen Kaku Gothic New", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-html[lang="en"] .style_relate_group .button_name{
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.relate_block{
-  display: block;
+.style_muse_list{
   width: 100%;
-  margin: 24px auto;
+  margin: 3% auto 3%;
+  padding: 1% 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px 32px; /* 間隔管理 */
 }
 
-/* ボタンを中央寄せ */
-.relate_block .button{
-  display: block;
-  text-align: left;
+/* レスポンシブ */
+
+@media screen and (min-width:1280px){
+  .style_muse_list{
+    width: 90%;
+    margin: 1% auto 5%;
+    gap: 24px; /* 間隔管理 */
+  }
 }
 
-
+/*ボタンのマージンはgapで管理するので、ここでは消す*/
+.style_relate_area .button{
+  margin: 0; /* 消す */
+}
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* return */

@@ -60,8 +60,10 @@ returnボタン
   --font-serif: 2.8rem;
   /* 戻るボタン */
   --font-return: 2.8rem;
-  /* 年表できごとボタン */
+  /* 年表できごと */
   --font-event: 1.5rem;
+  /* 年表世紀 */
+  --font-century: 1.5rem;
 }
 
 /*レスポンシブ*/
@@ -86,8 +88,10 @@ returnボタン
     --font-serif: 2rem;
     /* 戻るボタン */
     --font-return: 2.5rem;
-    /* 年表できごとボタン */
+    /* 年表できごと */
     --font-event: 1.3rem;
+    /* 年表世紀 */
+    --font-century: 1rem;
   }
 
 }
@@ -114,7 +118,7 @@ returnボタン
     --font-serif: 2.3rem;
     /* 戻るボタン */
     --font-return: 2.5rem;
-    /* 年表できごとボタン */
+    /* 年表できごと */
     --font-event: 1.3rem;
   }
 
