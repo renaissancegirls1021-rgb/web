@@ -72,7 +72,7 @@ body.top_page main p{
 /* h1 */
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-h1{
+body.top_page h1{
   width: 80%;
   font-size: var(--font-title);
   margin: 3% auto;
@@ -81,13 +81,13 @@ h1{
 }
 
 @media (min-width: 1280px) {
-  h1{
+  body.top_page h1{
     margin: 16px auto;
   }
 }
 
 @media (min-width: 1921px) {
-  h1{
+  body.top_page h1{
     margin: 32px auto;
   }
 }
