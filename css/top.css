@@ -15,7 +15,7 @@ html[lang="en"] main {
 /* ベース */
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-body {
+body.top_page{
   color: white;
   margin: 0;
   background-color: #222222;
@@ -54,7 +54,7 @@ html[lang="en"]{
 /* 本文 */
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-main p{
+body.top_page main p{
   width: 90%;
   margin: auto;
   font-size: var(--font-body);
@@ -63,7 +63,7 @@ main p{
 }
 
 @media (min-width: 1280px) {
-  main p{
+body.top_page main p{
     width: 80%;
   }
 }
