@@ -1,10 +1,12 @@
 /* common.css */
 /*デバッグ*/
 @import url("debug.css");
-/*ミューズボタン*/
-@import url("muse_button.css");
+
 /*総合*/
 @import url("general.css");
+
+/*フォントサイズ*/
+@import url("typography.css");
 
 /*ミューズ色*/
 @import url("color.css");
@@ -12,8 +14,12 @@
 /*様式色*/
 @import url("style_color.css");
 
-/*フォントサイズ*/
-@import url("typography.css");
+/*ミューズボタン*/
+@import url("muse_button.css");
+
+
+/*トップページ*/
+@import url("top.css");
 
 /*ミューズページ*/
 @import url("muse.css");

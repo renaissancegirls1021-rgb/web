@@ -39,6 +39,9 @@ returnボタン
 --font-event
 様式説明ページ、年表
 
+●ミューズボタン名前
+--font-muse-button-name
+
 */
 
 :root{
@@ -64,6 +67,8 @@ returnボタン
   --font-event: 1.5rem;
   /* 年表世紀 */
   --font-century: 1.5rem;
+/*ミューズボタン名前*/
+  --font-muse-button-name: 1.7rem;
 }
 
 /*レスポンシブ*/
@@ -92,6 +97,9 @@ returnボタン
     --font-event: 1.3rem;
     /* 年表世紀 */
     --font-century: 1rem;
+    /*ミューズボタン名前*/
+--font-muse-button-name: 1rem;
+
   }
 
 }
@@ -120,6 +128,8 @@ returnボタン
     --font-return: 2.5rem;
     /* 年表できごと */
     --font-event: 1.3rem;
+    /*ミューズボタン名前*/
+--font-muse-button-name: 1.3rem;
   }
 
 }

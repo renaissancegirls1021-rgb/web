@@ -140,22 +140,22 @@ html:lang(ja) .button_name{
 
 html:lang(ja) .button_name,
 html:lang(en) .button_name{
-  font-size: 1.5em;
+font-size: var(--font-muse-button-name);
 }
 
 @media screen and (min-width: 1280px){
   html:lang(ja) .button_name{
-    font-size: 1em;
+    font-size: var(--font-muse-button-name);
   }
   html:lang(en) .button_name{
-    font-size: 1em;
+  font-size: var(--font-muse-button-name);
   }
 }
 
 @media screen and (min-width: 1921px){
   html:lang(ja) .button_name,
   html:lang(en) .button_name{
-    font-size: 1.2em;
+    font-size: var(--font-muse-button-name);
   }
 }
 
