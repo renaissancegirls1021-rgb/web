@@ -101,7 +101,7 @@ body.style_page h1{
   font-size: var(--font-hero);
 
   background: var(--style-main-color);
-  color: var(--font-color);
+  color: var(--style-font-color);
 }
 
 /* 言語別フォント */
@@ -124,7 +124,7 @@ html[lang="en"] body.style_page h1{
 
 body.style_page h2{
   background: var(--style-main-color);
-  color: var(--font-color);
+  color: var(--style-font-color);
 }
 
 /* 言語別フォント */
@@ -208,23 +208,33 @@ body.style_page h4{
   font-weight: 600;
 
   background: var(--style-main-color);
-  color: var(--font-color);
+  color: var(--style-font-color);
   text-align: center;
 }
+
 
 /*様式の特徴*/
 body.style_page .style_muse_exp_area h4{
   width: 80%;
   margin: 3% auto;
   padding: 8px 24px;
+
+  background: white;
+  color: black;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  line-height: 2;
+  font-size: 2.5rem;
 }
 
 @media (min-width: 1280px){
   body.style_page .style_muse_exp_area h4{
     width: auto;
     margin: 1% auto;
+      font-size: 1.8rem;
   }
 }
+
 
 
 
@@ -305,7 +315,7 @@ body.style_page .midashi{
   width: 40%;
   padding: 0% 5%;
   margin: 20px auto;
-  color: var(--font-color);
+  color: var(--style-font-color);
   background: var(--style-main-color);
   display: inline-block;
 }
@@ -930,7 +940,7 @@ body.style_page .return a{
   background: var(--style-sub-color);
   border: 8px solid white;
   border-radius: 32px;
-  color: var(--style-font-color);
+  color: var(--style-font-sub-color);
   text-decoration: none;
 }
 
