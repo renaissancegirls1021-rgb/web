@@ -42,6 +42,9 @@ returnボタン
 ●ミューズボタン名前
 --font-muse-button-name
 
+●参考文献
+--font-reference
+
 */
 
 :root{
@@ -69,6 +72,8 @@ returnボタン
   --font-century: 1.5rem;
 /*ミューズボタン名前*/
   --font-muse-button-name: 1.7rem;
+  /*参考文献*/
+  --font-reference: 1.5rem;
 }
 
 /*レスポンシブ*/
@@ -98,8 +103,9 @@ returnボタン
     /* 年表世紀 */
     --font-century: 1rem;
     /*ミューズボタン名前*/
---font-muse-button-name: 1rem;
-
+    --font-muse-button-name: 1rem;
+    /*参考文献*/
+    --font-reference: 1.1rem;
   }
 
 }
@@ -129,7 +135,9 @@ returnボタン
     /* 年表できごと */
     --font-event: 1.3rem;
     /*ミューズボタン名前*/
---font-muse-button-name: 1.3rem;
+    --font-muse-button-name: 1.3rem;
+    /*参考文献*/
+    --font-reference: 1.2rem;
   }
 
 }

@@ -548,7 +548,7 @@ justify-content: space-around;
   width: auto;
   min-width: 50%;
 
-  padding: 1% 10px;
+  padding: 1% 24px;
   margin: 16px auto;
 
   color: var(--style-font-color);
@@ -556,29 +556,26 @@ justify-content: space-around;
   font-size: var(--font-style);
 
   background: var(--style-main-color);
-  border-radius: 64px;
-  border: 8px solid black;
+
+  border-radius: 16px;
 }
 
 @media (min-width: 1280px) {
 .style{
   width: auto;
-  min-width: 20%;
+  min-width: 25%;
   max-width: 40%;
   margin: 24px auto;
   padding: 1% 20px;
   font-size: var(--font-style);
-  border-radius: 48px;
 }
 }
 
 @media (min-width: 1921px) {
   .style{
   padding: 1% 20px;
-  border-radius: 64px;
   }
 }
-
 
 html[lang="ja"] .style{
   font-family: "Zen Kaku Gothic New", sans-serif;
@@ -591,6 +588,71 @@ html[lang="en"] .style{
   font-weight: 700;
   font-style: normal;
 }
+
+
+/*様式ボタン*/
+.muse_style_button{
+  width: auto;
+  min-width: 50%;
+
+  padding: 1% 10px;
+  margin: 16px auto;
+
+  color: var(--style-font-color);
+  text-align: center;
+  font-size: var(--font-style);
+
+  background: var(--style-main-color);
+  border-radius: 64px;
+  border: 8px solid black;
+  text-decoration: none;
+}
+
+/*文字はアンダーライン*/
+.muse_style_button .text{
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+/*三角をつける*/
+.muse_style_button::after{
+  content: "▶";
+  margin-left: 4px;
+}
+
+@media (min-width: 1280px) {
+.muse_style_button{
+  width: auto;
+  min-width: 20%;
+  max-width: 40%;
+  margin: 24px auto;
+  padding: 1% 20px;
+  font-size: var(--font-style);
+  border-radius: 48px;
+}
+}
+
+@media (min-width: 1921px) {
+.muse_style_button{
+  padding: 1% 20px;
+  border-radius: 64px;
+  }
+}
+
+html[lang="ja"] .muse_style_button{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+html[lang="en"] .muse_style_button{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
 
 /*--------------------------------------*/
 /*作品紹介*/
@@ -997,7 +1059,7 @@ transition:0.1s all;
 /* pagetop */
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-.pagetop{
+.muse_page .pagetop{
   width: 128px;
   height: 128px;
 
@@ -1020,7 +1082,7 @@ transition:0.1s all;
 }
 
 /* 三角形 */
-.pagetop::before{
+.muse_page .pagetop::before{
   content: "";
 
   width: 0;
@@ -1030,34 +1092,34 @@ transition:0.1s all;
   border-right: 32px solid transparent;
   border-bottom: 48px solid white;
 
-  transform: translate(8px, -2px);
+  transform: translate(0px, -2px);
 }
 
-.pagetop:hover{
+.muse_page .pagetop:hover{
   transform: scale(1.2);
 }
 
 @media (min-width: 1280px) {
 
-  .pagetop{
+  .muse_page .pagetop{
     width: 64px;
     height: 64px;
   }
 
-  .pagetop::before{
+  .muse_page .pagetop::before{
     border-left: 16px solid transparent;
     border-right: 16px solid transparent;
     border-bottom: 24px solid white;
 
-    transform: translate(8px, -2px);
+    transform: translate(0px, -2px);
   }
 
-  .pagetop:hover{
+  .muse_page .pagetop:hover{
     transform: scale(1.5);
   }
 }
 
-html{
+html:has(body.muse_page){
   scroll-behavior: smooth;
 }
 
@@ -1091,4 +1153,23 @@ justify-content: space-around;
 
 .references li {
   margin-bottom: 0.5em;
+}
+
+
+
+#fade{
+  position: fixed;
+  inset: 0;
+
+  background: black;
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity 0.4s;
+  z-index: 9999;
+}
+
+#fade.active{
+  opacity: 1;
+  pointer-events: auto;
 }

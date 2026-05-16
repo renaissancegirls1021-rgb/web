@@ -419,3 +419,100 @@ html[lang="en"] .style-heading{
   font-family: "Poppins", sans-serif;
   font-weight: 700;
 }
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*様式リスト*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* style_list */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.style_list{
+  width: 95%;
+  margin: 3% auto 20%;
+  padding: 1% 4px 5%;
+
+  display: grid;
+
+  align-items: center;
+  background-color: #222222;
+  gap: 4px;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  place-items: center;
+}
+
+/* レスポンシブ */
+
+@media screen and (min-width:1280px){
+  .style_list{
+    width: 90%;
+    margin: 1% auto 10%;
+
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width:1921px){
+  .style_list{
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* style_button */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.style_button{
+  width: 440px;
+  height: 96px;
+
+  margin: 16px auto;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 2rem;
+
+  background: var(--style-main-color);
+  border: 8px solid black;
+  border-radius: 64px;
+  box-sizing: border-box;
+  color: var(--style-font-color);
+  text-align: center;
+  text-decoration: none;
+}
+
+/* レスポンシブ */
+
+@media screen and (min-width:1280px){
+  .style_button{
+    width: 380px;
+
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (min-width:1921px){
+  .style_button{
+    width: 400px;
+  }
+}
+
+/* 言語別フォント */
+
+html[lang="ja"] .style_button{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+html[lang="en"] .style_button{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}

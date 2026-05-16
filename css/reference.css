@@ -1,0 +1,433 @@
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*言語*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 日本語用 */
+html[lang="ja"] {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+/* 英語用 */
+html[lang="en"] {
+  font-family: "Poppins", sans-serif;
+}
+
+
+body.reference_page{
+  --reference-main-color: #696969;
+  --reference-sub-color:  #ffdc00;
+}
+
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.reference_page{
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  min-height: 100dvh;
+
+  background:
+    linear-gradient(
+      -190deg,
+      var(--reference-main-color) 0%,
+      var(--reference-main-color) 33%,
+      var(--reference-sub-color) 33%,
+      var(--reference-sub-color) 66%,
+      var(--reference-main-color) 66%,
+      var(--reference-main-color) 100%
+    );
+  background-attachment: fixed;
+  background-color: var(--reference-main-color);
+
+}
+
+
+@media (min-width: 1280px) {
+body.reference_page{
+background:
+linear-gradient(
+  -10deg,
+  var(--reference-main-color) 0%,
+  var(--reference-main-color) 55%,
+  var(--reference-sub-color) 55%,
+  var(--reference-sub-color) 100%
+  );
+  background-attachment: fixed;
+  background-color: var(--reference-main-color);
+}
+}
+
+/*共通の白枠*/
+.window{
+width: 80%;
+height: auto;
+margin: 5% auto;
+padding: 32px;
+
+background-color:white;
+border-radius: 16px;
+}
+
+@media (min-width: 1280px) {
+.window{
+  width: 80%;
+}
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 横線 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* reference_page */
+
+body.reference_page .line{
+  width: 90%;
+  height: 4px;
+
+  margin: 3% auto;
+
+  display: block;
+
+  background-color: var(--reference-sub-color);
+  border-radius: 1.5px;
+}
+
+@media (min-width: 1280px){
+  body.reference_page .line{
+    width: 70%;
+    height: 6px;
+
+    border-radius: 8px;
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* reference_list */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.reference_list .line{
+  width: 100%;
+  height: 4px;
+
+  margin: 3% auto;
+
+  background-color: var(--reference-sub-color);
+  border-radius: 1.5px;
+}
+
+@media (min-width: 1280px){
+  body.reference_list .line{
+    height: 6px;
+
+    border-radius: 8px;
+  }
+}
+
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h1 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.reference_page h1{
+  margin: 3% auto;
+  padding: 5px 64px;
+
+  display: inline-block;
+
+  font-size: var(--font-hero);
+
+  background: black;
+  color: white;
+}
+
+body.reference_page h1{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h2 共通 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.reference_page h2{
+  width: 20%;
+  text-align: center;
+  margin: 32px auto;
+  background: black;
+  color: white;
+  padding: 5px 64px;
+
+font-size: var(--font-title);
+}
+
+/* 言語別フォント */
+
+html[lang="ja"] body.reference_page h2{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+}
+
+html[lang="en"] body.reference_page h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h3 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* 共通 */
+
+body.reference_page h3{
+  width: 100%;
+  margin: 40px auto 16px;
+
+  font-size: var(--font-sub-title);
+
+  text-align: center;
+}
+
+/* 日本語 */
+
+body.reference_page h3{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h4 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.reference_page h4{
+  width: 30%;
+  margin: 3% auto;
+  padding: 8px 24px;
+
+  display: inline-block;
+
+  font-family: "Poppins", sans-serif;
+  font-size: var(--font-section);
+  font-weight: 600;
+
+  background: var(--reference-main-color);
+  color: white;
+  text-align: center;
+}
+
+/* 日本語 */
+
+html[lang="ja"] body.reference_page h4{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 700;
+}
+
+/* レスポンシブ */
+
+@media (min-width: 1280px){
+  body.reference_page h4{
+    width: 20%;
+    margin: 1% auto;
+    padding: 6px 20px;
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 文字サイズ */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+body.reference_page main{
+font-size: var(--font-body);
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*その他*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*左寄せ*/
+.left{
+text-align: left;
+text-align: justify;
+overflow-wrap: break-word;
+word-break: normal;
+hyphens: auto;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 参考文献エリア */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.reference_area{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reference_list{
+  width: min(80vw, 1200px);
+
+  margin: 0 auto;
+
+  box-sizing: border-box;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* ul li */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.reference_list ul{
+  width: 100%;
+
+  margin: 0 auto 48px;
+  padding-left: 1.5em;
+
+  box-sizing: border-box;
+}
+
+.reference_list li{
+  margin-bottom: 12px;
+
+  line-height: 1.8;
+  text-align: left;
+
+  overflow-wrap: break-word;
+  word-break: break-word;
+
+font-size: var(--font-reference);
+
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* return */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.reference_page .return{
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+body.reference_page .return a{
+  width: auto;
+  height: auto;
+  margin: 5% auto 10%;
+  padding: 20px 48px;
+
+  display: inline-block;
+
+  font-size: var(--font-return);
+
+  background: var(--reference-sub-color);
+  border: 8px solid white;
+  border-radius: 32px;
+  color: var(--font-sub-color);
+  text-decoration: none;
+}
+
+html[lang="ja"] body.reference_page .return a{
+
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+html[lang="en"] body.reference_page .return a{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media (min-width: 1280px) {
+body.reference_page .return a{
+  font-size: var(--font-return);
+}
+}
+
+@media (min-width: 1921px) {
+body.reference_page .return a{
+font-size: var(--font-return);
+}
+}
+
+
+body.reference_page .return a:hover{
+transform: scale(1.1);
+transition:0.1s all;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* pagetop */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.reference_page .pagetop{
+  width: 128px;
+  height: 128px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #222;
+  border: 4px solid white;
+  border-radius: 50%;
+
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
+
+  text-decoration: none;
+
+  transition: transform 0.1s;
+}
+
+/* 三角形 */
+.reference_page .pagetop::before{
+  content: "";
+
+  width: 0;
+  height: 0;
+
+  border-left: 32px solid transparent;
+  border-right: 32px solid transparent;
+  border-bottom: 48px solid white;
+
+  transform: translate(0px, -2px);
+}
+
+.reference_page .pagetop:hover{
+  transform: scale(1.2);
+}
+
+@media (min-width: 1280px) {
+
+  .reference_page .pagetop{
+    width: 64px;
+    height: 64px;
+  }
+
+  .reference_page .pagetop::before{
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 24px solid white;
+
+    transform: translate(0px, -2px);
+  }
+
+  .reference_page .pagetop:hover{
+    transform: scale(1.5);
+  }
+}

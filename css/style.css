@@ -197,7 +197,7 @@ html[lang="en"] body.style_page h3.catchphrase{
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
 body.style_page h4{
-  width: auto;
+  width: 95%;
   margin: 3% auto;
   padding: 8px 24px;
 
@@ -215,9 +215,9 @@ body.style_page h4{
 
 /*様式の特徴*/
 body.style_page .style_muse_exp_area h4{
-  width: 80%;
-  margin: 3% auto;
-  padding: 8px 24px;
+  width: 95%;
+  margin: 3% 0;
+  padding: 8px 0px;
 
   background: white;
   color: black;
@@ -229,7 +229,7 @@ body.style_page .style_muse_exp_area h4{
 
 @media (min-width: 1280px){
   body.style_page .style_muse_exp_area h4{
-    width: auto;
+    width: 100%;
     margin: 1% auto;
       font-size: 1.8rem;
   }
@@ -388,8 +388,15 @@ line-height: 2em;
 }
 
 .style_name_area img{
-  width: 80%;
-  margin: 32px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+@media (min-width: 1280px) {
+  .style_name_area img{
+    width: 80%;
+    margin: 32px auto;
+  }
 }
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
@@ -411,7 +418,7 @@ line-height: 2em;
 @media (min-width: 1280px) {
   .timeline{
   /*年表の表示高さ*/
-    --timeline-height:300px;
+    --timeline-height:280px;
   /*年表バーの表示高さ*/
     --timeline-bar-top:120px;
   /*様式ピンの高さ*/
@@ -419,14 +426,14 @@ line-height: 2em;
   /*できごとピンの高さ*/
     --event-pin-top:160px;
   /*世紀表示高さ*/
-  --century-y:-10px;
+  --century-y:-2px;
   }
 }
 
 
 .timeline{
-  width:100%;
-  margin:32px auto;
+  width:90%;
+  margin:0px auto;
 }
 
 /* 背景 */
@@ -435,7 +442,7 @@ line-height: 2em;
 
 height:var(--timeline-height);
 
-  background:#e0e0e0;
+  background:#fff;
 
 }
 
@@ -447,7 +454,7 @@ height:var(--timeline-height);
   position:absolute;
 
   top:var(--timeline-bar-top);
-  left:0;
+left:0;
 
   width:100%;
   height:44px;
@@ -979,7 +986,7 @@ transition:0.1s all;
 /* pagetop */
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-.pagetop{
+.style_page .pagetop{
   width: 128px;
   height: 128px;
 
@@ -1002,7 +1009,7 @@ transition:0.1s all;
 }
 
 /* 三角形 */
-.pagetop::before{
+.style_page .pagetop::before{
   content: "";
 
   width: 0;
@@ -1015,18 +1022,18 @@ transition:0.1s all;
   transform: translate(8px, -2px);
 }
 
-.pagetop:hover{
+.style_page .pagetop:hover{
   transform: scale(1.2);
 }
 
 @media (min-width: 1280px) {
 
-  .pagetop{
+  .style_page .pagetop{
     width: 64px;
     height: 64px;
   }
 
-  .pagetop::before{
+  .style_page .pagetop::before{
     border-left: 16px solid transparent;
     border-right: 16px solid transparent;
     border-bottom: 24px solid white;
@@ -1034,14 +1041,15 @@ transition:0.1s all;
     transform: translate(8px, -2px);
   }
 
-  .pagetop:hover{
+  .style_page .pagetop:hover{
     transform: scale(1.5);
   }
 }
 
-html{
+html:has(body.style_page){
   scroll-behavior: smooth;
 }
+
 
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/

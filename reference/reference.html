@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<title>
+参考文献リスト | ルネサンスガールズ
+</title>
+
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="参考文献リスト">
+
+<meta property="og:site_name" content="RenaissanceGirls">
+<meta name="application-name" content="RenaissanceGirls">
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@LoeilTrompe" />
+<meta name="twitter:domain" content="renaissancegirls1021-rgb.github.io" />
+<meta name="twitter:title" content="参考文献リスト｜ルネサンスガールズ" />
+<meta name="twitter:description" content="参考文献リスト" />
+<meta name="twitter:image" content="https://renaissancegirls1021-rgb.github.io/web/x_image/rembrandt_x.png" />
+
+<!-- css -->
+<link rel="stylesheet" href="../css/common.css" type="text/css">
+<link rel="stylesheet" href="../css/reference.css" type="text/css">
+
+<!-- フォント -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap" rel="stylesheet">
+
+<!-- ファビコン -->
+<link rel="icon" href="../favicon.png" type="image/png">
+
+</head>
+<body class="reference_page">
+
+<main>
+
+<a href="#top" class="pagetop"></a>
+
+<div class="window">
+<div class="reference_area">
+
+
+<h1>参考文献</h1>
+
+<div class="line"></div>
+
+<div id="reference_list" class="reference_list"></div>
+
+<script>
+fetch("reference_list.html")
+  .then(res => res.text())
+  .then(html => {
+    document.getElementById("reference_list").innerHTML = html;
+  });
+</script>
+
+</div><!--reference_area-->
+</div><!--window-->
+
+<div class="return">
+<a href="../index.html#muse_list">トップページにもどる</a>
+</div>
+
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>
