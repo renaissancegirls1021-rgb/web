@@ -23,7 +23,7 @@
 <link rel="stylesheet" href="css/color.css" type="text/css">
 <link rel="stylesheet" href="css/style_color.css" type="text/css">
 <link rel="stylesheet" href="css/typography.css" type="text/css">
-
+<link rel="stylesheet" href="css/muse.css" type="text/css">
 
   <!-- 固有css -->
 <link rel="stylesheet" href="css/muse_button.css" type="text/css">
@@ -114,8 +114,6 @@
 <!-- ボタン読み込みスクリプト -->
 <script src="js/loadButtons_jp.js"></script>
 
-<!-- ボタン浮上スクリプト -->
-
 </main>
 
 <!-- フッター　読み込み -->
@@ -129,6 +127,19 @@ document.getElementById("footer").innerHTML = data;
 });
 </script>
 
+<script>
+history.scrollRestoration = 'manual';
+window.addEventListener('pageshow', () => {
+  const hash = location.hash;
+  if (!hash) return;
+  const target = document.querySelector(hash);
+  if (!target) return;
+  // 少し待ってレイアウト確定
+  setTimeout(() => {
+    const y = target.getBoundingClientRect().top + window.pageYOffset;
+window.scrollTo(0, y);
+  }, 100);
+});
+</script>
+
 </body>
-
-

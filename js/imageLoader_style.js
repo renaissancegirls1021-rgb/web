@@ -2,7 +2,7 @@ const name = document.body.classList[0];
 
 // 画像パス生成
 const paths = {
-  style_top: `../style_top_image/${name}_t.png`,
+  style_top: `../style_top_image/${name}_l.png`,
     style_works: `../style_works_image/${name}_w.png`
 
 };

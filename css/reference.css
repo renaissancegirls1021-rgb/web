@@ -12,13 +12,11 @@ html[lang="en"] {
   font-family: "Poppins", sans-serif;
 }
 
-
+/*色*/
 body.reference_page{
   --reference-main-color: #696969;
   --reference-sub-color:  #ffdc00;
 }
-
-
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
@@ -79,50 +77,27 @@ border-radius: 16px;
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* 横線 */
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-
-/* reference_page */
-
 body.reference_page .line{
-  width: 90%;
+  width: min(80vw, 900px);
   height: 4px;
 
-  margin: 3% auto;
+  margin: 8px auto;
 
   display: block;
 
   background-color: var(--reference-sub-color);
+
   border-radius: 1.5px;
 }
 
 @media (min-width: 1280px){
+
   body.reference_page .line{
-    width: 70%;
     height: 6px;
 
     border-radius: 8px;
   }
-}
 
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-/* reference_list */
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-
-body.reference_list .line{
-  width: 100%;
-  height: 4px;
-
-  margin: 3% auto;
-
-  background-color: var(--reference-sub-color);
-  border-radius: 1.5px;
-}
-
-@media (min-width: 1280px){
-  body.reference_list .line{
-    height: 6px;
-
-    border-radius: 8px;
-  }
 }
 
 
@@ -162,7 +137,7 @@ body.reference_page h2{
   color: white;
   padding: 5px 64px;
 
-font-size: var(--font-title);
+font-size: var(--font-sub-title);
 }
 
 /* 言語別フォント */
@@ -184,13 +159,14 @@ html[lang="en"] body.reference_page h2{
 /* 共通 */
 
 body.reference_page h3{
-  width: 100%;
+  width: fit-content;
   margin: 40px auto 16px;
-
+  padding: 8px 24px;
   font-size: var(--font-sub-title);
-
   text-align: center;
+  background: #f0f0f0;
 }
+
 
 /* 日本語 */
 
@@ -288,18 +264,22 @@ hyphens: auto;
   padding-left: 1.5em;
 
   box-sizing: border-box;
+
 }
 
 .reference_list li{
   margin-bottom: 12px;
 
-  line-height: 1.8;
+  line-height: 2;
   text-align: left;
 
   overflow-wrap: break-word;
   word-break: break-word;
 
-font-size: var(--font-reference);
+  font-size: var(--font-reference);
+
+  padding-bottom: 12px;
+  border-bottom: 1px dashed #ccc;
 
 }
 

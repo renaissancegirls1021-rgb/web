@@ -89,20 +89,18 @@ A muse who gained popularity during the Neoclassical era and was even called the
 <div class="line"></div>
 
 <h4>Style</h4>
-<div class="style ncl">
-Neoclassicism
-</div>
+<a class="muse_style_button hover ncl" href="../style/ncl_en.html">Neoclassicism</a>
 
 <h4>Hometown</h4>
 <p>
 Papal States (present-day Italy)<br>
 </p>
 <h4>Classics</h4>
-<p>
-"Cupid and Psyche"<br>
-"Portrait of Juliette Récamier"<br>
-"Napoleon I as Emperor" etc.
-</p>
+<ul class="muse_classics">
+<li>"Cupid and Psyche"</li>
+<li>"Portrait of Juliette Récamier"</li>
+<li>"Napoleon I as Emperor" etc."</li>
+</ul>
 
 </div><!--muse_text_area-->
 
@@ -190,7 +188,7 @@ January 11, 1837(aged 66)
 </div><!--window-->
 
 <div class="return">
-<a href="../index_en.html#muse_list">Return to the Muse List</a>
+<a href="../index_en.html#muse_list">Return to the Top Page</a>
 </div>
 
 <!-- jsで画像パスを生成 -->
@@ -213,5 +211,8 @@ document.getElementById("footer").innerHTML = data;
 
 <!-- フェードイン -->
 <script src="../js/fadein.js"></script>
+
+<!-- トップに戻るボタン挙動 -->
+<script src="../js/return_button.js"></script>
 
 </body>
