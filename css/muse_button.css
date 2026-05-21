@@ -125,6 +125,7 @@ overflow: hidden;
   text-align: center;
 }
 
+
 /*言語別フォント*/
 html:lang(en) .button_name{
   font-family: "Poppins", sans-serif;
@@ -157,6 +158,12 @@ font-size: var(--font-muse-button-name);
   html:lang(en) .button_name{
     font-size: var(--font-muse-button-name);
   }
+}
+
+/* 長い名前のとき小さく */
+html:lang(ja) .button_name.long_name,
+html:lang(en) .button_name.long_name{
+font-size: calc(var(--font-muse-button-name) * 0.9);
 }
 
 /*ホバー*/

@@ -422,7 +422,7 @@ line-height: 2em;
 
 .img-muse{
   opacity: 0;
-  transition: opacity 0.1s ease;
+  transition: opacity 0.2s ease;
 }
 
 .img-muse.loaded{
@@ -616,7 +616,7 @@ html[lang="en"] .style{
 
 /*三角をつける*/
 .muse_style_button::after{
-  content: "▶";
+  content: "▶︎";
   margin-left: 4px;
 }
 
@@ -1153,23 +1153,4 @@ justify-content: space-around;
 
 .references li {
   margin-bottom: 0.5em;
-}
-
-
-
-#fade{
-  position: fixed;
-  inset: 0;
-
-  background: black;
-  opacity: 0;
-  pointer-events: none;
-
-  transition: opacity 0.4s;
-  z-index: 9999;
-}
-
-#fade.active{
-  opacity: 1;
-  pointer-events: auto;
 }

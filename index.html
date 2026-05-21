@@ -150,19 +150,4 @@ document.getElementById("footer").innerHTML = data;
 });
 </script>
 
-<script>
-history.scrollRestoration = 'manual';
-window.addEventListener('pageshow', () => {
-  const hash = location.hash;
-  if (!hash) return;
-  const target = document.querySelector(hash);
-  if (!target) return;
-  // 少し待ってレイアウト確定
-  setTimeout(() => {
-    const y = target.getBoundingClientRect().top + window.pageYOffset;
-window.scrollTo(0, y);
-  }, 100);
-});
-</script>
-
 </body>

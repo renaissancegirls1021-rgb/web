@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const imgs = document.querySelectorAll('.img-muse');
+  const imgs = document.querySelectorAll('.img-muse, .img-style_top');
 
   imgs.forEach(img => {
     if (img.complete) {
