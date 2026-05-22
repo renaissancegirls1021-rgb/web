@@ -145,6 +145,7 @@ html[lang="en"] body.style_page h2{
 
 .style_works_area h2,
 .style_relate_area h2,
+.style_matome_area h2,
 .references_area h2{
   padding: 0 5%;
 
@@ -212,32 +213,6 @@ body.style_page h4{
   text-align: center;
 }
 
-
-/*様式の特徴*/
-body.style_page .style_muse_exp_area h4{
-  width: 95%;
-  margin: 3% 0;
-  padding: 8px 0px;
-
-  background: white;
-  color: black;
-  text-decoration: underline;
-  text-underline-offset: 8px;
-  line-height: 2;
-  font-size: 2.5rem;
-}
-
-@media (min-width: 1280px){
-  body.style_page .style_muse_exp_area h4{
-    width: 100%;
-    margin: 1% auto;
-      font-size: 1.8rem;
-  }
-}
-
-
-
-
 /* 日本語 */
 
 html[lang="ja"] body.style_page h4{
@@ -245,14 +220,65 @@ html[lang="ja"] body.style_page h4{
   font-weight: 700;
 }
 
+/* 様式の特徴 */
+
+body.style_page .style_muse_exp_area h4{
+  width: 95%;
+  margin: 3% 0;
+  padding: 8px 0;
+
+  font-size: 2.5rem;
+  line-height: 2;
+
+  background: white;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+/* まとめ */
+
+body.style_page .style_matome_area h4{
+  width: 95%;
+  margin: 0;
+  padding: 8px 0;
+
+  font-size: 2.5rem;
+  line-height: 2;
+
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+@media (min-width: 1280px){
+  body.style_page .style_matome_area h4{
+
+    font-size: 2rem;
+  }
+
+}
+
+
+
 /* レスポンシブ */
 
 @media (min-width: 1280px){
+
   body.style_page h4{
     width: 20%;
     margin: 1% auto;
     padding: 6px 20px;
   }
+
+  body.style_page .style_muse_exp_area h4{
+    width: 100%;
+    margin: 1% auto;
+
+    font-size: 1.8rem;
+  }
+
 }
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
@@ -414,13 +440,14 @@ line-height: 2em;
 
 .img-style_top{
   opacity: 0;
-  transition: opacity 0.5s ease;
+  animation: fadeIn 0.6s ease forwards;
 }
 
-.img-style_top.loaded{
-  opacity: 1;
+@keyframes fadeIn{
+  to{
+    opacity: 1;
+  }
 }
-
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* 年表 */
@@ -939,6 +966,56 @@ line-break: strict; /* 禁則処理を厳格に適用 */
 /*ボタンのマージンはgapで管理するので、ここでは消す*/
 .style_relate_area .button{
   margin: 0; /* 消す */
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* まとめ */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* まとめエリア */
+
+.style_matome_area{
+  height: 100%;
+  margin: auto;
+  padding: 16px;
+
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* まとめ本文 */
+
+.matome{
+  width: 100%;
+  height: 100%;
+  margin: 16px auto;
+  padding: 32px 0;
+
+  display: flex;
+
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: var(--font-title);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2;
+
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+/* レスポンシブ */
+
+@media (min-width: 1280px){
+  .matome{
+    margin: 16px auto;
+  }
 }
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
