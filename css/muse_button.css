@@ -69,6 +69,10 @@ overflow: hidden;
   opacity: 1;
 }
 
+/*トップボタンだけ除外*/
+.today-card .button img {
+  opacity: 1;
+}
 
 /*ななめせん*/
 .slash{

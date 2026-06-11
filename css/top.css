@@ -516,3 +516,50 @@ html[lang="en"] .style_button{
   font-style: normal;
   font-weight: 700;
 }
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* today card */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.today-card {
+  width: 60%;
+  margin: 64px auto;
+  padding: 8px;
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width:1280px){
+.today-card {
+  width: 30%;
+  margin: 64px auto;
+  padding: 8px;
+  border-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
+
+.today-card h2{
+font-size: var(--font-title);
+color: #FFCC00;
+margin: 8px;
+}
+
+/*ボタン全体*/
+.today-card .button{
+  width: 250px;
+  height: 416px;
+}
+
+@media screen and (min-width:1280px){
+  .today-card .button{
+    width: 200px;
+    height: 332px;
+  }
+}
