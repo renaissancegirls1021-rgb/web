@@ -9,7 +9,6 @@ padding: 16px;
   flex-flow: column;
   background-color: black;
 
-  font-size: 0.8em;
   text-align: center;
   color: white;
 
@@ -22,7 +21,6 @@ padding: 16px;
 @media (min-width: 1921px) {
   .footer{
     padding: 20px;
-    font-size: 0.8em;
     height: 240px;
   }
 }
@@ -40,20 +38,12 @@ padding: 16px;
   }
 }
 
-
-.footer p{
+body.top_page footer p{
   width: auto;
   margin: 16px auto;
-  font-size: 1.8em;
+  font-size: var(--font-small);
   line-height: 1.5;
 }
-
-@media (min-width: 1280px){
-  .footer p{
-    font-size: 1em;
-  }
-}
-
 
 .footer-links {
   display: flex;
