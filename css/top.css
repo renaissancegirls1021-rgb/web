@@ -111,7 +111,7 @@ body.top_page h1{
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 .top_image{
   width: 100%;
-  margin: 32px auto;
+  margin: 96px auto 32px auto;
   height: auto;
   display: flex;
 
@@ -119,6 +119,14 @@ body.top_page h1{
   justify-content: center;
   flex-flow: column;
 }
+
+@media screen and (min-width: 1280px) {
+  .top_image{
+    margin: 32px auto;
+  }
+}
+
+
 
   .top_key_img{
     width: 100%;
