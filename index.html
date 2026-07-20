@@ -60,11 +60,15 @@
 <a href="index_en.html" class="language-link">EN</a>
 
 <!-- ★★★トップ画像★★★ -->
-<div class="top_image">
+<picture class="top_image">
+    <!-- PC用 -->
+    <source
+        media="(min-width: 1280px)"
+        srcset="image/key2.png">
 
-<img class="top_key_img" src="image/key2.png">
-
-</div><!-- top_image -->
+    <!-- デフォルト（スマホ・タブレット） -->
+    <img src="image/key2_sp.png" alt="トップ画像">
+</picture>
 
 <!-- 今日のミューズ-->
 <script src="js/today_muse.js"></script>
