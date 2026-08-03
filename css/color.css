@@ -27,6 +27,7 @@
 .degas{--main-color: #68a9cf;--sub-color:  #b7ffff;--font-color: black;--font-sub-color:  black;}
 .delacroix{--main-color: #EE0068;--sub-color:  #742F2F;--font-color: white;--font-sub-color:  white;}
 .delaroche{--main-color: #ffbf7f;--sub-color:  #ea553a;--font-color: black;--font-sub-color:  black;}
+.denis{--main-color: ;--sub-color:  ;--font-color: ;--font-sub-color:  ;}
 .duchamp{--main-color: #6633CC;--sub-color:  #000033;--font-color: white;--font-sub-color:  white;}
 .durer{--main-color: #006600;--sub-color:  #E76600;--font-color: white;--font-sub-color:  black;}
 .elgreco{--main-color: #e5a323;--sub-color:  #4e454a;--font-color: white;--font-sub-color:  white;}
@@ -40,6 +41,7 @@
 .gerard{--main-color: #1D3260;--sub-color:  #ffb6c1;--font-color: white;--font-sub-color:  white;}
 .gericault{--main-color: #6f5436;--sub-color:  #ba8b40;--font-color: white;--font-sub-color:  black;}
 .giacometti{--main-color: #8EB5D1;--sub-color:  #7F6666;--font-color: black;--font-sub-color:  white;}
+.giorgione{--main-color: ;--sub-color:  ;--font-color: ;--font-sub-color:  ;}
 .giotto{--main-color: #E6C223;--sub-color:  #765840;--font-color: black;--font-sub-color:  white;}
 .girodet{--main-color: #1D3260;--sub-color:  #d3d3d3;--font-color: white;--font-sub-color:  black;}
 .gogh{--main-color: #999900;--sub-color:  #3366CC;--font-color: white;--font-sub-color:  white;}
@@ -56,12 +58,15 @@
 .kandinsky{--main-color: #2D84FD;--sub-color:  #00CDFF;--font-color: white;--font-sub-color:  black;}
 .khnopff{--main-color: #B40068;--sub-color:  #DC7EFF;--font-color: white;--font-sub-color:  black;}
 .klimt{--main-color: #BAA04F;--sub-color:  #C67DFF;--font-color: black;--font-sub-color:  black;}
+.kramskoi{--main-color: ;--sub-color:  ;--font-color: ;--font-sub-color:  ;}
 .latour{--main-color: #594000;--sub-color:  #8E3D3D;--font-color: white;--font-sub-color:  white;}
 .leonardo{--main-color: #0066FF;--sub-color:  #990000;--font-color: white;--font-sub-color:  white;}
 .lichtenstein{--main-color: #EE0000;--sub-color:  #FFEF00;--font-color: white;--font-sub-color:  black;}
+.lukas{--main-color: ;--sub-color:  ;--font-color: ;--font-sub-color:  ;}
 .magritte{--main-color: #0D0D52;--sub-color:  #449A22;--font-color: white;--font-sub-color:  white;}
 .malevich{--main-color: #000000;--sub-color:  #C1272D;--font-color: white;--font-sub-color:  white;}
 .manet{--main-color: #006600;--sub-color:  #B40000;--font-color: white;--font-sub-color:  white;}
+.marc{--main-color: ;--sub-color:  ;--font-color: ;--font-sub-color:  ;}
 .matisse{--main-color: #009A00;--sub-color:  #EE0000;--font-color: white;--font-sub-color:  white;}
 .michelangelo{--main-color: #CC6600;--sub-color:  #50A8FF;--font-color: white;--font-sub-color:  white;}
 .millais{--main-color: #98191F;--sub-color:  #618e34;--font-color: white;--font-sub-color:  white;}
@@ -73,7 +78,7 @@
 .mucha{--main-color: #FFCD0D;--sub-color:  #1B4492;--font-color: black;--font-sub-color:  white;}
 .munch{--main-color: #002F68;--sub-color:  #32cd32;--font-color: white;--font-sub-color:  white;}
 .picasso{--main-color: #ff69b4;--sub-color:  #4169e1;--font-color: black;--font-sub-color:  white;}
-.raffaello{--main-color: ;--sub-color:  ;--font-color: ;--font-sub-color:  ;}
+.raffaello{--main-color: #ffff89;--sub-color:  #ff7f7f;--font-color: black;--font-sub-color:  black;}
 .redon{--main-color: #2F2F2F;--sub-color:  #002FD1;--font-color: white;--font-sub-color:  white;}
 .rembrandt{--main-color: #543A30;--sub-color:  #C6801D;--font-color: white;--font-sub-color:  white;}
 .renoir{--main-color: #FF6666;--sub-color:  #3E4875;--font-color: white;--font-sub-color:  white;}
@@ -81,6 +86,7 @@
 .rossetti{--main-color: #ff1493;--sub-color:  #618e34;--font-color: white;--font-sub-color:  white;}
 .rousseau{--main-color: #006600;--sub-color:  #2F2F2F;--font-color: white;--font-sub-color:  white;}
 .rubens{--main-color: #996600;--sub-color:  #e6b422;--font-color: white;--font-sub-color:  black;}
+.saintphalle{--main-color: ;--sub-color:  ;--font-color: ;--font-sub-color:  ;}
 .sargent{--main-color: ;--sub-color:  ;--font-color: black;--font-sub-color:  black;}
 .schiele{--main-color: #494437;--sub-color:  #B36856;--font-color: white;--font-sub-color:  white;}
 .segantini{--main-color: ;--sub-color:  ;--font-color: ;--font-sub-color:  ;}
