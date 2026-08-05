@@ -14,8 +14,8 @@ html[lang="en"] {
 
 /*色*/
 body.game_page{
-  --game-main-color: #696969;
-  --game-sub-color:  #ffdc00;
+  --game-main-color: #4169e1;
+  --game-sub-color:  #bccddb;
 }
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
@@ -160,7 +160,7 @@ html[lang="en"] body.game_page h2{
 
 body.game_page h3{
   width: fit-content;
-  margin: 40px auto 16px;
+  margin: 8px auto 16px;
   padding: 8px 24px;
   font-size: var(--font-sub-title);
   text-align: center;
@@ -245,44 +245,62 @@ hyphens: auto;
   align-items: center;
 }
 
-.game_list{
-  width: min(80vw, 1200px);
+.game_area p{
+text-align: center;
+}
 
+.game_area .small p{
+font-size: var(--font-small);
+}
+
+.game_list{
+  width: 80%;
   margin: 0 auto;
 
-  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* 2列 */
+  gap: 10px; /* 要素間の余白 */
 }
 
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-/* ul li */
-/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+@media (min-width: 1280px) {
+  .game_list{
+    width: 80%;
+    margin: 0 auto;
 
-.game_list ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2列 */
+    gap: 10px; /* 要素間の余白 */
+  }
+}
+
+.game {
+  width: auto;
+    margin: 32px auto;
+    text-align: center;
+}
+
+@media (min-width: 1280px) {
+  .game {
+      margin: 48px auto;
+  }
+}
+
+img{
   width: 100%;
-
-  margin: 0 auto 48px;
-  padding-left: 1.5em;
-
-  box-sizing: border-box;
-
+  border: 4px solid black;
+  border-radius: 16px;
 }
 
-.game_list li{
-  margin-bottom: 12px;
-
-  line-height: 2;
-  text-align: left;
-
-  overflow-wrap: break-word;
-  word-break: break-word;
-
-  font-size: var(--font-game);
-
-  padding-bottom: 12px;
-  border-bottom: 1px dashed #ccc;
-
+@media (min-width: 1280px) {
+  img{
+    width: 480px;
+  }
 }
 
+img:hover{
+transform: scale(1.05);
+transition:0.1s all;
+}
 
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* return */
@@ -341,7 +359,6 @@ body.game_page .return a{
 font-size: var(--font-return);
 }
 }
-
 
 body.game_page .return a:hover{
 transform: scale(1.1);
@@ -410,4 +427,80 @@ transition:0.1s all;
   .game_page .pagetop:hover{
     transform: scale(1.5);
   }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* モーダルウィンドウ */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+#overlay{
+  display: none;
+
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  inset: 0;
+
+  background: rgba(0, 0, 0, .75);
+  z-index: 9999;
+}
+
+#modal{
+  width: min(1200px, 95vw);
+  height: min(700px, 95vh);
+
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+#game-frame{
+  width: 100%;
+  height: 100%;
+
+  border: none;
+}
+
+#modal-wrap{
+  display: inline-block;
+
+  position: relative;
+}
+
+#close{
+  width: 96px;
+  height: 96px;
+
+  display: block;
+
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 96px;
+
+  position: absolute;
+  top: -104px;
+  right: 0;
+
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+/* PC */
+
+@media (min-width: 1280px){
+
+  #close{
+    width: 48px;
+    height: 48px;
+
+    font-size: 40px;
+    line-height: 48px;
+
+    top: 0;
+    right: -56px;
+  }
+
 }
