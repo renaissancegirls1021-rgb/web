@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>
+Renaissance Girls Theater | RenaissanceGirls
+</title>
+
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Renaissance Girls Theater">
+
+<meta property="og:site_name" content="RenaissanceGirls">
+<meta name="application-name" content="RenaissanceGirls">
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@LoeilTrompe" />
+<meta name="twitter:domain" content="renaissancegirls1021-rgb.github.io" />
+<meta name="twitter:title" content="Renaissance Girls Theater | RenaissanceGirls" />
+<meta name="twitter:description" content="Renaissance Girls Theater" />
+<meta name="twitter:image" content="https://renaissancegirls1021-rgb.github.io/web/image/key.png" />
+
+<!-- css -->
+<link rel="stylesheet" href="../css/common.css" type="text/css">
+<link rel="stylesheet" href="../css/theater.css" type="text/css">
+
+<!-- フォント -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap" rel="stylesheet">
+
+<!-- ファビコン -->
+<link rel="icon" href="../favicon.png" type="image/png">
+
+</head>
+<body class="theater_page">
+
+<main>
+
+<a href="#top" class="pagetop"></a>
+
+<div class="window">
+<div class="theater_area">
+
+
+<h1>Renaissance Girls Theater</h1>
+
+<p>
+A collection of short visual novels<br class="br-sp"> featuring the everyday lives of the Muses.
+</p>
+
+<div class="small">
+<p>
+・Click a thumbnail to launch a theater.<br>
+・Available in Japanese and English.<br>
+・Playable on PC and smartphones (PC recommended).<br>
+・Includes voice acting and sound effects.<br>
+・An internet connection is required.<br class="br-sp"> Please note that audio and video files<br class="br-sp"> will be downloaded during theaterplay.<br>
+・On the PC version, press Ctrl to skip (fast-forward).<br>
+・Hover over blue text (or tap it on smartphones)<br class="br-sp"> to view additional explanations.<br>
+</p>
+</div>
+
+<div class="line"></div>
+
+<div class="theater_list">
+
+<!-- オーバーレイ表示処理　ここに置く -->
+<div id="overlay">
+<div id="modal-wrap">
+<div id="modal">
+<iframe id="theater-frame"></iframe>
+</div>
+<button id="close">×</button>
+</div>
+</div>
+<!-- オーバーレイ表示処理ここまで -->
+
+<div class="theater">
+<a href="https://renaissancegirls1021-rgb.github.io/web/theater/01/index.html" class="modal-link">
+<img src="../theater_thumb/01.png" alt="#1 Van Gogh wants to be pampered!">
+</a>
+<h3>#1<br>Van Gogh wants to be pampered!</h3>
+</div><!-- /.theater -->
+
+<div class="theater">
+<a href="https://renaissancegirls1021-rgb.github.io/web/theater/02/index.html" class="modal-link">
+<img src="../theater_thumb/02.png" alt="#2 What Monet Wants to Buy">
+</a>
+<h3>#2<br>What Monet Wants to Buy</h3>
+</div><!-- /.theater -->
+
+<div class="theater">
+<a href="https://renaissancegirls1021-rgb.github.io/web/theater/03/index.html" class="modal-link">
+<img src="../theater_thumb/03.png" alt="#3 David the Tyrant">
+</a>
+<h3>#3<br>David the Tyrant</h3>
+</div><!-- /.theater -->
+
+
+</div><!--theater_list-->
+
+</div><!--theater_area-->
+</div><!--window-->
+
+<div class="return">
+<a href="../index_en.html#muse_list">Return to the Top Page</a>
+</div>
+
+</main>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("../include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+<script src="../js/theater.js"></script>
+
+</body>

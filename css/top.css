@@ -556,7 +556,7 @@ html[lang="en"] .style_button{
 /* 劇場 */
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
-.top_game_area{
+.top_theater_area{
   width: 90%;
   margin: auto auto 64px;
 
@@ -568,7 +568,7 @@ html[lang="en"] .style_button{
   place-items: center;
 }
 
-.top_game_area a{
+.top_theater_area a{
   width: 70%;
   margin: 64px;
   padding: 16px 32px;
@@ -583,13 +583,13 @@ font-size: var(--font-style);
   text-decoration: none;
 }
 
-html[lang="ja"] .top_game_area a{
+html[lang="ja"] .top_theater_area a{
   font-family: "Zen Kaku Gothic New", sans-serif;
   font-style: normal;
   font-weight: 700;
 }
 
-html[lang="en"] .top_game_area a{
+html[lang="en"] .top_theater_area a{
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -599,14 +599,14 @@ html[lang="en"] .top_game_area a{
 /* レスポンシブ */
 
 @media screen and (min-width:1280px){
-  .top_game_area a{
+  .top_theater_area a{
     width: 30%;
   }
 }
 
 /* ホバー */
 
-.top_game_area a:hover{
+.top_theater_area a:hover{
   background: #26499d;
   transform: scale(1.1);
   transition: 0.1s all;
