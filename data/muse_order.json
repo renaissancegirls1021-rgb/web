@@ -1,0 +1,226 @@
+[
+  {
+    "id": "rembrandt",
+    "name": "レンブラント"
+  },
+  {
+    "id": "michelangelo",
+    "name": "ミケランジェロ"
+  },
+  {
+    "id": "gogh",
+    "name": "ゴッホ"
+  },
+  {
+    "id": "monet",
+    "name": "モネ"
+  },
+  {
+    "id": "giotto",
+    "name": "ジョット"
+  },
+  {
+    "id": "leonardo",
+    "name": "レオナルド"
+  },
+  {
+    "id": "botticelli",
+    "name": "ボッティチェリ"
+  },
+  {
+    "id": "raffaello",
+    "name": "ラファエロ"
+  },
+  {
+    "id": "bruegel",
+    "name": "ブリューゲル"
+  },
+  {
+    "id": "caravaggio",
+    "name": "カラヴァッジョ"
+  },
+  {
+    "id": "velazquez",
+    "name": "ベラスケス"
+  },
+  {
+    "id": "rubens",
+    "name": "ルーベンス"
+  },
+  {
+    "id": "boucher",
+    "name": "ブーシェ"
+  },
+  {
+    "id": "watteau",
+    "name": "ヴァトー"
+  },
+  {
+    "id": "fragonard",
+    "name": "フラゴナール"
+  },
+  {
+    "id": "hogarth",
+    "name": "ホガース"
+  },
+  {
+    "id": "david",
+    "name": "ダヴィッド"
+  },
+  {
+    "id": "ingres",
+    "name": "アングル"
+  },
+  {
+    "id": "gros",
+    "name": "グロ"
+  },
+  {
+    "id": "gerard",
+    "name": "ジェラール"
+  },
+  {
+    "id": "girodet",
+    "name": "ジロデ"
+  },
+  {
+    "id": "gericault",
+    "name": "ジェリコー"
+  },
+  {
+    "id": "goya",
+    "name": "ゴヤ"
+  },
+  {
+    "id": "delacroix",
+    "name": "ドラクロワ"
+  },
+  {
+    "id": "friedrich",
+    "name": "フリードリヒ"
+  },
+  {
+    "id": "courbet",
+    "name": "クールベ"
+  },
+  {
+    "id": "millet",
+    "name": "ミレー"
+  },
+  {
+    "id": "corot",
+    "name": "コロー"
+  },
+  {
+    "id": "redon",
+    "name": "ルドン"
+  },
+  {
+    "id": "becklin",
+    "name": "ベックリン"
+  },
+  {
+    "id": "renoir",
+    "name": "ルノワール"
+  },
+  {
+    "id": "degas",
+    "name": "ドガ"
+  },
+  {
+    "id": "millais",
+    "name": "ミレイ"
+  },
+  {
+    "id": "hunt",
+    "name": "ハント"
+  },
+  {
+    "id": "rossetti",
+    "name": "ロセッティ"
+  },
+  {
+    "id": "repin",
+    "name": "レーピン"
+  },
+  {
+    "id": "seurat",
+    "name": "スーラ"
+  },
+  {
+    "id": "beardsley",
+    "name": "ビアズリー"
+  },
+  {
+    "id": "gauguin",
+    "name": "ゴーギャン"
+  },
+  {
+    "id": "serusier",
+    "name": "セリュジエ"
+  },
+  {
+    "id": "klimt",
+    "name": "クリムト"
+  },
+  {
+    "id": "matisse",
+    "name": "マティス"
+  },
+  {
+    "id": "vlaminck",
+    "name": "ヴラマンク"
+  },
+  {
+    "id": "munch",
+    "name": "ムンク"
+  },
+  {
+    "id": "kandinsky",
+    "name": "カンディンスキー"
+  },
+  {
+    "id": "dechirico",
+    "name": "デ・キリコ"
+  },
+  {
+    "id": "ernst",
+    "name": "エルンスト"
+  },
+  {
+    "id": "duchamp",
+    "name": "デュシャン"
+  },
+  {
+    "id": "dali",
+    "name": "ダリ"
+  },
+  {
+    "id": "varo",
+    "name": "バロ"
+  },
+  {
+    "id": "magritte",
+    "name": "マグリット"
+  },
+  {
+    "id": "warhol",
+    "name": "ウォーホル"
+  },
+  {
+    "id": "haring",
+    "name": "ヘリング"
+  },
+  {
+    "id": "grimshaw",
+    "name": "グリムショー"
+  },
+  {
+    "id": "giacometti",
+    "name": "ジャコメッティ"
+  },
+  {
+    "id": "brancusi",
+    "name": "ブランクーシ"
+  }
+]

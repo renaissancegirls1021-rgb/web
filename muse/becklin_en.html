@@ -187,9 +187,22 @@ January 16, 1901(aged 73)
 </div><!--artist_area-->
 </div><!--window-->
 
+<!--遷移ボタン-->
+<div class="sp_button_area">
+<!-- スマホ版 前後ナビゲーション -->
+<div class="muse-navigation-sp">
+<a href="#" class="muse-nav-button-sp muse-nav-prev" aria-label="一つ前のキャラクター">◀</a>
+</div>
+
 <div class="return">
 <a href="../index_en.html#muse_list">Return to the Top Page</a>
 </div>
+
+<div class="muse-navigation-sp">
+<a href="#" class="muse-nav-button-sp muse-nav-next" aria-label="ひとつ次のキャラクター">▶</a>
+</div>
+
+</div><!--sp_button_area-->
 
 <!-- jsで画像パスを生成 -->
 <script src="../js/imageLoader.js"></script>
@@ -214,5 +227,14 @@ document.getElementById("footer").innerHTML = data;
 
 <!-- トップに戻るボタン挙動 -->
 <script src="../js/return_button.js"></script>
+
+<!-- PC版 前後ナビゲーション -->
+<nav class="muse-navigation-pc" aria-label="キャラクターナビゲーション">
+<a href="#" class="muse-nav-button muse-nav-prev" aria-label="一つ前のキャラクター">◀</a>
+<a href="#" class="muse-nav-button muse-nav-next" aria-label="ひとつ次のキャラクター">▶</a>
+</nav>
+
+<!-- 遷移先読み込み 定義はjsonでやる -->
+<script src="../js/muse-navigation.js"></script>
 
 </body>

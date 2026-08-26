@@ -997,6 +997,7 @@ html[lang="en"] .relate_message p{
 
 body.muse_page .return{
   width: 90%;
+  height: 200px;
   margin: 0 auto;
 
   display: flex;
@@ -1010,7 +1011,8 @@ body.muse_page .return{
 body.muse_page .return a{
   width: auto;
   height: auto;
-  margin: 5% auto 10%;
+margin: auto;
+/*  margin: 5% auto 10%;*/
   padding: 20px 48px;
 
   display: inline-block;
@@ -1153,4 +1155,130 @@ justify-content: space-around;
 
 .references li {
   margin-bottom: 0.5em;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* キャラクター前後ナビゲーション */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*スマホボタンエリア*/
+.sp_button_area{
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: 10% auto;
+}
+
+@media (min-width: 1280px){
+  .sp_button_area{
+  }
+}
+
+.muse-navigation-sp{
+  width: 25%;
+  height: 25%;
+  margin: auto;
+  display: flex;
+}
+
+.muse-nav-button-sp{
+  width: 120px;
+  height: 120px;
+margin: auto;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 64px;
+  line-height: 1;
+
+  background: rgba(255, 255, 255, 0.85);
+  border: 8px solid #333;
+  border-radius: 50%;
+  color: #333;
+  text-decoration: none;
+
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+/* PC */
+@media (min-width: 1280px){
+
+  .sp_button_area{
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+
+  .muse-navigation-sp{
+    display: none;
+  }
+
+}
+
+/* PC用ナビゲーション */
+.muse-navigation-pc{
+  width: 100%;
+
+  padding: 0 25px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 50%;
+  left: 0;
+
+  box-sizing: border-box;
+  pointer-events: none;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+/* スマートフォンでは非表示 */
+@media (max-width: 1279px){
+
+  .muse-navigation-pc{
+    display: none;
+  }
+
+}
+
+/* ナビゲーションボタン */
+.muse-nav-button{
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 32px;
+  line-height: 1;
+
+  background: rgba(255, 255, 255, 0.85);
+  border: 4px solid #333;
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: #333;
+  pointer-events: auto;
+  text-decoration: none;
+
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+/* 左ボタン */
+.muse-nav-prev:hover{
+  transform: scale(1.4);
+  transition:0.1s all;
+}
+
+/* 右ボタン */
+.muse-nav-next:hover{
+  transform: scale(1.4);
+  transition:0.1s all;
 }
