@@ -1199,7 +1199,6 @@ margin: auto;
   color: #333;
   text-decoration: none;
 
-  transition: background-color 0.2s, color 0.2s, transform 0.2s;
 }
 
 /* PC */
@@ -1267,18 +1266,30 @@ margin: auto;
   color: #333;
   pointer-events: auto;
   text-decoration: none;
-
-  transition: background-color 0.2s, color 0.2s, transform 0.2s;
 }
 
 /* 左ボタン */
 .muse-nav-prev:hover{
-  transform: scale(1.4);
+  transform: scale(1);
   transition:0.1s all;
 }
 
 /* 右ボタン */
 .muse-nav-next:hover{
-  transform: scale(1.4);
+  transform: scale(1);
   transition:0.1s all;
+}
+
+@media (min-width: 1280px){
+  /* 左ボタン */
+  .muse-nav-prev:hover{
+    transform: scale(1.4);
+    transition:0.1s all;
+  }
+
+  /* 右ボタン */
+  .muse-nav-next:hover{
+    transform: scale(1.4);
+    transition:0.1s all;
+  }
 }
