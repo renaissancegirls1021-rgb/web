@@ -120,16 +120,16 @@
     "name": "ベックリン"
   },
   {
-    "id": "renoir",
-    "name": "ルノワール"
-  },
-  {
     "id": "pissarro",
     "name": "ピサロ"
   },
   {
     "id": "degas",
     "name": "ドガ"
+  },
+  {
+    "id": "renoir",
+    "name": "ルノワール"
   },
   {
     "id": "millais",
@@ -222,6 +222,10 @@
   {
     "id": "haring",
     "name": "ヘリング"
+  },
+  {
+    "id": "escher",
+    "name": "エッシャー"
   },
   {
     "id": "grimshaw",
