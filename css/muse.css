@@ -1159,7 +1159,12 @@ justify-content: space-around;
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* キャラクター前後ナビゲーション */
 /*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
-/*スマホボタンエリア*/
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* スマホ用ボタン */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* スマホボタンエリア */
 .sp_button_area{
   width: 100%;
   height: auto;
@@ -1172,6 +1177,7 @@ justify-content: space-around;
   }
 }
 
+/* スマホ用ナビゲーション */
 .muse-navigation-sp{
   width: 25%;
   height: 25%;
@@ -1179,30 +1185,62 @@ justify-content: space-around;
   display: flex;
 }
 
+/* スマホ用ナビゲーションボタン */
 .muse-nav-button-sp{
   width: 120px;
   height: 120px;
-margin: auto;
+  margin: auto;
 
   display: flex;
 
   align-items: center;
   justify-content: center;
 
-font-family: "Zen Kaku Gothic New", sans-serif;
-  font-size: 64px;
-  line-height: 1;
-
   background: rgba(255, 255, 255, 0.85);
   border: 8px solid #333;
   border-radius: 50%;
+  box-sizing: border-box;
+
   color: #333;
   text-decoration: none;
+
+  /* HTML内の◀▶文字を非表示 */
+  font-size: 0;
+
+  position: relative;
 
   transition: background-color 0.2s, color 0.2s, transform 0.2s;
 }
 
+/* スマホ用三角形 */
+.muse-nav-button-sp::before{
+  content: "";
+  display: block;
+
+  width: 0;
+  height: 0;
+
+  border-top: 22px solid transparent;
+  border-bottom: 22px solid transparent;
+  border-left: 32px solid #333;
+
+  /* 見た目の中央に微調整 */
+  transform: translateX(3px);
+}
+
+/* スマホ左ボタン */
+.muse-nav-button-sp.muse-nav-prev::before{
+  border-left: none;
+  border-right: 32px solid #333;
+
+  transform: translateX(-3px);
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* PC */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
 @media (min-width: 1280px){
 
   .sp_button_area{
@@ -1217,7 +1255,11 @@ font-family: "Zen Kaku Gothic New", sans-serif;
 
 }
 
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 /* PC用ナビゲーション */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
 .muse-navigation-pc{
   width: 100%;
 
@@ -1238,6 +1280,7 @@ font-family: "Zen Kaku Gothic New", sans-serif;
   z-index: 1000;
 }
 
+
 /* スマートフォンでは非表示 */
 @media (max-width: 1279px){
   .muse-navigation-pc{
@@ -1245,51 +1288,97 @@ font-family: "Zen Kaku Gothic New", sans-serif;
   }
 }
 
-/* ナビゲーションボタン */
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* PC用ナビゲーションボタン */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
 .muse-nav-button{
-  width: 50px;
-  height: 50px;
+  width: 64px;
+  height: 64px;
 
   display: flex;
 
   align-items: center;
   justify-content: center;
 
-font-family: "Zen Kaku Gothic New", sans-serif;
-  font-size: 32px;
-  line-height: 1;
-
   background: rgba(255, 255, 255, 0.85);
   border: 4px solid #333;
   border-radius: 50%;
   box-sizing: border-box;
+
   color: #333;
   pointer-events: auto;
   text-decoration: none;
 
+  /* HTML内の◀▶文字を非表示 */
+  font-size: 0;
+
+  position: relative;
+
   transition: background-color 0.2s, color 0.2s, transform 0.2s;
 }
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* PC用三角形 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.muse-nav-button::before{
+  content: "";
+  display: block;
+
+  width: 0;
+  height: 0;
+
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 20px solid #333;
+
+  /* 見た目の中央に微調整 */
+  transform: translateX(2px);
+}
+
+
+/* PC左ボタン */
+.muse-nav-button.muse-nav-prev::before{
+  border-left: none;
+  border-right: 20px solid #333;
+
+  transform: translateX(-2px);
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* ホバー */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
 
 /* 左ボタン */
 .muse-nav-prev:hover{
   transform: scale(1.2);
-  transition:0.1s all;
+  transition: 0.1s all;
 }
+
 /* 右ボタン */
 .muse-nav-next:hover{
   transform: scale(1.2);
-  transition:0.1s all;
+  transition: 0.1s all;
 }
 
+
+/* PC */
 @media (min-width: 1280px){
+
   /* 左ボタン */
   .muse-nav-prev:hover{
     transform: scale(1.4);
-    transition:0.1s all;
+    transition: 0.1s all;
   }
+
   /* 右ボタン */
   .muse-nav-next:hover{
     transform: scale(1.4);
-    transition:0.1s all;
+    transition: 0.1s all;
   }
+
 }
