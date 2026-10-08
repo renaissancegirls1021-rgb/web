@@ -1,45 +1,5 @@
 [
   {
-    "name": "レンブラント",
-    "en_name": "Rembrandt",
-    "id": "rembrandt",
-    "serif": "光と闇と、レンブラント！<br>ボクがキミを照らしてあげる！",
-    "en_serif": "Light and night, Rembrandt!\r<br>I'll shine on you!",
-    "url": "./muse/rembrandt_jp.html",
-    "en_url": "./muse/rembrandt_en.html",
-    "image": "muse_button_image/rembrandt_b.png"
-  },
-  {
-    "name": "ミケランジェロ",
-    "en_name": "Michelangelo",
-    "id": "michelangelo",
-    "serif": "うるさいっ！　これは私の作品だ！<br>何をやろうが、私の自由だろ！",
-    "en_serif": "Shut up!\r<br>This is my work!\r<br>I'm free to do whatever\r<br>I want with it!",
-    "url": "./muse/michelangelo_jp.html",
-    "en_url": "./muse/michelangelo_en.html",
-    "image": "muse_button_image/michelangelo_b.png"
-  },
-  {
-    "name": "ゴッホ",
-    "en_name": "Gogh",
-    "id": "gogh",
-    "serif": "あはっ！<br>ゴッホちゃんといっしょに、<br>芸術の理想郷を作ろうよっ★",
-    "en_serif": "Ahaha!\r<br>Let's create an artistic utopia\r<br>together with Van Gogh-chan!",
-    "url": "./muse/gogh_jp.html",
-    "en_url": "./muse/gogh_en.html",
-    "image": "muse_button_image/gogh_b.png"
-  },
-  {
-    "name": "モネ",
-    "en_name": "Monet",
-    "id": "monet",
-    "serif": "うふふ。こんないい天気の日には、<br>外でお茶でもいかがかしら？",
-    "en_serif": "Hehe.\r<br>On a nice day like this,\r<br>how about having tea outside?",
-    "url": "./muse/monet_jp.html",
-    "en_url": "./muse/monet_en.html",
-    "image": "muse_button_image/monet_b.png"
-  },
-  {
     "name": "アングル",
     "en_name": "Ingres",
     "id": "ingres",
@@ -48,6 +8,46 @@
     "url": "./muse/ingres_jp.html",
     "en_url": "./muse/ingres_en.html",
     "image": "muse_button_image/ingres_b.png"
+  },
+  {
+    "name": "ヴァトー",
+    "en_name": "Watteau",
+    "id": "watteau",
+    "serif": "ラララ<span class=\"center\">～</span>♪<br>一緒に歌えば、どんな場所だって<br>パーティーに変わるのです！",
+    "en_serif": "Lalala~♪<br>Singing together can turn<br>any place into a party!",
+    "url": "./muse/watteau_jp.html",
+    "en_url": "./muse/watteau_en.html",
+    "image": "muse_button_image/watteau_b.png"
+  },
+  {
+    "name": "ウォーホル",
+    "en_name": "Warhol",
+    "id": "warhol",
+    "serif": "ピーピー、ガガガ。<br>これより大量生産を開始します。",
+    "en_serif": "Beep, beep. Bzzzt, bzzzt. Commencing mass production now.",
+    "url": "./muse/warhol_jp.html",
+    "en_url": "./muse/warhol_en.html",
+    "image": "muse_button_image/warhol_b.png"
+  },
+  {
+    "name": "ヴラマンク",
+    "en_name": "Vlaminck",
+    "id": "vlaminck",
+    "serif": "ガルルルッ！　てめえら、<br>しょぼい芸術やってんじゃねぇぞッ！",
+    "en_serif": "Grrr! You guys,<br>stop with your pathetic art!",
+    "url": "./muse/vlaminck_jp.html",
+    "en_url": "./muse/vlaminck_en.html",
+    "image": "muse_button_image/vlaminck_b.png"
+  },
+  {
+    "name": "エッシャー",
+    "en_name": "Escher",
+    "id": "escher",
+    "serif": "終わりない世界が、広がり続ける。\r<br>無限に迷う覚悟はできていて？",
+    "en_serif": "An endless world unfolds without end.<br>Are you prepared<br>to wander through infinity?",
+    "url": "./muse/escher_jp.html",
+    "en_url": "./muse/escher_en.html",
+    "image": "muse_button_image/escher_b.png"
   },
   {
     "name": "エルンスト",
@@ -80,11 +80,21 @@
     "image": "muse_button_image/kandinsky_b.png"
   },
   {
+    "name": "クールベ",
+    "en_name": "Courbet",
+    "id": "courbet",
+    "serif": "貴様ッ！　それでも芸術家か<em>!?</em><br>怒りを忘れたものに、<br>何を生み出せるんだ！",
+    "en_serif": "You bastard!\r<br>Are you even an artist!?\r<br>What can you create without anger!?",
+    "url": "./muse/courbet_jp.html",
+    "en_url": "./muse/courbet_en.html",
+    "image": "muse_button_image/courbet_b.png"
+  },
+  {
     "name": "グリムショー",
     "en_name": "Grimshaw",
     "id": "grimshaw",
     "serif": "闇夜を駆ける月光の車両、<br>まもなく出発進行！　です！",
-    "en_serif": "The moonlit train racing through the dark night will soon be departing!",
+    "en_serif": "The moonlit train racing through<br>the dark night will soon be departing!",
     "url": "./muse/grimshaw_jp.html",
     "en_url": "./muse/grimshaw_en.html",
     "image": "muse_button_image/grimshaw_b.png"
@@ -100,6 +110,36 @@
     "image": "muse_button_image/klimt_b.png"
   },
   {
+    "name": "グロ",
+    "en_name": "Gros",
+    "id": "gros",
+    "serif": "伝統とは、価値あるものです。<br><span class=\"center\">……</span>でも<span class=\"center\">……</span>私は<span class=\"center\">……</span>。",
+    "en_serif": "Tradition is something<br>worth preserving...<br>But... I...",
+    "url": "./muse/gros_jp.html",
+    "en_url": "./muse/gros_en.html",
+    "image": "muse_button_image/gros_b.png"
+  },
+  {
+    "name": "ゴーギャン",
+    "en_name": "Gauguin",
+    "id": "gauguin",
+    "serif": "見つからないから、面白いんだ。<br>楽園も、自分自身も。",
+    "en_serif": "Because I can't find it,<br>that's what makes it interesting.<br>Paradise, and myself.",
+    "url": "./muse/gauguin_jp.html",
+    "en_url": "./muse/gauguin_en.html",
+    "image": "muse_button_image/gauguin_b.png"
+  },
+  {
+    "name": "ゴッホ",
+    "en_name": "Gogh",
+    "id": "gogh",
+    "serif": "あはっ！<br>ゴッホちゃんといっしょに、<br>芸術の理想郷を作ろうよっ★",
+    "en_serif": "Ahaha!\r<br>Let's create an artistic utopia\r<br>together with Van Gogh-chan!",
+    "url": "./muse/gogh_jp.html",
+    "en_url": "./muse/gogh_en.html",
+    "image": "muse_button_image/gogh_b.png"
+  },
+  {
     "name": "ゴヤ",
     "en_name": "Goya",
     "id": "goya",
@@ -108,6 +148,46 @@
     "url": "./muse/goya_jp.html",
     "en_url": "./muse/goya_en.html",
     "image": "muse_button_image/goya_b.png"
+  },
+  {
+    "name": "コロー",
+    "en_name": "Corot",
+    "id": "corot",
+    "serif": "ほぁ<span class=\"center\">～</span>。<br>あなたは、なんだか、<br>ぼんやりしてる、ひとですねぇ<span class=\"center\">～</span>？",
+    "en_serif": "Oh my…<br>you seem like a rather dreamy sort of person,<br>don’t you?",
+    "url": "./muse/corot_jp.html",
+    "en_url": "./muse/corot_en.html",
+    "image": "muse_button_image/corot_b.png"
+  },
+  {
+    "name": "ジェラール",
+    "en_name": "Gerard",
+    "id": "gerard",
+    "serif": "キャハハハ！<br>歴史の前にひれ伏しなさいな！",
+    "en_serif": "Ha ha ha ha!\r<br>Bow down before history!",
+    "url": "./muse/gerard_jp.html",
+    "en_url": "./muse/gerard_en.html",
+    "image": "muse_button_image/gerard_b.png"
+  },
+  {
+    "name": "ジェリコー",
+    "en_name": "Gericault",
+    "id": "gericault",
+    "serif": "こぉらーっ！　曲がったことは、<br>このジェリコーが許しませんっ！",
+    "en_serif": "Hey! I won't let anyone get away<br>with doing the wrong thing!",
+    "url": "./muse/gericault_jp.html",
+    "en_url": "./muse/gericault_en.html",
+    "image": "muse_button_image/gericault_b.png"
+  },
+  {
+    "name": "ジェローム",
+    "en_name": "Gerome",
+    "id": "gerome",
+    "serif": "かかってくるといい<span class=\"center\">……</span>。<br>前からだろうと、<br>後ろからだろうと、<br>ぶちのめしてさしあげよう<span class=\"center\">……</span>。",
+    "en_serif": "Come at me…<br>From the front or from behind,<br>I’ll crush you all the same…",
+    "url": "./muse/gerome_jp.html",
+    "en_url": "./muse/gerome_en.html",
+    "image": "muse_button_image/gerome_b.png"
   },
   {
     "name": "ジャコメッティ",
@@ -120,6 +200,16 @@
     "image": "muse_button_image/giacometti_b.png"
   },
   {
+    "name": "シュヴァル",
+    "en_name": "Cheval",
+    "id": "cheval",
+    "serif": "おれ、はこんでるの、<br>ただのイシじゃない。<br>ぴかぴかの<span class=\"center\">……</span>ゆめの、カケラ。",
+    "en_serif": "I’m not carrying ordinary stones.<br>They’re rainbow-colored…<br>fragments of dreams.",
+    "url": "./muse/cheval_jp.html",
+    "en_url": "./muse/cheval_en.html",
+    "image": "muse_button_image/cheval_b.png"
+  },
+  {
     "name": "ジョット",
     "en_name": "Giotto",
     "id": "giotto",
@@ -128,6 +218,36 @@
     "url": "./muse/giotto_jp.html",
     "en_url": "./muse/giotto_en.html",
     "image": "muse_button_image/giotto_b.png"
+  },
+  {
+    "name": "ジロデ",
+    "en_name": "Girodet",
+    "id": "girodet",
+    "serif": "ひょ、ひょ、ひょ！<br>まだそんな、ツマラナイことを<br>やってるわけぇ？",
+    "en_serif": "My, my.<br>You're still doing something that boring?",
+    "url": "./muse/girodet_jp.html",
+    "en_url": "./muse/girodet_en.html",
+    "image": "muse_button_image/girodet_b.png"
+  },
+  {
+    "name": "スーラ",
+    "en_name": "Seurat",
+    "id": "seurat",
+    "serif": "ふふっ。私の計算によると、<br>今日は川辺で遊びたい気分ですね。",
+    "en_serif": "Hehe. According to my calculations,<br>I feel like playing by the river today.",
+    "url": "./muse/seurat_jp.html",
+    "en_url": "./muse/seurat_en.html",
+    "image": "muse_button_image/seurat_b.png"
+  },
+  {
+    "name": "ゼウクシス",
+    "en_name": "Zeuxis",
+    "id": "zeuxis",
+    "serif": "ぎゃーっはっはっはっ！　愉快愉快！<br>美術の未来は明るいなぁーっ！",
+    "en_serif": "Bwahahaha! How delightful!<br>The future of art is looking bright!",
+    "url": "./muse/zeuxis_jp.html",
+    "en_url": "./muse/zeuxis_en.html",
+    "image": "muse_button_image/zeuxis_b.png"
   },
   {
     "name": "セリュジエ",
@@ -160,6 +280,36 @@
     "image": "muse_button_image/dali_b.png"
   },
   {
+    "name": "デ・キリコ",
+    "en_name": "Dechirico",
+    "id": "dechirico",
+    "serif": "ワタシのなかミは、<br>カラッポではナイ。<br>ユウウツとシンピで<br>ミたされていルのだヨ。",
+    "en_serif": "There’s nothing empty inside me.<br>I am filled with melancholy… and mystery.",
+    "url": "./muse/dechirico_jp.html",
+    "en_url": "./muse/dechirico_en.html",
+    "image": "muse_button_image/dechirico_b.png"
+  },
+  {
+    "name": "デュシャン",
+    "en_name": "Duchamp",
+    "id": "duchamp",
+    "serif": "しょうもないルールね。<br>便器みたいに、<br>ひっくり返してしまいましょう？",
+    "en_serif": "What pointless rules. Shall we flip them over… like a urinal?",
+    "url": "./muse/duchamp_jp.html",
+    "en_url": "./muse/duchamp_en.html",
+    "image": "muse_button_image/duchamp_b.png"
+  },
+  {
+    "name": "ドガ",
+    "en_name": "Degas",
+    "id": "degas",
+    "serif": "あら、綺麗なキャンバスね。<br>絵の具を塗らないほうが<br>いいんじゃない？",
+    "en_serif": "Oh my, what a beautiful canvas.<br>Wouldn’t it be better not to paint on it at all?",
+    "url": "./muse/degas_jp.html",
+    "en_url": "./muse/degas_en.html",
+    "image": "muse_button_image/degas_b.png"
+  },
+  {
     "name": "ドラクロワ",
     "en_name": "Delacroix",
     "id": "delacroix",
@@ -168,6 +318,26 @@
     "url": "./muse/delacroix_jp.html",
     "en_url": "./muse/delacroix_en.html",
     "image": "muse_button_image/delacroix_b.png"
+  },
+  {
+    "name": "バロ",
+    "en_name": "Varo",
+    "id": "varo",
+    "serif": "闇夜より光芒が滴下するわ。<br>遺漏なく掬い上げないとね。",
+    "en_serif": "Light is falling from the sky.<br>We need to get ready to scoop it up!",
+    "url": "./muse/varo_jp.html",
+    "en_url": "./muse/varo_en.html",
+    "image": "muse_button_image/varo_b.png"
+  },
+  {
+    "name": "ハント",
+    "en_name": "Hunt",
+    "id": "hunt",
+    "serif": "世界は、変わっていくけど<span class=\"center\">……</span><br>私は、私のままでいたいんだ。",
+    "en_serif": "The world keeps changing...<br>but I still want to remain true to myself.",
+    "url": "./muse/hunt_jp.html",
+    "en_url": "./muse/hunt_en.html",
+    "image": "muse_button_image/hunt_b.png"
   },
   {
     "name": "ビアズリー",
@@ -180,6 +350,26 @@
     "image": "muse_button_image/beardsley_b.png"
   },
   {
+    "name": "ピサロ",
+    "en_name": "Pissarro",
+    "id": "pissarro",
+    "serif": "恐れることはありませんよ。思うがまま、<br>クソ純粋に美を求めれば良いのです。",
+    "en_serif": "There’s nothing to fear.<br>Just pursue beauty as you please,<br>with pure, fucking sincerity.",
+    "url": "./muse/pissarro_jp.html",
+    "en_url": "./muse/pissarro_en.html",
+    "image": "muse_button_image/pissarro_b.png"
+  },
+  {
+    "name": "ブーシェ",
+    "en_name": "Boucher",
+    "id": "boucher",
+    "serif": "ほっほっほ。お主もわらわと共に、<br>狩りにでかけてはみんか？",
+    "en_serif": "Ho ho ho. Would you care<br> to join me on a hunt?",
+    "url": "./muse/boucher_jp.html",
+    "en_url": "./muse/boucher_en.html",
+    "image": "muse_button_image/boucher_b.png"
+  },
+  {
     "name": "フラゴナール",
     "en_name": "Fragonard",
     "id": "fragonard",
@@ -188,6 +378,26 @@
     "url": "./muse/fragonard_jp.html",
     "en_url": "./muse/fragonard_en.html",
     "image": "muse_button_image/fragonard_b.png"
+  },
+  {
+    "name": "ブランクーシ",
+    "en_name": "Brancusi",
+    "id": "brancusi",
+    "serif": "ぴかぴかぴか<span class=\"center\">～</span>っ。<br>「てんし」みたいで、<br>「すてき」でしょう？",
+    "en_serif": "Shiny, shiny, shiny~! Doesn't it look<br>just like an angel? Isn't it lovely?",
+    "url": "./muse/brancusi_jp.html",
+    "en_url": "./muse/brancusi_en.html",
+    "image": "muse_button_image/brancusi_b.png"
+  },
+  {
+    "name": "フリードリヒ",
+    "en_name": "Friedrich",
+    "id": "friedrich",
+    "serif": "旅ってのはいいものさ。<br>自分が自由だと思い出せるからね。",
+    "en_serif": "Travel is a wonderful thing.<br>It reminds you that you're truly free.",
+    "url": "./muse/friedrich_jp.html",
+    "en_url": "./muse/friedrich_en.html",
+    "image": "muse_button_image/friedrich_b.png"
   },
   {
     "name": "ブリューゲル",
@@ -210,6 +420,16 @@
     "image": "muse_button_image/becklin_b.png"
   },
   {
+    "name": "ベラスケス",
+    "en_name": "Velazquez",
+    "id": "velazquez",
+    "serif": "忙しいのはいいことです。<br>誰かの役に立てている証ですから。",
+    "en_serif": "Being busy is a good thing.<br>It means I’m able to be useful to someone.",
+    "url": "./muse/velazquez_jp.html",
+    "en_url": "./muse/velazquez_en.html",
+    "image": "muse_button_image/velazquez_b.png"
+  },
+  {
     "name": "ヘリング",
     "en_name": "Haring",
     "id": "haring",
@@ -220,74 +440,34 @@
     "image": "muse_button_image/haring_b.png"
   },
   {
-    "name": "ミレイ",
-    "en_name": "Millais",
-    "id": "millais",
-    "serif": "ズブ濡れでも、へっちゃら<span class=\"center\">～</span>♫<br>キレイって、そういうもんでしょ？",
-    "en_serif": "Even if I get soaked, it's no big deal~♫\r<br>Isn't that what beauty is all about?",
-    "url": "./muse/millais_jp.html",
-    "en_url": "./muse/millais_en.html",
-    "image": "muse_button_image/millais_b.png"
+    "name": "ホガース",
+    "en_name": "Hogarth",
+    "id": "hogarth",
+    "serif": "うぷぷ<span class=\"center\">～</span>！　ひっどいアホ面ねぇ<span class=\"center\">～</span>っ！<br>ホガースちゃんが絵に残してあげるわ！",
+    "en_serif": "Uppupu~! What a hideous mug~!<br>I'll make sure to preserve it in a painting!",
+    "url": "./muse/hogarth_jp.html",
+    "en_url": "./muse/hogarth_en.html",
+    "image": "muse_button_image/hogarth_b.png"
   },
   {
-    "name": "レーピン",
-    "en_name": "Repin",
-    "id": "repin",
-    "serif": "アンタたち、<br>レーピンちゃんの前で<br>頭が高すぎるんじゃないのっ<em>!?</em>",
-    "en_serif": "Aren't you guys\r<br>being too arrogant\r<br>in front of Repin?",
-    "url": "./muse/repin_jp.html",
-    "en_url": "./muse/repin_en.html",
-    "image": "muse_button_image/repin_b.png"
+    "name": "ボッス",
+    "en_name": "Bosch",
+    "id": "bosch",
+    "serif": "所詮この世は地獄なんだ。<br>楽しんだもの勝ちだと、思わないかい？",
+    "en_serif": "This world is hell, after all.<br>So why not enjoy it while you can?",
+    "url": "./muse/bosch_jp.html",
+    "en_url": "./muse/bosch_en.html",
+    "image": "muse_button_image/bosch_b.png"
   },
   {
-    "name": "ヴラマンク",
-    "en_name": "Vlaminck",
-    "id": "vlaminck",
-    "serif": "ガルルルッ！　てめえら、<br>しょぼい芸術やってんじゃねぇぞッ！",
-    "en_serif": "Grrr! You guys,<br>stop with your pathetic art!",
-    "url": "./muse/vlaminck_jp.html",
-    "en_url": "./muse/vlaminck_en.html",
-    "image": "muse_button_image/vlaminck_b.png"
-  },
-  {
-    "name": "ルドン",
-    "en_name": "Redon",
-    "id": "redon",
-    "serif": "あうぅ。私なんて、隅っこで<br>うじうじしてればいいんです<span class=\"center\">……</span>。",
-    "en_serif": "Aaah. I should just stay moping around in a corner...",
-    "url": "./muse/redon_jp.html",
-    "en_url": "./muse/redon_en.html",
-    "image": "muse_button_image/redon_b.png"
-  },
-  {
-    "name": "クールベ",
-    "en_name": "Courbet",
-    "id": "courbet",
-    "serif": "貴様ッ！　それでも芸術家か<em>!?</em><br>怒りを忘れたものに、<br>何を生み出せるんだ！",
-    "en_serif": "You bastard!\r<br>Are you even an artist!?\r<br>What can you create without anger!?",
-    "url": "./muse/courbet_jp.html",
-    "en_url": "./muse/courbet_en.html",
-    "image": "muse_button_image/courbet_b.png"
-  },
-  {
-    "name": "ジェラール",
-    "en_name": "Gerard",
-    "id": "gerard",
-    "serif": "キャハハハ！<br>歴史の前にひれ伏しなさいな！",
-    "en_serif": "Ha ha ha ha!\r<br>Bow down before history!",
-    "url": "./muse/gerard_jp.html",
-    "en_url": "./muse/gerard_en.html",
-    "image": "muse_button_image/gerard_b.png"
-  },
-  {
-    "name": "スーラ",
-    "en_name": "Seurat",
-    "id": "seurat",
-    "serif": "ふふっ。私の計算によると、<br>今日は川辺で遊びたい気分ですね。",
-    "en_serif": "Hehe. According to my calculations,<br>I feel like playing by the river today.",
-    "url": "./muse/seurat_jp.html",
-    "en_url": "./muse/seurat_en.html",
-    "image": "muse_button_image/seurat_b.png"
+    "name": "ボッティチェリ",
+    "en_name": "Botticelli",
+    "id": "botticelli",
+    "serif": "ふふんっ。うだうだしてると、<br>まとめてブッとばしちゃうよん？",
+    "en_serif": "Heh-heh! Keep dragging your feet,<br>and I'll blow you all sky-high, okay?",
+    "url": "./muse/botticelli_jp.html",
+    "en_url": "./muse/botticelli_en.html",
+    "image": "muse_button_image/botticelli_b.png"
   },
   {
     "name": "マグリット",
@@ -300,14 +480,34 @@
     "image": "muse_button_image/magritte_b.png"
   },
   {
-    "name": "バロ",
-    "en_name": "Varo",
-    "id": "varo",
-    "serif": "闇夜より光芒が滴下するわ。<br>遺漏なく掬い上げないとね。",
-    "en_serif": "Light is falling from the sky.<br>We need to get ready to scoop it up!",
-    "url": "./muse/varo_jp.html",
-    "en_url": "./muse/varo_en.html",
-    "image": "muse_button_image/varo_b.png"
+    "name": "マティス",
+    "en_name": "Matisse",
+    "id": "matisse",
+    "serif": "にゃはは<span class=\"center\">～</span>。<br>難しいことはないにゃ！<br>楽しい色なら大正解♪",
+    "en_serif": "Nyahaha~! Bright colors = happy, nya♪<br>That's the only rule you need!",
+    "url": "./muse/matisse_jp.html",
+    "en_url": "./muse/matisse_en.html",
+    "image": "muse_button_image/matisse_b.png"
+  },
+  {
+    "name": "ミケランジェロ",
+    "en_name": "Michelangelo",
+    "id": "michelangelo",
+    "serif": "うるさいっ！　これは私の作品だ！<br>何をやろうが、私の自由だろ！",
+    "en_serif": "Shut up!\r<br>This is my work!\r<br>I'm free to do whatever\r<br>I want with it!",
+    "url": "./muse/michelangelo_jp.html",
+    "en_url": "./muse/michelangelo_en.html",
+    "image": "muse_button_image/michelangelo_b.png"
+  },
+  {
+    "name": "ミレイ",
+    "en_name": "Millais",
+    "id": "millais",
+    "serif": "ズブ濡れでも、へっちゃら<span class=\"center\">～</span>♫<br>キレイって、そういうもんでしょ？",
+    "en_serif": "Even if I get soaked, it's no big deal~♫\r<br>Isn't that what beauty is all about?",
+    "url": "./muse/millais_jp.html",
+    "en_url": "./muse/millais_en.html",
+    "image": "muse_button_image/millais_b.png"
   },
   {
     "name": "ミレー",
@@ -330,54 +530,24 @@
     "image": "muse_button_image/munch_b.png"
   },
   {
-    "name": "コロー",
-    "en_name": "Corot",
-    "id": "corot",
-    "serif": "ほぁ<span class=\"center\">～</span>。<br>あなたは、なんだか、<br>ぼんやりしてる、ひとですねぇ<span class=\"center\">～</span>？",
-    "en_serif": "Oh my…<br>you seem like a rather dreamy sort of person,<br>don’t you?",
-    "url": "./muse/corot_jp.html",
-    "en_url": "./muse/corot_en.html",
-    "image": "muse_button_image/corot_b.png"
+    "name": "モネ",
+    "en_name": "Monet",
+    "id": "monet",
+    "serif": "うふふ。こんないい天気の日には、<br>外でお茶でもいかがかしら？",
+    "en_serif": "Hehe.\r<br>On a nice day like this,\r<br>how about having tea outside?",
+    "url": "./muse/monet_jp.html",
+    "en_url": "./muse/monet_en.html",
+    "image": "muse_button_image/monet_b.png"
   },
   {
-    "name": "デ・キリコ",
-    "en_name": "Dechirico",
-    "id": "dechirico",
-    "serif": "ワタシのなかミは、<br>カラッポではナイ。<br>ユウウツとシンピで<br>ミたされていルのだヨ。",
-    "en_serif": "There’s nothing empty inside me.<br>I am filled with melancholy… and mystery.",
-    "url": "./muse/dechirico_jp.html",
-    "en_url": "./muse/dechirico_en.html",
-    "image": "muse_button_image/dechirico_b.png"
-  },
-  {
-    "name": "デュシャン",
-    "en_name": "Duchamp",
-    "id": "duchamp",
-    "serif": "しょうもないルールね。<br>便器みたいに、<br>ひっくり返してしまいましょう？",
-    "en_serif": "What pointless rules. Shall we flip them over… like a urinal?",
-    "url": "./muse/duchamp_jp.html",
-    "en_url": "./muse/duchamp_en.html",
-    "image": "muse_button_image/duchamp_b.png"
-  },
-  {
-    "name": "ルノワール",
-    "en_name": "Renoir",
-    "id": "renoir",
-    "serif": "えへへっ！　誰でもみんな、<br>幸せになりたいものでしょ？",
-    "en_serif": "Ehehe! Everyone wants to be happy, don’t they?",
-    "url": "./muse/renoir_jp.html",
-    "en_url": "./muse/renoir_en.html",
-    "image": "muse_button_image/renoir_b.png"
-  },
-  {
-    "name": "ドガ",
-    "en_name": "Degas",
-    "id": "degas",
-    "serif": "あら、綺麗なキャンバスね。<br>絵の具を塗らないほうが<br>いいんじゃない？",
-    "en_serif": "Oh my, what a beautiful canvas.<br>Wouldn’t it be better not to paint on it at all?",
-    "url": "./muse/degas_jp.html",
-    "en_url": "./muse/degas_en.html",
-    "image": "muse_button_image/degas_b.png"
+    "name": "ラファエロ",
+    "en_name": "Raffaello",
+    "id": "raffaello",
+    "serif": "どれもこれも素晴らしい作品だね。<br>もっとも、私ほどじゃないけど<span class=\"center\">……</span>。",
+    "en_serif": "They're all wonderful works of art. Though, naturally, none quite surpass mine...",
+    "url": "./muse/raffaello_jp.html",
+    "en_url": "./muse/raffaello_en.html",
+    "image": "muse_button_image/raffaello_b.png"
   },
   {
     "name": "ルーベンス",
@@ -390,24 +560,54 @@
     "image": "muse_button_image/rubens_b.png"
   },
   {
-    "name": "ベラスケス",
-    "en_name": "Velazquez",
-    "id": "velazquez",
-    "serif": "忙しいのはいいことです。<br>誰かの役に立てている証ですから。",
-    "en_serif": "Being busy is a good thing.<br>It means I’m able to be useful to someone.",
-    "url": "./muse/velazquez_jp.html",
-    "en_url": "./muse/velazquez_en.html",
-    "image": "muse_button_image/velazquez_b.png"
+    "name": "ルドン",
+    "en_name": "Redon",
+    "id": "redon",
+    "serif": "あうぅ。私なんて、隅っこで<br>うじうじしてればいいんです<span class=\"center\">……</span>。",
+    "en_serif": "Aaah. I should just stay moping around in a corner...",
+    "url": "./muse/redon_jp.html",
+    "en_url": "./muse/redon_en.html",
+    "image": "muse_button_image/redon_b.png"
   },
   {
-    "name": "ハント",
-    "en_name": "Hunt",
-    "id": "hunt",
-    "serif": "世界は、変わっていくけど<span class=\"center\">……</span><br>私は、私のままでいたいんだ。",
-    "en_serif": "The world keeps changing...<br>but I still want to remain true to myself.",
-    "url": "./muse/hunt_jp.html",
-    "en_url": "./muse/hunt_en.html",
-    "image": "muse_button_image/hunt_b.png"
+    "name": "ルノワール",
+    "en_name": "Renoir",
+    "id": "renoir",
+    "serif": "えへへっ！　誰でもみんな、<br>幸せになりたいものでしょ？",
+    "en_serif": "Ehehe! Everyone wants to be happy, don’t they?",
+    "url": "./muse/renoir_jp.html",
+    "en_url": "./muse/renoir_en.html",
+    "image": "muse_button_image/renoir_b.png"
+  },
+  {
+    "name": "レーピン",
+    "en_name": "Repin",
+    "id": "repin",
+    "serif": "アンタたち、<br>レーピンちゃんの前で<br>頭が高すぎるんじゃないのっ<em>!?</em>",
+    "en_serif": "Aren't you guys\r<br>being too arrogant\r<br>in front of Repin?",
+    "url": "./muse/repin_jp.html",
+    "en_url": "./muse/repin_en.html",
+    "image": "muse_button_image/repin_b.png"
+  },
+  {
+    "name": "レオナルド",
+    "en_name": "Leonardo",
+    "id": "leonardo",
+    "serif": "人類とは愚かなものです。<br>私が導いてあげませんとね。",
+    "en_serif": "Humanity is such a foolish thing.<br>It's fortunate that I'm here to guide it.",
+    "url": "./muse/leonardo_jp.html",
+    "en_url": "./muse/leonardo_en.html",
+    "image": "muse_button_image/leonardo_b.png"
+  },
+  {
+    "name": "レンブラント",
+    "en_name": "Rembrandt",
+    "id": "rembrandt",
+    "serif": "光と闇と、レンブラント！<br>ボクがキミを照らしてあげる！",
+    "en_serif": "Light and night, Rembrandt!\r<br>I'll shine on you!",
+    "url": "./muse/rembrandt_jp.html",
+    "en_url": "./muse/rembrandt_en.html",
+    "image": "muse_button_image/rembrandt_b.png"
   },
   {
     "name": "ロセッティ",
@@ -418,25 +618,5 @@
     "url": "./muse/rossetti_jp.html",
     "en_url": "./muse/rossetti_en.html",
     "image": "muse_button_image/rossetti_b.png"
-  },
-  {
-    "name": "レオナルド",
-    "en_name": "Leonardo",
-    "id": "leonardo",
-    "serif": "人類とは愚かなものです。<br>私が導いてあげませんとね。",
-    "en_serif": "Humanity is such a foolish thing. It's fortunate that I'm here to guide it.",
-    "url": "./muse/leonardo_jp.html",
-    "en_url": "./muse/leonardo_en.html",
-    "image": "muse_button_image/leonardo_b.png"
-  },
-  {
-    "name": "ウォーホル",
-    "en_name": "Warhol",
-    "id": "warhol",
-    "serif": "ピーピー、ガガガ。<br>これより大量生産を開始します。",
-    "en_serif": "Beep, beep. Bzzzt, bzzzt. Commencing mass production now.",
-    "url": "./muse/warhol_jp.html",
-    "en_url": "./muse/warhol_en.html",
-    "image": "muse_button_image/warhol_b.png"
   }
 ]

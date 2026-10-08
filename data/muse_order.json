@@ -32,6 +32,10 @@
     "name": "ラファエロ"
   },
   {
+    "id": "bosch",
+    "name": "ボッス"
+  },
+  {
     "id": "bruegel",
     "name": "ブリューゲル"
   },
@@ -234,6 +238,10 @@
   {
     "id": "giacometti",
     "name": "ジャコメッティ"
+  },
+  {
+    "id": "zeuxis",
+    "name": "ゼウクシス"
   },
   {
     "id": "brancusi",
