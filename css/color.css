@@ -1,5 +1,5 @@
 .arcimboldo{--main-color: #4C7034;--sub-color:  #996600;--font-color: white;--font-sub-color:  white;}
-.bacon{--main-color: #66669C;--sub-color:  #E7662B;--font-color: white;--font-sub-color:  black;}
+.bacon{--main-color: #66669C;--sub-color:  #E7662B;--font-color: white;--font-sub-color:  white;}
 .balla{--main-color: ;--sub-color:  ;--font-color: ;--font-sub-color:  ;}
 .banksy{--main-color: #000000;--sub-color:  #FF4863;--font-color: white;--font-sub-color:  black;}
 .beardsley{--main-color: #000000;--sub-color:  #FFCD0D;--font-color: white;--font-sub-color:  black;}
@@ -7,6 +7,7 @@
 .beksinski{--main-color: #000000;--sub-color:  #66FFFF;--font-color: white;--font-sub-color:  black;}
 .blake{--main-color: #C23D43;--sub-color:  #9C9C8D;--font-color: white;--font-sub-color:  black;}
 .boccioni{--main-color: #8B811F;--sub-color:  #3366CC;--font-color: white;--font-sub-color:  white;}
+.bonnard{--main-color: #eedcb3;--sub-color:  #9d8e87;--font-color: black;--font-sub-color:  white;}
 .bosch{--main-color: #FF7BBE;--sub-color:  #0062C0;--font-color: black;--font-sub-color:  white;}
 .botticelli{--main-color: #008b8b;--sub-color:  #FF761B;--font-color: white;--font-sub-color:  white;}
 .boucher{--main-color: #f19ca7;--sub-color:  #68a4d9;--font-color: black;--font-sub-color:  black;}
@@ -27,15 +28,15 @@
 .dechirico{--main-color: #fcc800;--sub-color:  #ee7800;--font-color: black;--font-sub-color:  black;}
 .degas{--main-color: #68a9cf;--sub-color:  #b7ffff;--font-color: white;--font-sub-color:  black;}
 .delacroix{--main-color: #EE0068;--sub-color:  #742F2F;--font-color: white;--font-sub-color:  white;}
-.delaroche{--main-color: #ffbf7f;--sub-color:  #ea553a;--font-color: black;--font-sub-color:  black;}
-.denis{--main-color: ;--sub-color:  ;--font-color: ;--font-sub-color:  ;}
+.delaroche{--main-color: #ffbf7f;--sub-color:  #ea553a;--font-color: black;--font-sub-color:  white;}
+.denis{--main-color: #d1de4c;--sub-color:  #417038;--font-color: black;--font-sub-color:  white;}
 .duchamp{--main-color: #6633CC;--sub-color:  #000033;--font-color: white;--font-sub-color:  white;}
 .durer{--main-color: #006600;--sub-color:  #E76600;--font-color: white;--font-sub-color:  black;}
 .elgreco{--main-color: #e5a323;--sub-color:  #4e454a;--font-color: white;--font-sub-color:  white;}
 .ensor{--main-color: #C1272D;--sub-color:  #591B5B;--font-color: white;--font-sub-color:  white;}
 .ernst{--main-color: #FF2F9D;--sub-color:  #ffd700;--font-color: white;--font-sub-color:  black;}
 .escher{--main-color: #000000;--sub-color:  #666666;--font-color: white;--font-sub-color:  white;}
-.fraangelico{--main-color: ;--sub-color:  ;--font-color: ;--font-sub-color:  ;}
+.fraangelico{--main-color: #ffa8d3;--sub-color:  #c1ffff;--font-color: black;--font-sub-color:  black;}
 .fragonard{--main-color: #FF66FF;--sub-color:  #CC0066;--font-color: white;--font-sub-color:  white;}
 .friedrich{--main-color: #003143;--sub-color:  #58352D;--font-color: white;--font-sub-color:  white;}
 .gauguin{--main-color: #ea5550;--sub-color:  #00947a;--font-color: white;--font-sub-color:  white;}
@@ -43,7 +44,7 @@
 .gericault{--main-color: #6f5436;--sub-color:  #66cdaa;--font-color: white;--font-sub-color:  black;}
 .gerome{--main-color: #665a1a;--sub-color:  #323232;--font-color: white;--font-sub-color:  white;}
 .giacometti{--main-color: #8EB5D1;--sub-color:  #7F6666;--font-color: black;--font-sub-color:  white;}
-.giorgione{--main-color: ;--sub-color:  ;--font-color: ;--font-sub-color:  ;}
+.giorgione{--main-color: #719bad;--sub-color:  #ffedab;--font-color: white;--font-sub-color:  black;}
 .giotto{--main-color: #E6C223;--sub-color:  #765840;--font-color: black;--font-sub-color:  white;}
 .girodet{--main-color: #1D3260;--sub-color:  #d3d3d3;--font-color: white;--font-sub-color:  black;}
 .gogh{--main-color: #999900;--sub-color:  #3366CC;--font-color: white;--font-sub-color:  white;}
@@ -55,7 +56,7 @@
 .haring{--main-color: #FF161F;--sub-color:  #00AEFF;--font-color: white;--font-sub-color:  white;}
 .hogarth{--main-color: #EF5A4B;--sub-color:  #634D52;--font-color: white;--font-sub-color:  white;}
 .hopper{--main-color: #f0e68c;--sub-color:  #778899;--font-color: black;--font-sub-color:  white;}
-.hunt{--main-color: #ed6d35;--sub-color:  #618e34;--font-color: black;--font-sub-color:  white;}
+.hunt{--main-color: #ed6d35;--sub-color:  #618e34;--font-color: white;--font-sub-color:  white;}
 .ingres{--main-color: #1D3260;--sub-color:  #4169e1;--font-color: white;--font-sub-color:  white;}
 .kandinsky{--main-color: #2D84FD;--sub-color:  #00CDFF;--font-color: white;--font-sub-color:  black;}
 .khnopff{--main-color: #B40068;--sub-color:  #DC7EFF;--font-color: white;--font-sub-color:  black;}
@@ -97,10 +98,11 @@
 .serusier{--main-color: #00446F;--sub-color:  #FFCE34;--font-color: white;--font-sub-color:  black;}
 .seurat{--main-color: #666699;--sub-color:  #599173;--font-color: white;--font-sub-color:  white;}
 .turner{--main-color: #f3981d;--sub-color:  #00a1e9;--font-color: black;--font-sub-color:  black;}
+.vallotton{--main-color: #4e454a;--sub-color:  #ffedab;--font-color: white;--font-sub-color:  black;}
 .vaneyck{--main-color: #006600;--sub-color:  #002FD1;--font-color: white;--font-sub-color:  white;}
 .varo{--main-color: #990000;--sub-color:  #000000;--font-color: white;--font-sub-color:  white;}
 .velazquez{--main-color: #B22F2F;--sub-color:  #FF669C;--font-color: white;--font-sub-color:  white;}
-.vermeer{--main-color: #FFFF57;--sub-color:  #0000FF;--font-color: black;--font-sub-color:  white;}
+.vermeer{--main-color: #ffea00;--sub-color:  #0068b7;--font-color: black;--font-sub-color:  white;}
 .vlaminck{--main-color: #EE0000;--sub-color:  #00FFAC;--font-color: white;--font-sub-color:  black;}
 .warhol{--main-color: #00662B;--sub-color:  #666666;--font-color: white;--font-sub-color:  white;}
 .watteau{--main-color: #ffc6e2;--sub-color:  #ffba75;--font-color: black;--font-sub-color:  black;}
