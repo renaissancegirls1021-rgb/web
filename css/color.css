@@ -1,6 +1,6 @@
 .arcimboldo{--main-color: #4C7034;--sub-color:  #996600;--font-color: white;--font-sub-color:  white;}
 .bacon{--main-color: #66669C;--sub-color:  #E7662B;--font-color: white;--font-sub-color:  white;}
-.balla{--main-color: ;--sub-color:  ;--font-color: ;--font-sub-color:  ;}
+.balla{--main-color: #ff69b4;--sub-color:  #7fffd4;--font-color: white;--font-sub-color:  black;}
 .banksy{--main-color: #000000;--sub-color:  #FF4863;--font-color: white;--font-sub-color:  black;}
 .beardsley{--main-color: #000000;--sub-color:  #FFCD0D;--font-color: white;--font-sub-color:  black;}
 .becklin{--main-color: #725881;--sub-color:  #FFCD0D;--font-color: white;--font-sub-color:  black;}
@@ -11,6 +11,7 @@
 .bosch{--main-color: #FF7BBE;--sub-color:  #0062C0;--font-color: black;--font-sub-color:  white;}
 .botticelli{--main-color: #008b8b;--sub-color:  #FF761B;--font-color: white;--font-sub-color:  white;}
 .boucher{--main-color: #f19ca7;--sub-color:  #68a4d9;--font-color: black;--font-sub-color:  black;}
+.boudin{--main-color: #7fbfff;--sub-color:  #d2b48c;--font-color: black;--font-sub-color:  black;}
 .bouguereau{--main-color: #043c78;--sub-color:  #f6e5cc;--font-color: white;--font-sub-color:  black;}
 .brancusi{--main-color: #DFD842;--sub-color:  #FF9933;--font-color: black;--font-sub-color:  black;}
 .braque{--main-color: #666600;--sub-color:  #9A9A63;--font-color: white;--font-sub-color:  white;}
@@ -74,7 +75,7 @@
 .michelangelo{--main-color: #CC6600;--sub-color:  #50A8FF;--font-color: white;--font-sub-color:  white;}
 .millais{--main-color: #98191F;--sub-color:  #618e34;--font-color: white;--font-sub-color:  white;}
 .millet{--main-color: #765840;--sub-color:  #D6A551;--font-color: white;--font-sub-color:  black;}
-.miro{--main-color: ;--sub-color:  ;--font-color: ;--font-sub-color:  ;}
+.miro{--main-color: #d70035;--sub-color:  #ed6d35;--font-color: white;--font-sub-color:  white;}
 .mondrian{--main-color: #3333FF;--sub-color:  #FFFF00;--font-color: white;--font-sub-color:  black;}
 .monet{--main-color: #33FF99;--sub-color:  #8EB5D1;--font-color: black;--font-sub-color:  black;}
 .moreau{--main-color: #004E32;--sub-color:  #7BB6D3;--font-color: white;--font-sub-color:  white;}

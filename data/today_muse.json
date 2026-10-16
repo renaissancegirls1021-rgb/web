@@ -618,5 +618,25 @@
     "url": "./muse/rossetti_jp.html",
     "en_url": "./muse/rossetti_en.html",
     "image": "muse_button_image/rossetti_b.png"
+  },
+  {
+    "name": "ボナール",
+    "en_name": "Bonnard",
+    "id": "bonnard",
+    "serif": "大事なのは、仲良くすること！<br>和の精神をもって、<br>穏やかに過ごしましょう！",
+    "en_serif": "What matters is getting along!<br>Let’s live peacefully,<br>with a spirit of harmony!",
+    "url": "./muse/bonnard_jp.html",
+    "en_url": "./muse/bonnard_en.html",
+    "image": "muse_button_image/bonnard_b.png"
+  },
+  {
+    "name": "ブーダン",
+    "en_name": "Boudin",
+    "id": "boudin",
+    "serif": "偉大なる空を汚すものは、<br>我が槍で、討ち滅ぼす！",
+    "en_serif": "None shall defile the great sky!<br>I shall strike them down<br>with my spear!",
+    "url": "./muse/boudin_jp.html",
+    "en_url": "./muse/boudin_en.html",
+    "image": "muse_button_image/boudin_b.png"
   }
 ]
