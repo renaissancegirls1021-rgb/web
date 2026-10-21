@@ -1,0 +1,53 @@
+#bg-palette{
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.palette{
+  position: absolute;
+  bottom: -150px;
+  opacity: 0.2;
+
+  animation: float linear infinite;
+}
+
+.palette img{
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes float{
+  from{
+    transform:
+      translate(0, 0)
+      rotate(var(--rotate));
+  }
+
+  to{
+    transform:
+/*右と左の移動量、速度*/
+      translate(0px, -200vh)
+      rotate(calc(var(--rotate) + 180deg));
+  }
+}
+
+
+@media screen and (min-width:1280px){
+  @keyframes float{
+    from{
+      transform:
+        translate(0, 0)
+        rotate(var(--rotate));
+    }
+
+    to{
+      transform:
+  /*右と左の移動量、速度*/
+        translate(2000px, -200vh)
+        rotate(calc(var(--rotate) + 180deg));
+    }
+  }
+}

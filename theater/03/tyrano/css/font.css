@@ -1,0 +1,22 @@
+/* ウェブフォントを使用する場合はここに定義を追加して下さい */
+
+@font-face {
+   font-family:"cine";
+   src: url("../../data/others/cine.woff") format("woff"),
+   url("../../data/others/cine.eot") format("eot"),
+   url("../../data/others/cine.ttf") format("truetype");
+   url("../../data/others/cine.svg") format("svg");
+   font-weight:normal;
+   font-style:normal;
+}
+
+
+@font-face {
+   font-family:"kei";
+   src: url("../../data/others/keifont.ttf") format("truetype");
+}
+
+@font-face {
+   font-family:"meiryo";
+   src: url("../../data/others/Meiryo.ttf") format("truetype");
+}

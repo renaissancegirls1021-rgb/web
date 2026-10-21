@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>TOP｜Renaissance Girls</title>
+
+  <meta charset="UTF-8">
+<meta name="description" content="This is the official website for “Renaissance Girls”, a character-based content series featuring Art history.">
+<meta name="google-site-verification" content="L8NHvK63k2IVsJdqM2VSvyWPLHl4kAvLD_dWdSEascM" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@LoeilTrompe" />
+<meta name="twitter:title" content="Renaissance_Girls" />
+<meta name="twitter:description" content="This is a series featuring cute girls based on art history." />
+<meta name="twitter:image" content="https://renaissancegirls1021-rgb.github.io/web/image/key.png" />
+
+
+<!-- デバッグcss -->
+<link rel="stylesheet" href="css/debug.css" type="text/css">
+
+<!-- 共通css -->
+<link rel="stylesheet" href="css/general.css" type="text/css">
+<link rel="stylesheet" href="css/color.css" type="text/css">
+<link rel="stylesheet" href="css/style_color.css" type="text/css">
+<link rel="stylesheet" href="css/typography.css" type="text/css">
+
+<link rel="stylesheet" href="css/palette.css" type="text/css">
+
+  <!-- 固有css -->
+<link rel="stylesheet" href="css/muse_button.css" type="text/css">
+<link rel="stylesheet" href="css/top.css" type="text/css">
+
+<link rel="stylesheet" href="css/footer.css" type="text/css">
+
+  <!-- フォント -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- ファビコン -->
+<link rel="icon" type="image/x-icon" href="./favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+
+</head>
+
+<body class="top_page">
+
+<!-- 背景パーティクル -->
+<div id="bg-palette"></div>
+
+<main>
+
+<!-- ★★★日本語ページに飛ぶボタン★★★ -->
+<a href="index.html" class="language-link">日本語</a>
+
+<!-- ★★★トップ画像★★★ -->
+<picture class="top_image">
+    <!-- PC用 -->
+    <source
+        media="(min-width: 1280px)"
+        srcset="image/key2.png">
+
+    <!-- デフォルト（スマホ・タブレット） -->
+    <img src="image/key2_sp.png" alt="トップ画像">
+</picture>
+
+<!-- 今日のミューズ-->
+<script src="js/today_muse.js"></script>
+<section id="today-muse"></section>
+
+<div class="line_top"></div>
+
+<!-- ★★★イントロ★★★ -->
+<div class="welcome">
+
+<h1>Welcome to the<br>
+Renaissance Girls world!</h1>
+
+<p>
+This is the official website for <br>“Renaissance Girls”,<br>
+a character-based content series featuring Art history.
+</p>
+
+
+</div><!-- welcome -->
+
+<div class="line_top"></div>
+
+<!-- ★★★ミューズとは★★★ -->
+<div class="about_muse">
+<h1>MUSE</h1>
+<p>
+The Muses are goddesses of the arts<br>
+who protect and guide artists.<br>
+Through the Muses' divine inspiration<br class="br-sp"> bestowed upon artists,<br>
+countless magnificent masterpieces were born.<br>
+</p>
+</div><!-- about_muse -->
+
+<!-- ★★★ミューズリスト★★★ -->
+
+<div class="sort">
+<select id="sortSelect">
+  <option value="default">DEFAULT</option>
+  <option value="name-asc">NAME：ASC</option>
+  <option value="name-desc">NAME：DESC</option>
+    <option value="born-asc">BIRTH YEAR：ASC</option>
+  <option value="born-desc">BIRTH YEAR：DESC</option>
+  <option value="style-asc">STYLE：ASC</option>
+  <option value="style-desc">STYLE：DESC　</option>
+</select>
+</div>
+
+<div class="muse_list" id="muse_list">
+</div><!-- muse_list -->
+
+<!-- ソート用スクリプト -->
+<script src="js/sort_en.js"></script>
+<!-- ボタン読み込みスクリプト -->
+<script src="js/loadButtons_en.js"></script>
+
+<div class="line_top"></div>
+
+<!-- ★★★美術様式・美術運動リスト★★★ -->
+<div class="about_style">
+<h1>Art Styles & Art Movements</h1>
+<p>
+In the world of art,<br class="br-sp">
+every era and region has had its own<br class="br-sp"> popular styles, ideas,<br>
+and ways of expression.
+</p>
+<br>
+<p>
+At Renaissance Girls,<br class="br-sp"> groups of muses who share the same passion—<br>
+“I want to paint like this!” or<br class="br-sp"> “I want to spread this kind of expression!”—<br>
+are defined as<br class="br-sp"> “art styles” and “art movements.”<br>
+</p>
+</div><!-- about_style" -->
+
+<div class="style_list" id="style_list">
+
+<!-- バロック --><a class="style_button hover brq" href="style/brq_en.html">Baroque</a>
+<!-- ロココ --><a class="style_button hover rcc" href="style/rcc_en.html">Rococo</a>
+<!-- 新古典主義 --><a class="style_button hover ncl" href="style/ncl_en.html">Neoclassicism</a>
+<!-- 印象派 --><a class="style_button hover imp" href="style/imp_en.html">Impressionism</a>
+<!-- ラファエル前派 --><a class="style_button hover prb" href="style/prb_en.html">Pre-Raphaelite Brotherhood</a>
+<!-- ダダイスム --><a class="style_button hover ddi" href="style/ddi_en.html">Dadaisme</a>
+
+</div><!-- style_list -->
+</div><!-- about_style" -->
+
+<div class="line_top"></div>
+
+<!-- ★★★ルネサンスガールズ劇場★★★ -->
+
+<div class="top_theater_area">
+<h1>Renaissance Girls Theater </h1>
+<p>A collection of short visual novels featuring the everyday lives of the Muses.</p>
+<a href="theater_list/theater_list_en.html">🎬View Renaissance Girls Theater🎬</a>
+</div><!-- top_theater_area" -->
+
+<div class="line_top"></div>
+
+<!-- ★★★参考文献★★★ -->
+
+<div class="top_reference_area">
+<h1>References</h1>
+<p>A list of the references used in the creation of Renaissance Girls.</p>
+<a href="reference/reference_en.html">📃Reference List<br>(Updated Regularly)📃</a>
+</div><!-- top_reference_area" -->
+
+<div class="line_top"></div>
+
+
+<!-- ★★★リンク★★★ -->
+<div class="link_area">
+
+<div class="banner_haifu">
+<h1>BANNER</h1>
+<p>
+This site is link free.<br>
+Please use the banner below when linking to this site.<br>
+Site name：Renaissance Girls<br>
+URL：https://renaissancegirls1021-rgb.github.io/web/index_en.html
+</p>
+<img src="image/banner.png">
+<img src="image/banner_big.png">
+</div><!-- banner_haifu-->
+</div><!-- link_area-->
+
+<div class="line_top"></div>
+
+<div class="link_area">
+<h1>LINK</h1>
+
+<div class="link_list">
+
+<a href="https://do.gt-gt.org/">do　doやってdoつくろう？</a>
+<a href="https://compslink.jp"><img src="other_link/compslink.png" alt="compslink"></a>
+<a href="https://ma100.stars.ne.jp/meguruichi/"><img src="other_link/meguruichi.jpg" alt="meguruichi"></a>
+<a href="https://yoakemae.blue/c1/"><img src="other_link/yoakemae.jpg"></a>
+
+</div><!-- link_list-->
+</div><!-- link_area-->
+
+<!-- ★★★コーヒー★★★ -->
+<div class="line_top"></div>
+<div class="coffee">
+<h1>Enjoyed RenaissanceGirls?</h1>
+
+<p>
+This project is created and maintained by a single creator.<br>
+If you enjoyed learning about art history through these muses,<br>
+consider supporting future characters and updates.<br>
+</p>
+
+<a href="https://buymeacoffee.com/loeil.trompe">☕Buy me a coffee☕</a>
+
+<p>
+Your support will be used for:<br>
+• Server and domain maintenance<br>
+• Creating illustrations<br>
+• Developing new characters<br>
+...and other project-related expenses.
+</p>
+
+</div><!-- coffee->
+
+</main>
+
+<!-- 背景palette -->
+<script src="js/palette.js" defer></script>
+
+<!-- フッター　読み込み -->
+<div id="footer"></div>
+
+<script>
+fetch("include/footer.html")
+.then(response => response.text())
+.then(data => {
+document.getElementById("footer").innerHTML = data;
+});
+</script>
+
+</body>

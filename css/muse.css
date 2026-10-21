@@ -1,0 +1,1384 @@
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*言語*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 日本語用 */
+html[lang="ja"] {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+/* 英語用 */
+html[lang="en"] {
+  font-family: "Poppins", sans-serif;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.muse_page{
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  min-height: 100dvh;
+
+  background:
+    linear-gradient(
+      -190deg,
+      var(--main-color) 0%,
+      var(--main-color) 33%,
+      var(--sub-color) 33%,
+      var(--sub-color) 66%,
+      var(--main-color) 66%,
+      var(--main-color) 100%
+    );
+  background-attachment: fixed;
+  background-color: var(--main-color);
+
+}
+
+
+@media (min-width: 1280px) {
+body.muse_page{
+background:
+linear-gradient(
+  -10deg,
+  var(--main-color) 0%,
+  var(--main-color) 55%,
+  var(--sub-color) 55%,
+  var(--sub-color) 100%
+  );
+  background-attachment: fixed;
+  background-color: var(--main-color);
+}
+}
+
+/*共通の白枠*/
+.window{
+width: 80%;
+height: auto;
+margin: 5% auto;
+padding: 32px;
+
+background-color:white;
+border-radius: 16px;
+}
+
+@media (min-width: 1280px) {
+.window{
+  width: 60%;
+}
+}
+
+/*横線*/
+body.muse_page .line{
+width: 90%;
+height: 4px; /* 線幅 */
+margin: 3% 10%;
+display: block;
+
+background-color: var(--sub-color); /* 線色 */
+border-radius: 1.5px; /* 線幅の半分 */
+}
+
+@media (min-width: 1280px) {
+body.muse_page .line{
+  width: 70%;
+  height: 6px; /* 線幅 */
+  border-radius: 8px; /* 線幅の半分 */
+}
+}
+
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h1 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.muse_page h1{
+  margin: 3% auto;
+  padding: 5px 64px;
+
+  display: inline-block;
+
+  font-size: var(--font-hero);
+
+  background: var(--main-color);
+  color: var(--font-color);
+}
+
+/* 言語別フォント */
+
+html[lang="ja"] body.muse_page h1{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+html[lang="en"] body.muse_page h1{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h2 共通 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.muse_page h2{
+  background: var(--main-color);
+  color: var(--font-color);
+}
+
+/* 言語別フォント */
+
+html[lang="ja"] body.muse_page h2{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+}
+
+html[lang="en"] body.muse_page h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 作品名・作家名・参考文献 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.works_area h2,
+.artist_area h2,
+.references_area h2{
+  padding: 0 5%;
+
+  display: inline-block;
+
+  font-size: var(--font-title);
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 関係作家 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.relate_area h2{
+  margin: 0 auto 24px;
+  padding: 5px 24px;
+
+  display: inline-block;
+
+  text-align: center;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h3 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* 共通 */
+
+body.muse_page h3{
+  margin: auto;
+
+  font-size: var(--font-sub-title);
+
+  text-align: center;
+}
+
+/* 日本語 */
+
+html[lang="ja"] body.muse_page h3{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* 英語 */
+
+html[lang="en"] body.muse_page h3{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h4 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.muse_page h4{
+  width: 30%;
+  margin: 3% auto;
+  padding: 8px 24px;
+
+  display: inline-block;
+
+  font-family: "Poppins", sans-serif;
+  font-size: var(--font-section);
+  font-weight: 600;
+
+  background: var(--main-color);
+  color: var(--font-color);
+  text-align: center;
+}
+
+/* 日本語 */
+
+html[lang="ja"] body.muse_page h4{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 700;
+}
+
+/* レスポンシブ */
+
+@media (min-width: 1280px){
+  body.muse_page h4{
+    width: 20%;
+    margin: 1% auto;
+    padding: 6px 20px;
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* p */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* 共通 */
+
+body.muse_page main p{
+  width: 90%;
+  margin: 16px auto;
+
+  font-size: var(--font-body);
+}
+
+/* 日本語 */
+
+html[lang="ja"] body.muse_page main p{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+/* 英語 */
+
+html[lang="en"] body.muse_page main p{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* レスポンシブ */
+
+@media (min-width: 1280px){
+  body.muse_page main p{
+    width: 70%;
+  }
+
+  html[lang="ja"] body.muse_page main p{
+    line-height: 2;
+  }
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*その他*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*左寄せ*/
+.left{
+text-align: left;
+text-align: justify;
+overflow-wrap: break-word;
+word-break: normal;
+hyphens: auto;
+}
+
+/*作品データ見だし*/
+body.muse_page .midashi{
+  width: 40%;
+  padding: 0% 5%;
+  margin: 20px auto;
+  color: var(--font-color);
+  background: var(--main-color);
+  display: inline-block;
+}
+
+@media (min-width: 1280px) {
+  body.muse_page .midashi{
+    width: auto;
+    padding: 0% 3%;
+    margin: 10px 8px 10px 0;
+  }
+}
+
+
+html[lang="en"] body.muse_page .midashi{
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+html[lang="ja"] body.muse_page .midashi{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body.muse_page .works_exp{
+line-height: 2em;
+}
+
+/*スマホの時だけ改行*/
+.br-sp {
+    display: none;
+}
+
+@media (max-width: 1280px) {
+    .br-sp {
+        display: block;
+    }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* キャラ画像とセリフ */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* キャラ画像とセリフ表示エリア */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.muse_area{
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+/* レスポンシブ */
+
+@media (min-width: 1280px){
+  .muse_area{
+    width: 100%;
+    height: 600px;
+    margin: 16px auto;
+
+    display: flex;
+  }
+}
+
+@media (min-width: 1921px){
+  .muse_area{
+    height: 800px;
+    margin: 32px auto;
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* キャラ画像エリア */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.muse_image_area{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+@media (min-width: 1280px){
+  .muse_image_area{
+    width: auto;
+    height: auto;
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* キャラ画像 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.muse_image_area img{
+  width: 100%;
+  height: auto;
+  margin: auto;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+@media (min-width: 1280px){
+  .muse_image_area img{
+    max-height: 600px;
+  }
+}
+
+@media (min-width: 1921px){
+  .muse_image_area img{
+    max-height: 800px;
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* フェードイン */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.img-muse{
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.img-muse.loaded{
+  opacity: 1;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* セリフエリア */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.muse_serif_area{
+  width: 100%;
+  height: auto;
+  margin: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+/* 日本語 */
+
+@media (min-width: 1280px){
+  html[lang="ja"] .muse_serif_area{
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+
+    left: 80%;
+    position: absolute;
+    top: 0;
+  }
+}
+
+/* 英語 */
+
+@media (min-width: 1280px){
+  html[lang="en"] .muse_serif_area{
+    width: 28%;
+    height: auto;
+    margin: 0 auto;
+
+    left: 72%;
+    position: absolute;
+    top: auto;
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* セリフ文字 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* 余白 */
+
+.muse_area h5{
+  margin: 32px auto 16px;
+}
+
+@media (min-width: 1280px){
+  .muse_area h5{
+    margin: 16px auto;
+  }
+}
+
+/* 共通 */
+
+h5{
+  font-weight: 400;
+}
+
+/* 日本語 */
+
+html[lang="ja"] h5{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: var(--font-serif);
+}
+
+@media (min-width: 1280px){
+  html[lang="ja"] h5{
+    text-align: left;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+  }
+}
+
+/* 英語 */
+
+html[lang="en"] h5{
+  font-family: "Poppins", sans-serif;
+  font-size: var(--font-serif);
+  font-style: italic;
+}
+
+/* その他 */
+
+.center{
+  font-family: "MeiryoArial";
+}
+
+em{
+  font-style: normal;
+  text-combine-upright: all;
+}
+
+/*--------------------------------------*/
+/*キャラ紹介*/
+/*--------------------------------------*/
+/*キャラ紹介エリア*/
+.muse_text_area{
+width: 100%;
+height: 100%;
+display: flex;
+
+text-align: center;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+/*様式*/
+.style{
+  width: auto;
+  min-width: 50%;
+
+  padding: 1% 24px;
+  margin: 16px auto;
+
+  color: var(--style-font-color);
+  text-align: center;
+  font-size: var(--font-style);
+
+  background: var(--style-main-color);
+
+  border-radius: 16px;
+}
+
+@media (min-width: 1280px) {
+.style{
+  width: auto;
+  min-width: 25%;
+  max-width: 40%;
+  margin: 24px auto;
+  padding: 1% 20px;
+  font-size: var(--font-style);
+}
+}
+
+@media (min-width: 1921px) {
+  .style{
+  padding: 1% 20px;
+  }
+}
+
+html[lang="ja"] .style{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+html[lang="en"] .style{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/*様式ボタン*/
+.muse_style_button{
+  width: auto;
+  min-width: 50%;
+
+  padding: 1% 10px;
+  margin: 16px auto;
+
+  color: var(--style-font-color);
+  text-align: center;
+  font-size: var(--font-style);
+
+  background: var(--style-main-color);
+  border-radius: 64px;
+  border: 8px solid black;
+  text-decoration: none;
+}
+
+/*文字はアンダーライン*/
+.muse_style_button .text{
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+/*三角をつける*/
+.muse_style_button::after{
+  content: "▶︎";
+  margin-left: 4px;
+}
+
+@media (min-width: 1280px) {
+.muse_style_button{
+  width: auto;
+  min-width: 20%;
+  max-width: 40%;
+  margin: 24px auto;
+  padding: 1% 20px;
+  font-size: var(--font-style);
+  border-radius: 48px;
+}
+}
+
+@media (min-width: 1921px) {
+.muse_style_button{
+  padding: 1% 20px;
+  border-radius: 64px;
+  }
+}
+
+html[lang="ja"] .muse_style_button{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+html[lang="en"] .muse_style_button{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+/*--------------------------------------*/
+/*作品紹介*/
+/*--------------------------------------*/
+/*作品エリア*/
+.works_area{
+width: 100%;
+height: 100%;
+display: flex;
+
+text-align: center;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+/*作品イメージ*/
+.works_area img{
+width: 80%;
+height: auto;
+margin: 1% auto;
+}
+
+@media (min-width: 1280px) {
+.works_area img{
+width: 600px;
+height: auto;
+  margin: 1% auto 3% auto;
+}
+}
+
+/*画像クレジット*/
+.credit{
+  font-size: var(--font-small);
+  margin: 16px auto;
+  width: auto;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-wrap: anywhere; /* 収まらない場合に折り返す */
+word-break: normal; /* 単語の分割はデフォルトに依存 */
+line-break: strict; /* 禁則処理を厳格に適用 */
+}
+
+@media (min-width: 1280px) {
+  .credit{
+    margin: auto;
+    margin-top: 16px;
+    font-size: var(--font-small);
+  }
+}
+
+@media (min-width: 1921px) {
+  .credit{
+    margin: auto;
+    margin-top: 16px;
+    font-size: var(--font-small);
+  }
+}
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* メッセージ表示エリア */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.muse_message{
+  width: 90%;
+  margin: 16px auto;
+  padding: 16px 32px;
+
+  display: flex;
+
+  align-items: center;
+  background: white;
+  border-radius: 16px;
+  flex-direction: column;
+}
+
+/* レスポンシブ */
+
+@media (min-width:1280px){
+  .muse_message{
+    width: 80%;
+
+    flex-direction: row;
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* キャラ画像 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.muse_message img{
+  width: 250px;
+  margin: 0 16px 0 0;
+
+  border: 8px solid var(--sub-color);
+  border-radius: 16px;
+  flex-shrink: 0;
+}
+
+@media (min-width:1280px){
+  .muse_message img{
+    width: 150px;
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* テキスト */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.muse_message p{
+  width: 90%;
+  margin: 0;
+  padding: 12px 16px;
+
+  font-size: var(--font-body);
+
+  background: #eeeeee;
+  border-radius: 16px;
+  flex: 1;
+  text-align: left;
+}
+
+/* レスポンシブ */
+
+@media (min-width:1280px){
+  .muse_message p{
+    font-size: var(--font-body);
+  }
+}
+
+@media (min-width:1921px){
+  .muse_message p{
+    font-size: var(--font-body);
+  }
+}
+
+/* 言語別フォント */
+
+html[lang="ja"] .muse_message p{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+html[lang="en"] .muse_message p{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* ul li */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* 共通 */
+
+body.muse_page main .muse_classics{
+  width: 90%;
+  margin: 16px auto;
+  padding: 0;
+
+  font-size: var(--font-body);
+
+  list-style: none;
+}
+
+body.muse_page main .muse_classics li{
+  margin-bottom: 12px;
+}
+
+/* 日本語 */
+
+html[lang="ja"] body.muse_page main .muse_classics{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+/* 英語 */
+
+html[lang="en"] body.muse_page main .muse_classics{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* レスポンシブ */
+
+@media (min-width: 1280px){
+
+  body.muse_page main .muse_classics{
+    width: 70%;
+  }
+
+  html[lang="ja"] body.muse_page main .muse_classics{
+    line-height: 2;
+  }
+
+}
+
+/*--------------------------------------*/
+/*画家紹介*/
+/*--------------------------------------*/
+/*作家紹介エリア*/
+.artist_area{
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*作家画像*/
+.artist_area img{
+  width: 90%;
+}
+
+@media (min-width: 1280px) {
+  .artist_area img{
+    width: 50%;
+  }
+}
+
+
+
+/*--------------------------------------*/
+/*関係のあるミューズ*/
+/*--------------------------------------*/
+/*関係紹介エリア*/
+.relate_area{
+  width: 100%;
+  height: 100%;
+  display: flex;
+text-align: center; /* ←これで中央寄せ */
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+/*表示エリア*/
+.relate_group{
+  display: flex;              /* ← 横並びにする */
+  justify-content: center;    /* ← 全体を中央に */
+  gap: 10px;                  /* ← ボタン同士の間隔 */
+  width: 100%;                 /* ← 左右余白を均等に */
+  margin: 0 auto;             /* ← 中央配置 */
+  flex-wrap: wrap;            /* ← はみ出たら折り返し（重要） */
+}
+
+.relate_group .button{
+  width: 200px;
+  height: 332px;
+  margin: 0; /* ←これ重要 */
+}
+
+/*フォントサイズ*/
+html[lang="ja"] .relate_group .button_name,
+html[lang="en"] .relate_group .button_name{
+  font-size: 1.3em;
+}
+
+html[lang="ja"] .relate_group .button_name{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+html[lang="en"] .relate_group .button_name{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/*メッセージ表示エリア*/
+.relate_message{
+  width: auto;
+  margin: 16px auto;
+  display: flex;
+  align-items: center;
+
+  padding: 8px;
+  background: white;
+  border-radius: 16px;
+  border: 8px solid var(--sub-color);
+}
+
+/* キャラ画像 */
+.relate_message img{
+  width: 200px;
+  flex-shrink: 0;
+}
+
+/* テキスト */
+.relate_message p{
+  margin: 0;
+  padding: 12px 16px;
+  text-align: left;
+  background: #eeeeee;
+  border-radius: 12px;
+  flex: 1;
+}
+
+html[lang="ja"] .relate_message p{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+html[lang="en"] .relate_message p{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+.relate_block{
+  display: block;
+  width: 100%;
+  margin: 24px auto;
+}
+
+/* ボタンを中央寄せ */
+.relate_block .button{
+  display: block;
+  text-align: left;
+}
+
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* return */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.muse_page .return{
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+body.muse_page .return a{
+  width: auto;
+  height: auto;
+margin: auto;
+/*  margin: 5% auto 10%;*/
+  padding: 20px 48px;
+
+  display: inline-block;
+
+  font-size: var(--font-return);
+
+  background: var(--sub-color);
+  border: 8px solid white;
+  border-radius: 32px;
+  color: var(--font-sub-color);
+  text-decoration: none;
+}
+
+html[lang="ja"] body.muse_page .return a{
+
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+html[lang="en"] body.muse_page .return a{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media (min-width: 1280px) {
+body.muse_page .return a{
+  font-size: var(--font-return);
+}
+}
+
+@media (min-width: 1921px) {
+body.muse_page .return a{
+font-size: var(--font-return);
+}
+}
+
+
+body.muse_page .return a:hover{
+transform: scale(1.1);
+transition:0.1s all;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* pagetop */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.muse_page .pagetop{
+  width: 128px;
+  height: 128px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #222;
+  border: 4px solid white;
+  border-radius: 50%;
+
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
+
+  text-decoration: none;
+
+  transition: transform 0.1s;
+}
+
+/* 三角形 */
+.muse_page .pagetop::before{
+  content: "";
+
+  width: 0;
+  height: 0;
+
+  border-left: 32px solid transparent;
+  border-right: 32px solid transparent;
+  border-bottom: 48px solid white;
+
+  transform: translate(0px, -2px);
+}
+
+.muse_page .pagetop:hover{
+  transform: scale(1.2);
+}
+
+@media (min-width: 1280px) {
+
+  .muse_page .pagetop{
+    width: 64px;
+    height: 64px;
+  }
+
+  .muse_page .pagetop::before{
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 24px solid white;
+
+    transform: translate(0px, -2px);
+  }
+
+  .muse_page .pagetop:hover{
+    transform: scale(1.5);
+  }
+}
+
+html:has(body.muse_page){
+  scroll-behavior: smooth;
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 参考文献 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.references_area{
+width: 100%;
+height: 100%;
+display: flex;
+
+text-align: center;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+
+.references {
+  width: 90%;
+  margin: 5% auto;
+  font-size: var(--font-body);
+  line-height: 1.6;
+}
+
+
+.references ul {
+  padding-left: 1.2em;
+}
+
+.references li {
+  margin-bottom: 0.5em;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* キャラクター前後ナビゲーション */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* スマホ用ボタン */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* スマホボタンエリア */
+.sp_button_area{
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin: 10% auto;
+}
+
+@media (min-width: 1280px){
+  .sp_button_area{
+  }
+}
+
+/* スマホ用ナビゲーション */
+.muse-navigation-sp{
+  width: 25%;
+  height: 25%;
+  margin: auto;
+  display: flex;
+}
+
+/* スマホ用ナビゲーションボタン */
+.muse-nav-button-sp{
+  width: 120px;
+  height: 120px;
+  margin: auto;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(255, 255, 255, 0.85);
+  border: 8px solid #333;
+  border-radius: 50%;
+  box-sizing: border-box;
+
+  color: #333;
+  text-decoration: none;
+
+  /* HTML内の◀▶文字を非表示 */
+  font-size: 0;
+
+  position: relative;
+
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+/* スマホ用三角形 */
+.muse-nav-button-sp::before{
+  content: "";
+  display: block;
+
+  width: 0;
+  height: 0;
+
+  border-top: 22px solid transparent;
+  border-bottom: 22px solid transparent;
+  border-left: 32px solid #333;
+
+  /* 見た目の中央に微調整 */
+  transform: translateX(3px);
+}
+
+/* スマホ左ボタン */
+.muse-nav-button-sp.muse-nav-prev::before{
+  border-left: none;
+  border-right: 32px solid #333;
+
+  transform: translateX(-3px);
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* PC */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+@media (min-width: 1280px){
+
+  .sp_button_area{
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+
+  .muse-navigation-sp{
+    display: none;
+  }
+
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* PC用ナビゲーション */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.muse-navigation-pc{
+  width: 100%;
+
+  padding: 0 25px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 50%;
+  left: 0;
+
+  box-sizing: border-box;
+  pointer-events: none;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+
+/* スマートフォンでは非表示 */
+@media (max-width: 1279px){
+  .muse-navigation-pc{
+    display: none;
+  }
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* PC用ナビゲーションボタン */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.muse-nav-button{
+  width: 64px;
+  height: 64px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(255, 255, 255, 0.85);
+  border: 4px solid #333;
+  border-radius: 50%;
+  box-sizing: border-box;
+
+  color: #333;
+  pointer-events: auto;
+  text-decoration: none;
+
+  /* HTML内の◀▶文字を非表示 */
+  font-size: 0;
+
+  position: relative;
+
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* PC用三角形 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.muse-nav-button::before{
+  content: "";
+  display: block;
+
+  width: 0;
+  height: 0;
+
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+  border-left: 20px solid #333;
+
+  /* 見た目の中央に微調整 */
+  transform: translateX(2px);
+}
+
+
+/* PC左ボタン */
+.muse-nav-button.muse-nav-prev::before{
+  border-left: none;
+  border-right: 20px solid #333;
+
+  transform: translateX(-2px);
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* ホバー */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* 左ボタン */
+.muse-nav-prev:hover{
+  transform: scale(1.2);
+  transition: 0.1s all;
+}
+
+/* 右ボタン */
+.muse-nav-next:hover{
+  transform: scale(1.2);
+  transition: 0.1s all;
+}
+
+
+/* PC */
+@media (min-width: 1280px){
+
+  /* 左ボタン */
+  .muse-nav-prev:hover{
+    transform: scale(1.4);
+    transition: 0.1s all;
+  }
+
+  /* 右ボタン */
+  .muse-nav-next:hover{
+    transform: scale(1.4);
+    transition: 0.1s all;
+  }
+
+}

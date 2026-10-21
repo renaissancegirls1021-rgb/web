@@ -1,0 +1,1184 @@
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*言語*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 日本語用 */
+html[lang="ja"] {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+/* 英語用 */
+html[lang="en"] {
+  font-family: "Poppins", sans-serif;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.style_page{
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  min-height: 100dvh;
+
+  background:
+    linear-gradient(
+      -190deg,
+      var(--style-main-color) 0%,
+      var(--style-main-color) 33%,
+      var(--style-sub-color) 33%,
+      var(--style-sub-color) 66%,
+      var(--style-main-color) 66%,
+      var(--style-main-color) 100%
+    );
+  background-attachment: fixed;
+  background-color: var(--style-main-color);
+
+}
+
+
+@media (min-width: 1280px) {
+body.style_page{
+background:
+linear-gradient(
+  -10deg,
+  var(--style-main-color) 0%,
+  var(--style-main-color) 55%,
+  var(--style-sub-color) 55%,
+  var(--style-sub-color) 100%
+  );
+  background-attachment: fixed;
+  background-color: var(--style-main-color);
+}
+}
+
+/*共通の白枠*/
+body.style_page.window{
+width: 80%;
+height: auto;
+margin: 5% auto;
+padding: 32px;
+
+background-color:white;
+border-radius: 16px;
+}
+
+@media (min-width: 1280px) {
+body.style_page.window{
+  width: 60%;
+}
+}
+
+/*横線*/
+body.style_page .line{
+width: 90%;
+height: 4px; /* 線幅 */
+margin: 3% 10%;
+display: block;
+
+background-color: var(--style-sub-color); /* 線色 */
+border-radius: 1.5px; /* 線幅の半分 */
+}
+
+@media (min-width: 1280px) {
+body.style_page .line{
+  width: 70%;
+  height: 6px; /* 線幅 */
+  border-radius: 8px; /* 線幅の半分 */
+}
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h1 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.style_page h1{
+  margin: 3% auto;
+  padding: 5px 64px;
+
+  display: inline-block;
+
+  font-size: var(--font-hero);
+
+  background: var(--style-main-color);
+  color: var(--style-font-color);
+}
+
+/* 言語別フォント */
+
+html[lang="ja"] body.style_page h1{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+html[lang="en"] body.style_page h1{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h2 共通 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.style_page h2{
+  background: var(--style-main-color);
+  color: var(--style-font-color);
+}
+
+/* 言語別フォント */
+
+html[lang="ja"] body.style_page h2{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+}
+
+html[lang="en"] body.style_page h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h2 共通レイアウト */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.style_works_area h2,
+.style_relate_area h2,
+.style_matome_area h2,
+.references_area h2{
+  padding: 0 5%;
+
+  display: inline-block;
+
+  font-size: var(--font-title);
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h3 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* 共通 */
+
+body.style_page h3{
+  display: inline-block;
+
+  font-size: var(--font-sub-title);
+
+  text-align: center;
+}
+
+/* 日本語 */
+
+html[lang="ja"] body.style_page h3{
+  margin: auto;
+
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* 英語 */
+
+html[lang="en"] body.style_page h3{
+  margin: auto;
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
+html[lang="ja"] body.style_page h3.catchphrase,
+html[lang="en"] body.style_page h3.catchphrase{
+  margin: 24px auto 40px auto;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* h4 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.style_page h4{
+  width: 95%;
+  margin: 3% auto;
+  padding: 8px 24px;
+
+  display: inline-block;
+
+  font-family: "Poppins", sans-serif;
+  font-size: var(--font-section);
+  font-weight: 600;
+
+  background: var(--style-main-color);
+  color: var(--style-font-color);
+  text-align: center;
+}
+
+/* 日本語 */
+
+html[lang="ja"] body.style_page h4{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 700;
+}
+
+/* 様式の特徴 */
+
+body.style_page .style_muse_exp_area h4{
+  width: 95%;
+  margin: 3% 0;
+  padding: 8px 0;
+
+  font-size: 2.5rem;
+  line-height: 2;
+
+  background: white;
+  color: black;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+/* まとめ */
+
+body.style_page .style_matome_area h4{
+  width: 95%;
+  margin: 0;
+  padding: 8px 0;
+
+  font-size: 2.5rem;
+  line-height: 2;
+
+  background: white;
+  color: black;
+  text-align: center;
+}
+
+@media (min-width: 1280px){
+  body.style_page .style_matome_area h4{
+
+    font-size: 2rem;
+  }
+
+}
+
+
+
+/* レスポンシブ */
+
+@media (min-width: 1280px){
+
+  body.style_page h4{
+    width: 20%;
+    margin: 1% auto;
+    padding: 6px 20px;
+  }
+
+  body.style_page .style_muse_exp_area h4{
+    width: 100%;
+    margin: 1% auto;
+
+    font-size: 1.8rem;
+  }
+
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* p */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* 共通 */
+
+body.style_page main p{
+  width: 90%;
+  margin: 16px auto;
+
+  font-size: var(--font-body);
+}
+
+/* 日本語 */
+
+html[lang="ja"] body.style_page main p{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+/* 英語 */
+
+html[lang="en"] body.style_page main p{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* レスポンシブ */
+
+@media (min-width: 1280px){
+  body.style_page main p{
+    width: 70%;
+  }
+
+  html[lang="ja"] body.style_page main p{
+    line-height: 2;
+  }
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*その他*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*左寄せ*/
+.left{
+text-align: left;
+text-align: justify;
+overflow-wrap: break-word;
+word-break: normal;
+hyphens: auto;
+}
+
+/*作品データ見だし*/
+body.style_page .midashi{
+  width: 40%;
+  padding: 0% 5%;
+  margin: 20px auto;
+  color: var(--style-font-color);
+  background: var(--style-main-color);
+  display: inline-block;
+}
+
+@media (min-width: 1280px) {
+  body.style_page .midashi{
+    width: auto;
+    padding: 0% 3%;
+    margin: 10px 8px 10px 0;
+  }
+}
+
+html[lang="en"] body.style_page .midashi{
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+html[lang="ja"] body.style_page .midashi{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body.style_page .works_exp{
+line-height: 2em;
+}
+
+/*スマホの時だけ改行*/
+.br-sp {
+    display: none;
+}
+
+@media (max-width: 1280px) {
+    .br-sp {
+        display: block;
+    }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*様式概要*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.style_name_area{
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (min-width: 1280px) {
+  .style_name_area{
+    display: flex;
+    width: 100%;
+  height: 100%;
+    margin: 16px auto;
+  }
+}
+
+@media (min-width: 1921px) {
+  .style_name_area{
+    display: flex;
+    width: 80%;
+  height: 100%;
+    margin: 32px auto;
+  }
+}
+
+.style_name_area img{
+  width: 100%;
+  margin: 0px auto;
+}
+
+@media (min-width: 1280px) {
+  .style_name_area img{
+    width: 80%;
+    margin: 32px auto;
+  }
+}
+
+/*トップ画像サイズ*/
+.img-style_top{
+  width: 100%;
+  aspect-ratio: 16 / 9;
+
+  display: block;
+  object-fit: cover;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* フェードイン */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.img-style_top{
+  opacity: 0;
+  animation: fadeIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn{
+  to{
+    opacity: 1;
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 年表 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.timeline{
+/*年表の表示高さ*/
+  --timeline-height:320px;
+/*年表バーの表示高さ*/
+  --timeline-bar-top:120px;
+/*様式ピンの高さ*/
+  --style-pin-top:72px;
+/*できごとピンの高さ*/
+  --event-pin-top:172px;
+/*世紀表示高さ*/
+--century-y:-18px;
+}
+
+@media (min-width: 1280px) {
+  .timeline{
+  /*年表の表示高さ*/
+    --timeline-height:280px;
+  /*年表バーの表示高さ*/
+    --timeline-bar-top:120px;
+  /*様式ピンの高さ*/
+    --style-pin-top:72px;
+  /*できごとピンの高さ*/
+    --event-pin-top:160px;
+  /*世紀表示高さ*/
+  --century-y:-2px;
+  }
+}
+
+
+.timeline{
+  width:90%;
+  margin:0px auto;
+}
+
+/* 背景 */
+.timeline_inner{
+  position:relative;
+
+height:var(--timeline-height);
+
+  background:#fff;
+
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 一本線 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.line_nenpyo{
+  position:absolute;
+
+  top:var(--timeline-bar-top);
+left:0;
+
+  width:100%;
+  height:44px;
+
+  background:#000;
+}
+
+@media (min-width: 1280px) {
+  .line_nenpyo{
+    height:36px;
+  }
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 世紀 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.century_labels{
+  padding: 0 24px;
+
+  display: flex;
+
+  font-family: "Poppins", sans-serif;
+  font-size: var(--font-century);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+
+  align-items: center;
+  color: #fff;
+  inset: 0;
+  justify-content: space-between;
+  letter-spacing: 0.08em;
+  position: absolute;
+  transform: translateY(var(--century-y));
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 共通ピン */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.pin{
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+/* ラベル */
+
+.pin .label{
+  bottom: 42px;
+  left: 50%;
+
+  position: absolute;
+  transform: translateX(-50%);
+
+  text-align: center;
+  white-space: nowrap;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 様式ピン */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.style_pin{
+  width: 32px;
+  height: 32px;
+
+  top:var(--style-pin-top);
+}
+
+/* ピン本体 */
+
+.style_pin::before{
+  content: "";
+
+  inset: 0;
+
+  background: #ff4500;
+  border-radius: 50% 50% 50% 0;
+  position: absolute;
+  transform: rotate(-45deg);
+}
+
+/* 中央の白丸 */
+
+.style_pin::after{
+  width: 12px;
+  height: 12px;
+
+  content: "";
+
+  background: #fff;
+  border-radius: 50%;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+}
+
+/* ラベル */
+
+.style_pin .label{
+  font-size: var(--font-sub-title);
+  font-weight: bold;
+}
+
+/* 範囲バー */
+
+.style_range{
+  height: 6px;
+
+  background: #ff4500;
+  border-radius: 999px;
+  position: absolute;
+  top: 12px;
+}
+
+/* 範囲ラベル */
+
+.range_label{
+  bottom: 14px;
+  left: 50%;
+
+  font-size: 0.8rem;
+  font-weight: bold;
+
+  position: absolute;
+  transform: translateX(-50%);
+
+  white-space: nowrap;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 出来事ピン */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.event_pin{
+  width: 14px;
+  height: 14px;
+
+  top:var(--event-pin-top);
+
+}
+
+/* 灰色の点 */
+
+.event_pin::before{
+  content: "";
+
+  inset: 0;
+
+  background: #888;
+  border-radius: 50%;
+  position: absolute;
+}
+
+/* ラベル */
+
+.event_pin .label{
+  left: 50%;
+  top: 22px;
+
+  position: absolute;
+  transform: translateX(-50%);
+
+  line-height: 1.4;
+  text-align: center;
+  white-space: nowrap;
+
+}
+
+/* 年号 */
+
+.event_pin .year{
+  display: block;
+
+  font-size: var(--font-event);
+  font-weight: bold;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 出来事名 */
+
+.event_pin .event_name{
+  display: block;
+
+  font-size: var(--font-event);
+  padding: 2px 8px;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*ミューズによる説明*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*ミューズによる説明*/
+.style_muse_exp_area{
+width: 100%;
+height: 100%;
+display: flex;
+
+text-align: center;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+/* 作家名 */
+.style_muse_exp_area h2{
+  display: inline-block;
+  padding: 0 5%;
+  font-size: var(--font-title);
+}
+
+@media (min-width: 1280px) {
+  .style_muse_exp_area h2{
+      font-size: var(--font-title);
+  }
+}
+
+@media (min-width: 1921px) {
+  .style_muse_exp_area h2{
+      font-size: var(--font-title);
+  }
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* ミューズによる説明 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.style_muse_message{
+  width: 90%;
+  margin: 16px auto;
+  padding: 16px 32px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  background: white;
+  border-radius: 16px;
+}
+
+/* レスポンシブ */
+@media (min-width:1280px){
+  .style_muse_message{
+    width: 80%;
+
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+
+/*--------------------------------------*/
+/* プロフィール */
+/*--------------------------------------*/
+
+.muse_profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex-shrink: 0;
+}
+
+/*--------------------------------------*/
+/* キャラ画像 */
+/*--------------------------------------*/
+
+.style_muse_message img{
+  width: 250px;
+
+  border: 8px solid var(--style-sub-color);
+  border-radius: 16px;
+}
+
+/* レスポンシブ */
+@media (min-width:1280px){
+  .style_muse_message img{
+    width: 150px;
+  }
+}
+
+/*--------------------------------------*/
+/* キャラ名 */
+/*--------------------------------------*/
+
+.muse_name{
+  margin-top: 4px;
+
+  font-size: var(--font-body);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-align: center;
+
+  color: black;
+}
+
+/* 日本語 */
+html[lang="ja"] .muse_name{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+
+/* 英語 */
+html[lang="en"] .muse_name{
+  font-family: "Poppins", sans-serif;
+}
+
+/*--------------------------------------*/
+/* テキスト */
+/*--------------------------------------*/
+
+.style_muse_message p{
+  width: 90%;
+  margin: 0;
+  padding: 12px 16px;
+
+  flex: 1;
+
+  font-size: var(--font-body);
+  text-align: left;
+
+  background: #eeeeee;
+  border-radius: 16px;
+}
+
+
+/* レスポンシブ */
+
+@media (min-width:1280px){
+  .style_muse_message p{
+    width: auto;
+  }
+}
+
+
+/*--------------------------------------*/
+/* 言語別フォント */
+/*--------------------------------------*/
+
+html[lang="ja"] .style_muse_message p{
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+
+html[lang="en"] .style_muse_message p{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*代表作説明*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*作品エリア*/
+.style_works_area{
+width: 100%;
+height: 100%;
+display: flex;
+
+text-align: center;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+/*作品イメージ*/
+.style_works_area img{
+width: 80%;
+height: auto;
+margin: 1% auto;
+}
+
+@media (min-width: 1280px) {
+.style_works_area img{
+width: 600px;
+height: auto;
+  margin: 1% auto 3% auto;
+}
+}
+
+/*画像クレジット*/
+.credit{
+  font-size: var(--font-small);
+  margin: 16px auto;
+  width: auto;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  overflow-wrap: anywhere; /* 収まらない場合に折り返す */
+word-break: normal; /* 単語の分割はデフォルトに依存 */
+line-break: strict; /* 禁則処理を厳格に適用 */
+}
+
+@media (min-width: 1280px) {
+  .credit{
+    margin: auto;
+    margin-top: 16px;
+    font-size: var(--font-small);
+  }
+}
+
+@media (min-width: 1921px) {
+  .credit{
+    margin: auto;
+    margin-top: 16px;
+    font-size: var(--font-small);
+  }
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*この様式のミューズ*/
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*この様式のミューズエリア*/
+.style_relate_area{
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  text-align: center;
+}
+
+.style_muse_list{
+  width: 100%;
+  margin: 3% auto 3%;
+  padding: 1% 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px 32px; /* 間隔管理 */
+}
+
+/* レスポンシブ */
+
+@media screen and (min-width:1280px){
+  .style_muse_list{
+    width: 90%;
+    margin: 1% auto 5%;
+    gap: 24px; /* 間隔管理 */
+  }
+}
+
+/*ボタンのマージンはgapで管理するので、ここでは消す*/
+.style_relate_area .button{
+  margin: 0; /* 消す */
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* まとめ */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/* まとめエリア */
+
+.style_matome_area{
+  height: 100%;
+  margin: auto;
+  padding: 16px;
+
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* まとめ本文 */
+
+.matome{
+  width: 100%;
+  height: 100%;
+  margin: 16px auto;
+  padding: 32px 0;
+
+  display: flex;
+
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-size: var(--font-title);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2;
+
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+/* レスポンシブ */
+
+@media (min-width: 1280px){
+  .matome{
+    margin: 16px auto;
+  }
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* return */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+body.style_page .return{
+  width: 90%;
+  margin: 0 auto;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+body.style_page .return a{
+  width: auto;
+  height: auto;
+  margin: 5% auto 10%;
+  padding: 20px 48px;
+
+  display: inline-block;
+
+  font-size: var(--font-return);
+
+  background: var(--style-sub-color);
+  border: 8px solid white;
+  border-radius: 32px;
+  color: var(--style-font-sub-color);
+  text-decoration: none;
+}
+
+html[lang="ja"] body.style_page .return a{
+
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+html[lang="en"] body.style_page .return a{
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@media (min-width: 1280px) {
+body.style_page .return a{
+font-size: var(--font-return);
+}
+}
+
+@media (min-width: 1921px) {
+body.style_page .return a{
+font-size: var(--font-return);
+}
+}
+
+
+body.style_page .return a:hover{
+transform: scale(1.1);
+transition:0.1s all;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* pagetop */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.style_page .pagetop{
+  width: 128px;
+  height: 128px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #222;
+  border: 4px solid white;
+  border-radius: 50%;
+
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 9999;
+
+  text-decoration: none;
+
+  transition: transform 0.1s;
+}
+
+/* 三角形 */
+.style_page .pagetop::before{
+  content: "";
+
+  width: 0;
+  height: 0;
+
+  border-left: 32px solid transparent;
+  border-right: 32px solid transparent;
+  border-bottom: 48px solid white;
+
+  transform: translate(8px, -2px);
+}
+
+.style_page .pagetop:hover{
+  transform: scale(1.2);
+}
+
+@media (min-width: 1280px) {
+
+  .style_page .pagetop{
+    width: 64px;
+    height: 64px;
+  }
+
+  .style_page .pagetop::before{
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 24px solid white;
+
+    transform: translate(8px, -2px);
+  }
+
+  .style_page .pagetop:hover{
+    transform: scale(1.5);
+  }
+}
+
+html:has(body.style_page){
+  scroll-behavior: smooth;
+}
+
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* 参考文献 */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.references_area{
+width: 100%;
+height: 100%;
+display: flex;
+
+text-align: center;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+
+.references {
+  width: 90%;
+  margin: 5% auto;
+  font-size: var(--font-body:);
+  line-height: 1.6;
+}
+
+
+.references ul {
+  padding-left: 1.2em;
+}
+
+.references li {
+  margin-bottom: 0.5em;
+}
