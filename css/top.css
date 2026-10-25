@@ -263,7 +263,7 @@ body.top_page h1{
   width: 120px;
   text-align: center;
 
-  background: #FFCC00;;
+  background: #FFCC00;
   color: black;
   padding: 8px 10px;
   border-radius: 6px;
@@ -872,4 +872,24 @@ html[lang="en"] .coffee a{
   background: orange;
   transform: scale(1.1);
   transition: 0.1s all;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/* メールアドレス */
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.mail {
+  width: 90%;
+  margin: auto auto 64px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.address {
+  width: 100%;
+  margin: 32px 0;
+  text-align: center;
+  color: #FFCC00;
 }
