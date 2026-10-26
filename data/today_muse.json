@@ -220,6 +220,16 @@
     "image": "muse_button_image/giotto_b.png"
   },
   {
+    "name": "ジョルジョーネ",
+    "en_name": "Giorgione",
+    "id": "giorgione",
+    "serif": "嵐の力を浴びてみろッ！<br>うおおおおっ、ムダムダァ！<br>",
+    "en_serif": "Feel the power of the storm!<br>Raaah! MUDA MUDA MUDA!!",
+    "url": "./muse/giorgione_jp.html",
+    "en_url": "./muse/giorgione_en.html",
+    "image": "muse_button_image/giorgione_b.png"
+  },
+  {
     "name": "ジロデ",
     "en_name": "Girodet",
     "id": "girodet",
