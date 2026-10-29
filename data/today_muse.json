@@ -1,5 +1,15 @@
 [
   {
+    "name": "アルチンボルド",
+    "en_name": "Arcimboldo",
+    "id": "arcimboldo",
+    "serif": "人は寄せ集めといいますが<span class=\"center\">……</span><br>当職にとっては、<br>とても大事なものなんですよ。",
+    "en_serif": "People call them<br>mere assemblages,<br>but…to me,<br>they are deeply precious.",
+    "url": "./muse/arcimboldo_jp.html",
+    "en_url": "./muse/arcimboldo_en.html",
+    "image": "muse_button_image/arcimboldo_b.png"
+  },
+  {
     "name": "アングル",
     "en_name": "Ingres",
     "id": "ingres",
