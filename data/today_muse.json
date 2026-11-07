@@ -330,6 +330,16 @@
     "image": "muse_button_image/degas_b.png"
   },
   {
+    "name": "ドニ",
+    "en_name": "Denis",
+    "id": "denis",
+    "serif": "私が、無上の愛を注いであげましょう。<br>偉大なる芸術の娘たち<span class=\"center\">……</span>。",
+    "en_serif": "I shall shower you with boundless love,<br>my daughters of great art...",
+    "url": "./muse/denis_jp.html",
+    "en_url": "./muse/denis_en.html",
+    "image": "muse_button_image/denis_b.png"
+  },
+  {
     "name": "ドラクロワ",
     "en_name": "Delacroix",
     "id": "delacroix",
