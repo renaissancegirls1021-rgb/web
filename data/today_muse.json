@@ -100,6 +100,16 @@
     "image": "muse_button_image/courbet_b.png"
   },
   {
+    "name": "クラムスコイ",
+    "en_name": "Kramskoi",
+    "id": "kramskoi",
+    "serif": "ワタクシとの思い出を、<br>忘れられないようにしてあげるわ！<br>そ<span class=\"center\">～</span>れ、ボリショイ、ボリショイ！",
+    "en_serif": "I'll make sure you never forget<br>our time together!<br>Now then, bolshoi, bolshoi!",
+    "url": "./muse/kramskoi_jp.html",
+    "en_url": "./muse/kramskoi_en.html",
+    "image": "muse_button_image/kramskoi_b.png"
+  },
+  {
     "name": "グリムショー",
     "en_name": "Grimshaw",
     "id": "grimshaw",
